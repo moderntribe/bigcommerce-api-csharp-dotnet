@@ -1,0 +1,8 @@
+language: csharp
+dist: trusty
+solution: bigcommerce-api.sln
+before_install:
+  - npm install
+  - ./node_modules/.bin/gulp testSupport
+script:
+  - cd clients

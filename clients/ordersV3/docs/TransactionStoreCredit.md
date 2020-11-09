@@ -1,0 +1,9 @@
+# BigCommerce.Model.TransactionStoreCredit
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**RemainingBalance** | **string** | Remaining balance of shopper&#x27;s store credit.  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
