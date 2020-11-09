@@ -1,4 +1,4 @@
-# BigCommerce.Api.CategoryMetafieldsApi
+# Catalog.Api.CategoryMetafieldsApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -22,9 +22,9 @@ Creates a *Cateory Metafield*.  **Required Fields:** - permission_set - namespac
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -93,9 +93,9 @@ Deletes a *Category Metafield*.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -163,9 +163,9 @@ Returns a single *Category Metafield*. Optional parameters can be passed in.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -238,9 +238,9 @@ Returns a list of *Metafields* on a *Category*. Optional filter parameters can b
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -333,9 +333,9 @@ Updates a *Category Metafield*.  **Required Fields** * none  **Read-Only Fields*
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {

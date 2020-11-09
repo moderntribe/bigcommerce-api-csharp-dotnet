@@ -1,4 +1,4 @@
-# BigCommerce.Model.CreateReturnPreferredOutcome
+# OrdersV3.Model.CreateReturnPreferredOutcome
 ## Properties
 
 Name | Type | Description | Notes

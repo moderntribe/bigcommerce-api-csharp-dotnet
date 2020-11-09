@@ -1,4 +1,4 @@
-# BigCommerce.Model.ThemeConfigurationFull
+# Themes.Model.ThemeConfigurationFull
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.SuccessBatchResponse
+# PriceLists.Model.SuccessBatchResponse
 ## Properties
 
 Name | Type | Description | Notes

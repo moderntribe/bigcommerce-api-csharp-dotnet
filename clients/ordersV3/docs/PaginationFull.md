@@ -1,4 +1,4 @@
-# BigCommerce.Model.PaginationFull
+# OrdersV3.Model.PaginationFull
 ## Properties
 
 Name | Type | Description | Notes

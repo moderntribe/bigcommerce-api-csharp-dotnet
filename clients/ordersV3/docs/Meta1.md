@@ -1,4 +1,4 @@
-# BigCommerce.Model.Meta1
+# OrdersV3.Model.Meta1
 ## Properties
 
 Name | Type | Description | Notes

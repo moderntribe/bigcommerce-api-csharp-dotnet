@@ -1,4 +1,4 @@
-# BigCommerce.Model.RefundPayment
+# OrdersV3.Model.RefundPayment
 ## Properties
 
 Name | Type | Description | Notes

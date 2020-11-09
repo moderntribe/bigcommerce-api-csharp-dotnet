@@ -1,4 +1,4 @@
-# BigCommerce.Model.ModifierResponse1
+# Catalog.Model.ModifierResponse1
 ## Properties
 
 Name | Type | Description | Notes

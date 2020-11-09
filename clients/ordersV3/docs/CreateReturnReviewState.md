@@ -1,4 +1,4 @@
-# BigCommerce.Model.CreateReturnReviewState
+# OrdersV3.Model.CreateReturnReviewState
 ## Properties
 
 Name | Type | Description | Notes

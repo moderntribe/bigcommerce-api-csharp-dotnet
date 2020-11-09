@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfProductImageResponse1Data
+# Catalog.Model.AllOfProductImageResponse1Data
 ## Properties
 
 Name | Type | Description | Notes

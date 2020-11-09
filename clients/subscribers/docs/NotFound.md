@@ -1,4 +1,4 @@
-# BigCommerce.Model.NotFound
+# Subscribers.Model.NotFound
 ## Properties
 
 Name | Type | Description | Notes

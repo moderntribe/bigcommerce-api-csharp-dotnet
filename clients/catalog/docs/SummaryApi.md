@@ -1,4 +1,4 @@
-# BigCommerce.Api.SummaryApi
+# Catalog.Api.SummaryApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -18,9 +18,9 @@ Returns a lightweight inventory summary from the BigCommerce Catalog.  The inven
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {

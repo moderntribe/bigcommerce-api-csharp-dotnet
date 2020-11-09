@@ -1,4 +1,4 @@
-# BigCommerce.Model.CreditCard
+# OrdersV3.Model.CreditCard
 ## Properties
 
 Name | Type | Description | Notes

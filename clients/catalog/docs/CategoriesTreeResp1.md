@@ -1,4 +1,4 @@
-# BigCommerce.Model.CategoriesTreeResp1
+# Catalog.Model.CategoriesTreeResp1
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.BaseError
+# PriceLists.Model.BaseError
 ## Properties
 
 Name | Type | Description | Notes

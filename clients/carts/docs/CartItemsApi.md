@@ -1,4 +1,4 @@
-# BigCommerce.Api.CartItemsApi
+# Carts.Api.CartItemsApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -20,9 +20,9 @@ Adds line items to the *Cart*.  **Usage Notes**  To add a custom item use `custo
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Carts.Api;
+using Carts.Client;
+using Carts.Model;
 
 namespace Example
 {
@@ -93,9 +93,9 @@ Deletes a *Cart* line item.   **Notes**  Removing the last `line_item` in the *C
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Carts.Api;
+using Carts.Client;
+using Carts.Model;
 
 namespace Example
 {
@@ -166,9 +166,9 @@ Updates an existing, single line item in the *Cart*.   **Notes**  Currently, onl
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Carts.Api;
+using Carts.Client;
+using Carts.Model;
 
 namespace Example
 {

@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfproductOptionBaseOptionValues
+# Catalog.Model.AllOfproductOptionBaseOptionValues
 ## Properties
 
 Name | Type | Description | Notes

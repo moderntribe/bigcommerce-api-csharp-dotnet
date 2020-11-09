@@ -1,4 +1,4 @@
-# BigCommerce.Model.CategoryResponse
+# Catalog.Model.CategoryResponse
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.WhichThemeToDownload
+# Themes.Model.WhichThemeToDownload
 ## Properties
 
 Name | Type | Description | Notes

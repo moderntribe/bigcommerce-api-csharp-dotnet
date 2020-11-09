@@ -1,4 +1,4 @@
-# BigCommerce.Model.CreateReturnReason
+# OrdersV3.Model.CreateReturnReason
 ## Properties
 
 Name | Type | Description | Notes

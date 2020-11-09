@@ -1,4 +1,4 @@
-# BigCommerce.Api.CartRedirectURLsApi
+# Carts.Api.CartRedirectURLsApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -18,9 +18,9 @@ Creates a **Cart** redirect URL for redirecting a shopper to an already created 
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Carts.Api;
+using Carts.Client;
+using Carts.Model;
 
 namespace Example
 {

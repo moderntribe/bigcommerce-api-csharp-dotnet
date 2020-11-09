@@ -1,4 +1,4 @@
-# BigCommerce.Model.ErrorResponse
+# Subscribers.Model.ErrorResponse
 ## Properties
 
 Name | Type | Description | Notes

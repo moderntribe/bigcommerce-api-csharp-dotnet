@@ -1,4 +1,4 @@
-# BigCommerce.Model.ComplexRuleCondition
+# Catalog.Model.ComplexRuleCondition
 ## Properties
 
 Name | Type | Description | Notes

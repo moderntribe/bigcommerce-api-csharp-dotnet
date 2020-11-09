@@ -1,4 +1,4 @@
-# BigCommerce.Model.AdjustersFull
+# Catalog.Model.AdjustersFull
 ## Properties
 
 Name | Type | Description | Notes

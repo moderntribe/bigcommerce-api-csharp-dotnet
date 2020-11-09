@@ -1,4 +1,4 @@
-# BigCommerce.Model.CreateBatchPriceListAssignmentsRequest
+# PriceLists.Model.CreateBatchPriceListAssignmentsRequest
 ## Properties
 
 Name | Type | Description | Notes

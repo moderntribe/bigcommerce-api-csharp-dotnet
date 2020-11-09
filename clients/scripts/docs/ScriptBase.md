@@ -1,4 +1,4 @@
-# BigCommerce.Model.ScriptBase
+# Scripts.Model.ScriptBase
 ## Properties
 
 Name | Type | Description | Notes

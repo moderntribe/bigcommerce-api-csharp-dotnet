@@ -1,4 +1,4 @@
-# BigCommerce.Api.CartApi
+# Carts.Api.CartApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -21,9 +21,9 @@ Creates a **Cart**.   **Required Fields** |Field|Details| |-|-| |`line_items`|| 
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Carts.Api;
+using Carts.Client;
+using Carts.Model;
 
 namespace Example
 {
@@ -102,9 +102,9 @@ Deletes a *Cart*. Once a *Cart* has been deleted it can not be recovered.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Carts.Api;
+using Carts.Client;
+using Carts.Model;
 
 namespace Example
 {
@@ -170,9 +170,9 @@ Returns a stores *Cart*.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Carts.Api;
+using Carts.Client;
+using Carts.Model;
 
 namespace Example
 {
@@ -241,9 +241,9 @@ Updates a *Carts* `customer_id`.  **Notes**  Changing the *Cart* `customer_id` w
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Carts.Api;
+using Carts.Client;
+using Carts.Model;
 
 namespace Example
 {

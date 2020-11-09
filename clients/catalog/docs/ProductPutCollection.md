@@ -1,4 +1,4 @@
-# BigCommerce.Model.ProductPutCollection
+# Catalog.Model.ProductPutCollection
 ## Properties
 
 Name | Type | Description | Notes

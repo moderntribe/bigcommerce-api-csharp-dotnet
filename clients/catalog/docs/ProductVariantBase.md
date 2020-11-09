@@ -1,4 +1,4 @@
-# BigCommerce.Model.ProductVariantBase
+# Catalog.Model.ProductVariantBase
 ## Properties
 
 Name | Type | Description | Notes

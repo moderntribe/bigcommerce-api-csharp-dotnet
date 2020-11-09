@@ -1,4 +1,4 @@
-# BigCommerce.Api.ProductsApi
+# Catalog.Api.ProductsApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -24,9 +24,9 @@ Creates a *Product*. Only one product can be created at a time.  **Required Fiel
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -95,9 +95,9 @@ Deletes a *Product*.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -163,9 +163,9 @@ To delete *Product* objects, you must include a filter. This prevents inadverten
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -259,9 +259,9 @@ Returns a single *Product*. Optional parameters can be passed in.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -334,9 +334,9 @@ Returns a list of **Products**. Optional filter parameters can be passed in.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -471,9 +471,9 @@ Updates a *Product*.  **Read-Only Fields** - id - date_created - date_modified -
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -544,9 +544,9 @@ Updates products in batches. At the time of writing, batches are limited to 10 p
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {

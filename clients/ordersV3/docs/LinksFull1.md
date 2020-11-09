@@ -1,4 +1,4 @@
-# BigCommerce.Model.LinksFull1
+# OrdersV3.Model.LinksFull1
 ## Properties
 
 Name | Type | Description | Notes

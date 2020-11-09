@@ -1,4 +1,4 @@
-# BigCommerce.Model.WidgetTemplatePost1
+# Widgets.Model.WidgetTemplatePost1
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.ProductVideoResponse
+# Catalog.Model.ProductVideoResponse
 ## Properties
 
 Name | Type | Description | Notes

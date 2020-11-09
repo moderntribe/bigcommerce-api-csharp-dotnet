@@ -1,4 +1,4 @@
-# BigCommerce.Api.PriceListsAssignmentsApi
+# PriceLists.Api.PriceListsAssignmentsApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -20,9 +20,9 @@ Creates a batch of `Price List Assignments`.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using PriceLists.Api;
+using PriceLists.Client;
+using PriceLists.Model;
 
 namespace Example
 {
@@ -85,9 +85,9 @@ Deletes one or more `Price List Assignments` objects from BigCommerce using a fi
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using PriceLists.Api;
+using PriceLists.Client;
+using PriceLists.Model;
 
 namespace Example
 {
@@ -156,9 +156,9 @@ Fetches an array of `Price List Assignments` matching a particular Customer Grou
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using PriceLists.Api;
+using PriceLists.Client;
+using PriceLists.Model;
 
 namespace Example
 {

@@ -1,4 +1,4 @@
-# BigCommerce.Model.NewmodelInner
+# Widgets.Model.NewmodelInner
 ## Properties
 
 Name | Type | Description | Notes

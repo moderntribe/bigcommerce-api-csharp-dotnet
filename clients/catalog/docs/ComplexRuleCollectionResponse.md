@@ -1,4 +1,4 @@
-# BigCommerce.Model.ComplexRuleCollectionResponse
+# Catalog.Model.ComplexRuleCollectionResponse
 ## Properties
 
 Name | Type | Description | Notes

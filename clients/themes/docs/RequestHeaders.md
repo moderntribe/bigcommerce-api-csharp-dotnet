@@ -1,4 +1,4 @@
-# BigCommerce.Model.RequestHeaders
+# Themes.Model.RequestHeaders
 ## Properties
 
 Name | Type | Description | Notes

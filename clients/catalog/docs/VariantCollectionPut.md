@@ -1,4 +1,4 @@
-# BigCommerce.Model.VariantCollectionPut
+# Catalog.Model.VariantCollectionPut
 ## Properties
 
 Name | Type | Description | Notes

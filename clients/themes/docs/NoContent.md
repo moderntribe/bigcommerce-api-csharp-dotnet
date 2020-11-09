@@ -1,4 +1,4 @@
-# BigCommerce.Model.NoContent
+# Themes.Model.NoContent
 ## Properties
 
 Name | Type | Description | Notes

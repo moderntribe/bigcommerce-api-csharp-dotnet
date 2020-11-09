@@ -1,4 +1,4 @@
-# BigCommerce.Model.TransactionStoreCredit
+# OrdersV3.Model.TransactionStoreCredit
 ## Properties
 
 Name | Type | Description | Notes

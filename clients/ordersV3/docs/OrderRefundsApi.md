@@ -1,4 +1,4 @@
-# BigCommerce.Api.OrderRefundsApi
+# OrdersV3.Api.OrderRefundsApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -20,9 +20,9 @@ Returns a list of refunds ordered by refund ID in ascending order for the given 
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using OrdersV3.Api;
+using OrdersV3.Client;
+using OrdersV3.Model;
 
 namespace Example
 {
@@ -89,9 +89,9 @@ Creates a refund.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using OrdersV3.Api;
+using OrdersV3.Client;
+using OrdersV3.Model;
 
 namespace Example
 {
@@ -160,9 +160,9 @@ Calculate the tax amount, total refund amount and get availble payment options f
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using OrdersV3.Api;
+using OrdersV3.Client;
+using OrdersV3.Model;
 
 namespace Example
 {

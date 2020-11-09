@@ -1,4 +1,4 @@
-# BigCommerce.Model.InlineResponse2001
+# Widgets.Model.InlineResponse2001
 ## Properties
 
 Name | Type | Description | Notes

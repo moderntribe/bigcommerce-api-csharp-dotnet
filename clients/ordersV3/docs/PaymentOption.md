@@ -1,4 +1,4 @@
-# BigCommerce.Model.PaymentOption
+# OrdersV3.Model.PaymentOption
 ## Properties
 
 Name | Type | Description | Notes

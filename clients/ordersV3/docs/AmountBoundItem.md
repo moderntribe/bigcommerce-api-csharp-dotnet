@@ -1,4 +1,4 @@
-# BigCommerce.Model.AmountBoundItem
+# OrdersV3.Model.AmountBoundItem
 ## Properties
 
 Name | Type | Description | Notes

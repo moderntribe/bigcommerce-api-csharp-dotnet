@@ -1,4 +1,4 @@
-# BigCommerce.Model.BaseItem
+# Carts.Model.BaseItem
 ## Properties
 
 Name | Type | Description | Notes

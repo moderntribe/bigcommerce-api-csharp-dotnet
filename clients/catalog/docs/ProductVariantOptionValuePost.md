@@ -1,4 +1,4 @@
-# BigCommerce.Model.ProductVariantOptionValuePost
+# Catalog.Model.ProductVariantOptionValuePost
 ## Properties
 
 Name | Type | Description | Notes

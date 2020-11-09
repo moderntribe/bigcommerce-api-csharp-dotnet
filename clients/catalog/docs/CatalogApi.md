@@ -1,4 +1,4 @@
-# BigCommerce.Api.CatalogApi
+# Catalog.Api.CatalogApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -20,9 +20,9 @@ By default, it deletes all *Brand* objects. A filter should be added to avoid de
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -90,9 +90,9 @@ To delete *Product* objects, you must include a filter. This prevents inadverten
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -186,9 +186,9 @@ Creates or updates a batch of `Variant` objects. At the time of writing, the cur
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {

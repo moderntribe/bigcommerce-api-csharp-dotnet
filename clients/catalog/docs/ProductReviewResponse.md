@@ -1,4 +1,4 @@
-# BigCommerce.Model.ProductReviewResponse
+# Catalog.Model.ProductReviewResponse
 ## Properties
 
 Name | Type | Description | Notes

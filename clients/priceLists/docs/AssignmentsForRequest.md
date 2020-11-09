@@ -1,4 +1,4 @@
-# BigCommerce.Model.AssignmentsForRequest
+# PriceLists.Model.AssignmentsForRequest
 ## Properties
 
 Name | Type | Description | Notes

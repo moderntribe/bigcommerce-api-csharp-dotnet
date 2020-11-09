@@ -1,4 +1,4 @@
-# BigCommerce.Api.ThemeActionsApi
+# Themes.Api.ThemeActionsApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -19,9 +19,9 @@ Actives a store *Theme*.   This returns a 204 response upon success.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Themes.Api;
+using Themes.Client;
+using Themes.Model;
 
 namespace Example
 {
@@ -88,9 +88,9 @@ Downloads a stores *Theme*.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Themes.Api;
+using Themes.Client;
+using Themes.Model;
 
 namespace Example
 {

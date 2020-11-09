@@ -1,4 +1,4 @@
-# BigCommerce.Model.Pagination1Links
+# Subscribers.Model.Pagination1Links
 ## Properties
 
 Name | Type | Description | Notes

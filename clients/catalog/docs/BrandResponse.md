@@ -1,4 +1,4 @@
-# BigCommerce.Model.BrandResponse
+# Catalog.Model.BrandResponse
 ## Properties
 
 Name | Type | Description | Notes

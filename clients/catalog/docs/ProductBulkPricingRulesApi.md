@@ -1,4 +1,4 @@
-# BigCommerce.Api.ProductBulkPricingRulesApi
+# Catalog.Api.ProductBulkPricingRulesApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -22,9 +22,9 @@ Creates a *Bulk Pricing Rule*.  **Required Fields** - quantity_min - quantity_ma
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -97,9 +97,9 @@ Deletes a *Bulk Pricing Rule*.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -167,9 +167,9 @@ Returns a single *Bulk Pricing Rule*. Optional parameters can be passed in.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -242,9 +242,9 @@ Returns a list of *Bulk Pricing Rules*. Optional parameters can be passed in.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -319,9 +319,9 @@ Updates a *Bulk Pricing Rule*.  **Required Fields** * none  **Read-Only Fields**
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {

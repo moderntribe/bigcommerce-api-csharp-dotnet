@@ -1,4 +1,4 @@
-# BigCommerce.Model.Offline
+# OrdersV3.Model.Offline
 ## Properties
 
 Name | Type | Description | Notes

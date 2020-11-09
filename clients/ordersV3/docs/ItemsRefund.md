@@ -1,4 +1,4 @@
-# BigCommerce.Model.ItemsRefund
+# OrdersV3.Model.ItemsRefund
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.PriceListAssignmentsIdentifiers
+# PriceLists.Model.PriceListAssignmentsIdentifiers
 ## Properties
 
 Name | Type | Description | Notes

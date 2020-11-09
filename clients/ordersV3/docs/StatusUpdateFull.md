@@ -1,4 +1,4 @@
-# BigCommerce.Model.StatusUpdateFull
+# OrdersV3.Model.StatusUpdateFull
 ## Properties
 
 Name | Type | Description | Notes

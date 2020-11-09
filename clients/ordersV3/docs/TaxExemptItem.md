@@ -1,4 +1,4 @@
-# BigCommerce.Model.TaxExemptItem
+# OrdersV3.Model.TaxExemptItem
 ## Properties
 
 Name | Type | Description | Notes

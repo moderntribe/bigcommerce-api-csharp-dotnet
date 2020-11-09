@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfLineItemDigitalItemsItems
+# Carts.Model.AllOfLineItemDigitalItemsItems
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.ProductCustomFieldPost
+# Catalog.Model.ProductCustomFieldPost
 ## Properties
 
 Name | Type | Description | Notes

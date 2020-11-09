@@ -1,4 +1,4 @@
-# BigCommerce.Api.ThemeJobsApi
+# Themes.Api.ThemeJobsApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -18,9 +18,9 @@ Returns a theme *Job*. If job is completed, the result is included in the respon
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Themes.Api;
+using Themes.Client;
+using Themes.Model;
 
 namespace Example
 {

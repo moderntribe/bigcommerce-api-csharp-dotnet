@@ -1,4 +1,4 @@
-# BigCommerce.Model.ReturnFull
+# OrdersV3.Model.ReturnFull
 ## Properties
 
 Name | Type | Description | Notes

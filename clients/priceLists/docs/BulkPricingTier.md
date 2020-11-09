@@ -1,4 +1,4 @@
-# BigCommerce.Model.BulkPricingTier
+# PriceLists.Model.BulkPricingTier
 ## Properties
 
 Name | Type | Description | Notes

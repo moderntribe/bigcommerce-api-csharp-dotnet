@@ -1,4 +1,4 @@
-# BigCommerce.Model.BatchOperationMeta
+# OrdersV3.Model.BatchOperationMeta
 ## Properties
 
 Name | Type | Description | Notes

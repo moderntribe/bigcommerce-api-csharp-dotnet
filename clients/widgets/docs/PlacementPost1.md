@@ -1,4 +1,4 @@
-# BigCommerce.Model.PlacementPost1
+# Widgets.Model.PlacementPost1
 ## Properties
 
 Name | Type | Description | Notes

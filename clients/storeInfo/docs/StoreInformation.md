@@ -1,4 +1,4 @@
-# BigCommerce.Model.StoreInformation
+# StoreInfo.Model.StoreInformation
 ## Properties
 
 Name | Type | Description | Notes

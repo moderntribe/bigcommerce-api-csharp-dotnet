@@ -1,4 +1,4 @@
-# BigCommerce.Model.Transaction
+# OrdersV3.Model.Transaction
 ## Properties
 
 Name | Type | Description | Notes

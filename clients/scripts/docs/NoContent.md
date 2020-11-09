@@ -1,4 +1,4 @@
-# BigCommerce.Model.NoContent
+# Scripts.Model.NoContent
 ## Properties
 
 Name | Type | Description | Notes

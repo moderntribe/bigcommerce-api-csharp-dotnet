@@ -1,4 +1,4 @@
-# BigCommerce.Api.ScriptsApi
+# Scripts.Api.ScriptsApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -22,9 +22,9 @@ Creates a *Script*.  **Required Fields** * name  **Read Only Fields** * uuid  **
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Scripts.Api;
+using Scripts.Client;
+using Scripts.Model;
 
 namespace Example
 {
@@ -91,9 +91,9 @@ Deletes a *Script*.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Scripts.Api;
+using Scripts.Client;
+using Scripts.Model;
 
 namespace Example
 {
@@ -160,9 +160,9 @@ Returns a single *Script*.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Scripts.Api;
+using Scripts.Client;
+using Scripts.Model;
 
 namespace Example
 {
@@ -229,9 +229,9 @@ Returns a list of *Scripts*. Optional parameters can be passed in.  This will on
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Scripts.Api;
+using Scripts.Client;
+using Scripts.Model;
 
 namespace Example
 {
@@ -304,9 +304,9 @@ Updates a *Script*.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Scripts.Api;
+using Scripts.Client;
+using Scripts.Model;
 
 namespace Example
 {

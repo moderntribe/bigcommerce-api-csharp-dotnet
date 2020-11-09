@@ -1,4 +1,4 @@
-# BigCommerce.Model.NoContent
+# OrdersV3.Model.NoContent
 ## Properties
 
 Name | Type | Description | Notes

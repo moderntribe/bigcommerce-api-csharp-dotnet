@@ -1,4 +1,4 @@
-# BigCommerce.Model.GetReturnsSettingsPreferredOutcomes
+# OrdersV3.Model.GetReturnsSettingsPreferredOutcomes
 ## Properties
 
 Name | Type | Description | Notes

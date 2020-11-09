@@ -1,4 +1,4 @@
-# BigCommerce.Model.Variation
+# Themes.Model.Variation
 ## Properties
 
 Name | Type | Description | Notes

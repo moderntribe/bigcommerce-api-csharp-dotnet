@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfOptionValueCollectionResponseDataItems
+# Catalog.Model.AllOfOptionValueCollectionResponseDataItems
 ## Properties
 
 Name | Type | Description | Notes

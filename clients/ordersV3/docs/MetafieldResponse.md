@@ -1,4 +1,4 @@
-# BigCommerce.Model.MetafieldResponse
+# OrdersV3.Model.MetafieldResponse
 ## Properties
 
 Name | Type | Description | Notes

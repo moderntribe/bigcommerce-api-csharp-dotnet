@@ -1,4 +1,4 @@
-# BigCommerce.Model.ModifierPost
+# Catalog.Model.ModifierPost
 ## Properties
 
 Name | Type | Description | Notes

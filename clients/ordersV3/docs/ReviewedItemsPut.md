@@ -1,4 +1,4 @@
-# BigCommerce.Model.ReviewedItemsPut
+# OrdersV3.Model.ReviewedItemsPut
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.ItemCustom
+# Carts.Model.ItemCustom
 ## Properties
 
 Name | Type | Description | Notes

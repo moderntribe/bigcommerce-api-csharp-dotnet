@@ -1,4 +1,4 @@
-# BigCommerce.Model.Body
+# Themes.Model.Body
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.MetafieldPost2
+# Catalog.Model.MetafieldPost2
 ## Properties
 
 Name | Type | Description | Notes

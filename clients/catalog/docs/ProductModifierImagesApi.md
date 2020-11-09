@@ -1,4 +1,4 @@
-# BigCommerce.Api.ProductModifierImagesApi
+# Catalog.Api.ProductModifierImagesApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -19,9 +19,9 @@ Creates a *Modifier Image*.  The image will show on the storefront when the valu
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -92,9 +92,9 @@ Deletes a *Modifier Image*.  Deletes the image that was set to show when the mod
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {

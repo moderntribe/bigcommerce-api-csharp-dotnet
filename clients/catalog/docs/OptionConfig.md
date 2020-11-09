@@ -1,4 +1,4 @@
-# BigCommerce.Model.OptionConfig
+# Catalog.Model.OptionConfig
 ## Properties
 
 Name | Type | Description | Notes

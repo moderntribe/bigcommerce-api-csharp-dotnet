@@ -1,4 +1,4 @@
-# BigCommerce.Model.NotFound
+# Scripts.Model.NotFound
 ## Properties
 
 Name | Type | Description | Notes

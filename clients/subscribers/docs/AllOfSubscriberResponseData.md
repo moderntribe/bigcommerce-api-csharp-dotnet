@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfSubscriberResponseData
+# Subscribers.Model.AllOfSubscriberResponseData
 ## Properties
 
 Name | Type | Description | Notes

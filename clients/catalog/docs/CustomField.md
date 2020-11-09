@@ -1,4 +1,4 @@
-# BigCommerce.Model.CustomField
+# Catalog.Model.CustomField
 ## Properties
 
 Name | Type | Description | Notes

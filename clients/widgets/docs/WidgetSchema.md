@@ -1,4 +1,4 @@
-# BigCommerce.Model.WidgetSchema
+# Widgets.Model.WidgetSchema
 ## Properties
 
 Name | Type | Description | Notes

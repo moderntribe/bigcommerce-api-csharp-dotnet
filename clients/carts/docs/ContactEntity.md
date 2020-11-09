@@ -1,4 +1,4 @@
-# BigCommerce.Model.ContactEntity
+# Carts.Model.ContactEntity
 ## Properties
 
 Name | Type | Description | Notes

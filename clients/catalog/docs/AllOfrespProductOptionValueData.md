@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfrespProductOptionValueData
+# Catalog.Model.AllOfrespProductOptionValueData
 ## Properties
 
 Name | Type | Description | Notes

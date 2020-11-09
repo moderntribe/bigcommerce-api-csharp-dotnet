@@ -1,4 +1,4 @@
-# BigCommerce.Model.Reason
+# OrdersV3.Model.Reason
 ## Properties
 
 Name | Type | Description | Notes

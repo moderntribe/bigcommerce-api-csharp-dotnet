@@ -1,4 +1,4 @@
-# BigCommerce.Model.PriceRecordBatchErrorResponse
+# PriceLists.Model.PriceRecordBatchErrorResponse
 ## Properties
 
 Name | Type | Description | Notes

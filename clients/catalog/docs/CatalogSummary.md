@@ -1,4 +1,4 @@
-# BigCommerce.Model.CatalogSummary
+# Catalog.Model.CatalogSummary
 ## Properties
 
 Name | Type | Description | Notes

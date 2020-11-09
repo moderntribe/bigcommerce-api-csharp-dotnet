@@ -1,4 +1,4 @@
-# BigCommerce.Model.AppliedDiscount
+# Carts.Model.AppliedDiscount
 ## Properties
 
 Name | Type | Description | Notes

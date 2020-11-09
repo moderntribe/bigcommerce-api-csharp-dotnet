@@ -1,4 +1,4 @@
-# BigCommerce.Api.PriceListsRecordsApi
+# PriceLists.Api.PriceListsRecordsApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -24,9 +24,9 @@ Deletes a *Price List Record* using the currency code.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using PriceLists.Api;
+using PriceLists.Client;
+using PriceLists.Model;
 
 namespace Example
 {
@@ -96,9 +96,9 @@ Deletes a *Price List Record*. Deleting the records does not delete the Price Li
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using PriceLists.Api;
+using PriceLists.Client;
+using PriceLists.Model;
 
 namespace Example
 {
@@ -167,9 +167,9 @@ Returns a *Price List Record* using the currency code. Optional parameters can b
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using PriceLists.Api;
+using PriceLists.Client;
+using PriceLists.Model;
 
 namespace Example
 {
@@ -242,9 +242,9 @@ Returns a list of *Price List Records* associated with a *Price List*.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using PriceLists.Api;
+using PriceLists.Client;
+using PriceLists.Model;
 
 namespace Example
 {
@@ -339,9 +339,9 @@ Returns *Price List Records* using the variant ID. Will also contain currency re
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using PriceLists.Api;
+using PriceLists.Client;
+using PriceLists.Model;
 
 namespace Example
 {
@@ -410,9 +410,9 @@ Creates or updates a*Price List Record* using the currency code.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using PriceLists.Api;
+using PriceLists.Client;
+using PriceLists.Model;
 
 namespace Example
 {
@@ -485,9 +485,9 @@ Creates or updates *Price List Records*.   **Required Fields** * currency  **Not
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using PriceLists.Api;
+using PriceLists.Client;
+using PriceLists.Model;
 
 namespace Example
 {

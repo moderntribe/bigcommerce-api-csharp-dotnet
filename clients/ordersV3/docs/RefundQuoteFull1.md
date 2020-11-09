@@ -1,4 +1,4 @@
-# BigCommerce.Model.RefundQuoteFull1
+# OrdersV3.Model.RefundQuoteFull1
 ## Properties
 
 Name | Type | Description | Notes

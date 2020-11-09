@@ -1,4 +1,4 @@
-# BigCommerce.Model.PriceListResponse1
+# PriceLists.Model.PriceListResponse1
 ## Properties
 
 Name | Type | Description | Notes

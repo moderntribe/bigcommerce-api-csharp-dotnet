@@ -1,4 +1,4 @@
-# BigCommerce.Model.BaseError
+# Subscribers.Model.BaseError
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.RefundMethod
+# OrdersV3.Model.RefundMethod
 ## Properties
 
 Name | Type | Description | Notes

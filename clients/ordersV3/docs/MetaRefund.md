@@ -1,4 +1,4 @@
-# BigCommerce.Model.MetaRefund
+# OrdersV3.Model.MetaRefund
 ## Properties
 
 Name | Type | Description | Notes

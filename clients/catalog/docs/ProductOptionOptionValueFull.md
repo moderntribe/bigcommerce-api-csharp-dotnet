@@ -1,4 +1,4 @@
-# BigCommerce.Model.ProductOptionOptionValueFull
+# Catalog.Model.ProductOptionOptionValueFull
 ## Properties
 
 Name | Type | Description | Notes

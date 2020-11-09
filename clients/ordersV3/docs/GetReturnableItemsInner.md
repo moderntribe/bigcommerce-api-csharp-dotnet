@@ -1,4 +1,4 @@
-# BigCommerce.Model.GetReturnableItemsInner
+# OrdersV3.Model.GetReturnableItemsInner
 ## Properties
 
 Name | Type | Description | Notes

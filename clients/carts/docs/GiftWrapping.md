@@ -1,4 +1,4 @@
-# BigCommerce.Model.GiftWrapping
+# Carts.Model.GiftWrapping
 ## Properties
 
 Name | Type | Description | Notes

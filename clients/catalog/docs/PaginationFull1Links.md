@@ -1,4 +1,4 @@
-# BigCommerce.Model.PaginationFull1Links
+# Catalog.Model.PaginationFull1Links
 ## Properties
 
 Name | Type | Description | Notes

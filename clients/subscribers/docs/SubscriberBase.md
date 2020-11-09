@@ -1,4 +1,4 @@
-# BigCommerce.Model.SubscriberBase
+# Subscribers.Model.SubscriberBase
 ## Properties
 
 Name | Type | Description | Notes

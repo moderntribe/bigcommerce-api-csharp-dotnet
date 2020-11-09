@@ -1,4 +1,4 @@
-# BigCommerce.Model.ErrorBase
+# Catalog.Model.ErrorBase
 ## Properties
 
 Name | Type | Description | Notes

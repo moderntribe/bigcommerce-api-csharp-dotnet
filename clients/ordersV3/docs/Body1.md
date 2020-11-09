@@ -1,4 +1,4 @@
-# BigCommerce.Model.Body1
+# OrdersV3.Model.Body1
 ## Properties
 
 Name | Type | Description | Notes

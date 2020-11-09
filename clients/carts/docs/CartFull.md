@@ -1,4 +1,4 @@
-# BigCommerce.Model.CartFull
+# Carts.Model.CartFull
 ## Properties
 
 Name | Type | Description | Notes

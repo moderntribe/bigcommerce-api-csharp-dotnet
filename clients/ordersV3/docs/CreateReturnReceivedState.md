@@ -1,4 +1,4 @@
-# BigCommerce.Model.CreateReturnReceivedState
+# OrdersV3.Model.CreateReturnReceivedState
 ## Properties
 
 Name | Type | Description | Notes

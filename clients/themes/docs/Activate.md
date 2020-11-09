@@ -1,4 +1,4 @@
-# BigCommerce.Model.Activate
+# Themes.Model.Activate
 ## Properties
 
 Name | Type | Description | Notes

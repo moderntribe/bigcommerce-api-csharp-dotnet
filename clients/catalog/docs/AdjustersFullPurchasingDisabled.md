@@ -1,4 +1,4 @@
-# BigCommerce.Model.AdjustersFullPurchasingDisabled
+# Catalog.Model.AdjustersFullPurchasingDisabled
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.GiftCertificateFull
+# Catalog.Model.GiftCertificateFull
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.Meta
+# Widgets.Model.Meta
 ## Properties
 
 Name | Type | Description | Notes

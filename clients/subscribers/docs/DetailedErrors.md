@@ -1,4 +1,4 @@
-# BigCommerce.Model.DetailedErrors
+# Subscribers.Model.DetailedErrors
 ## Properties
 
 Name | Type | Description | Notes

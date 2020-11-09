@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfVariantsBatchErrorResponseBatchErrorsItems
+# Catalog.Model.AllOfVariantsBatchErrorResponseBatchErrorsItems
 ## Properties
 
 Name | Type | Description | Notes

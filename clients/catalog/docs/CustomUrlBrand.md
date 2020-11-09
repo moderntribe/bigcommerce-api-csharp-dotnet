@@ -1,4 +1,4 @@
-# BigCommerce.Model.CustomUrlBrand
+# Catalog.Model.CustomUrlBrand
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.CategoriesTreeNodeFull
+# Catalog.Model.CategoriesTreeNodeFull
 ## Properties
 
 Name | Type | Description | Notes

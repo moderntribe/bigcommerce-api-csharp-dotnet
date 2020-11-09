@@ -1,4 +1,4 @@
-# BigCommerce.Model.TransactionPost
+# OrdersV3.Model.TransactionPost
 ## Properties
 
 Name | Type | Description | Notes

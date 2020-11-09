@@ -1,4 +1,4 @@
-# BigCommerce - the C# library for the Subscribers
+# Subscribers - the C# library for the Subscribers
 
 Manage subscribers.  ### OAuth Scopes |  **UI Name** | **Permission** | **Parameter** | | - -- | - -- | - -- | |  Customers | modify | `store_v2_customers` | |  Customers | read-only | `store_v2_customers_read_only` |  ### Headers  |Header|Parameter|Description| |-|-|-| |`X-Auth-Client`|`client_id`|Obtained by creating an API account or installing an app in a BigCommerce control panel.| |`X-Auth-Token`|`access_token `|Obtained by creating an API account or installing an app in a BigCommerce control panel.|  ### Example  ```http GET /stores/{$$.env.store_hash}/v3/catalog/summary host: api.bigcommerce.com Content-Type: application/json X-Auth-Client: {client_id} X-Auth-Token: {access_token} ```  * For more information on Authenticating BigCommerce APIs, see: [Authentication](https://developer.bigcommerce.com/api-docs/getting-started/authentication). 
 
@@ -36,9 +36,9 @@ Run the following command to generate the DLL
 
 Then include the DLL (under the `bin` folder) in the C# project, and use the namespaces:
 ```csharp
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Subscribers.Api;
+using Subscribers.Client;
+using Subscribers.Model;
 ```
 <a name="packaging"></a>
 ## Packaging
@@ -48,7 +48,7 @@ A `.nuspec` is included with the project. You can follow the Nuget quickstart to
 This `.nuspec` uses placeholders from the `.csproj`, so build the `.csproj` directly:
 
 ```
-nuget pack -Build -OutputDirectory out BigCommerce.csproj
+nuget pack -Build -OutputDirectory out Subscribers.csproj
 ```
 
 Then, publish to a [local feed](https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds) or [other host](https://docs.microsoft.com/en-us/nuget/hosting-packages/overview) and consume the new package via Nuget as usual.
@@ -59,9 +59,9 @@ Then, publish to a [local feed](https://docs.microsoft.com/en-us/nuget/hosting-p
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Subscribers.Api;
+using Subscribers.Client;
+using Subscribers.Model;
 
 namespace Example
 {

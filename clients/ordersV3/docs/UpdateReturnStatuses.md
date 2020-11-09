@@ -1,4 +1,4 @@
-# BigCommerce.Model.UpdateReturnStatuses
+# OrdersV3.Model.UpdateReturnStatuses
 ## Properties
 
 Name | Type | Description | Notes

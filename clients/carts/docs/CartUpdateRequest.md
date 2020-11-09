@@ -1,4 +1,4 @@
-# BigCommerce.Model.CartUpdateRequest
+# Carts.Model.CartUpdateRequest
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.Currency
+# Carts.Model.Currency
 ## Properties
 
 Name | Type | Description | Notes

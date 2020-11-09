@@ -1,4 +1,4 @@
-# BigCommerce.Model.FailedQuoteError1
+# OrdersV3.Model.FailedQuoteError1
 ## Properties
 
 Name | Type | Description | Notes

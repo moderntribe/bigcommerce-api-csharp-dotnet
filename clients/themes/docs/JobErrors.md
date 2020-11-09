@@ -1,4 +1,4 @@
-# BigCommerce.Model.JobErrors
+# Themes.Model.JobErrors
 ## Properties
 
 Name | Type | Description | Notes

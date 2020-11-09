@@ -1,4 +1,4 @@
-# BigCommerce.Model.ProductOptionValuePut
+# Catalog.Model.ProductOptionValuePut
 ## Properties
 
 Name | Type | Description | Notes

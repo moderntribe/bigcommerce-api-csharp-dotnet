@@ -15,57 +15,70 @@ const apis = [
   // {
   //   name: 'wishlists',
   //   url: 'https://developer.bigcommerce.com/api-reference/customer-subscribers/wishlist-api/BigCommerce_Wishlist_API.oas2.json',
+  //   packageName: 'Wishlists',
   // },
   {
     name: 'widgets',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/widgets/widgets.v3.json',
+    packageName: 'Widgets',
   },
   {
     name: 'themes',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/themes/themes.v3.json',
+    packageName: 'Themes',
   },
   {
     name: 'catalog',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/catalog/catalog.v3.json',
+    packageName: 'Catalog',
   },
   {
     name: 'subscribers',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/subscribers/subscribers.v3.json',
+    packageName: 'Subscribers',
   },
   {
     name: 'storeInfo',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/store-information-api/store_information.v2.json',
+    packageName: 'StoreInfo',
   },
   {
     name: 'scripts',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/scripts/scripts.v3.json',
+    packageName: 'Scripts',
   },
   {
     name: 'priceLists',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/price-lists/price_lists.v3.json',
+    packageName: 'PriceLists',
   },
   // wrong content-type header
   // {
   //   name: 'ordersV2',
   //   url: 'https://developer.bigcommerce.com/api-reference/store-management/orders/BigCommerce_Orders_API.oas2.json',
+  //   packageName: 'OrdersV2',
   // },
   {
     name: 'ordersV3',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/order-transactions/orders.v3.json',
+    packageName: 'OrdersV3',
   },
   // spec has gone missing
   // {
   //   name: 'sites',
   //   url: 'https://developer.bigcommerce.com/api-reference/cart-checkout/sites-routes-api/BigCommerce_Sites_Routes_API.oas2.json',
+  //   packageName: 'sites',
   // },
   // error in spec file logic (can't build client)
   // {
   //   name: 'channels',
   //   url: 'https://developer.bigcommerce.com/api-reference/store-management/channels/channels.v3.json',
+  //   packageName: 'Channels',
   // },
   {
     name: 'carts',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/carts/carts.v3.json',
+    packageName: 'Carts',
   }
 ];
 
@@ -102,8 +115,8 @@ const codegen = api => done => {
     `java -jar bin/swagger-codegen-cli.jar generate \
   -i ${api.url} \
   -l csharp \
+  -DpackageName=${api.packageName} \
   -c swagger.config.json \
-  -t resources/templates \
   -o clients/${api.name}`,
     { cwd: '.' },
     (err, stdout, stderr) => {

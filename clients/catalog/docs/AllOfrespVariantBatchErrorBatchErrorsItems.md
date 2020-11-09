@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfrespVariantBatchErrorBatchErrorsItems
+# Catalog.Model.AllOfrespVariantBatchErrorBatchErrorsItems
 ## Properties
 
 Name | Type | Description | Notes

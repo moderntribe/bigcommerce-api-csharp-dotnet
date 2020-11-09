@@ -1,4 +1,4 @@
-# BigCommerce.Model.BulkPricingRule
+# Catalog.Model.BulkPricingRule
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.AVSResults
+# OrdersV3.Model.AVSResults
 ## Properties
 
 Name | Type | Description | Notes

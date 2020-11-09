@@ -1,4 +1,4 @@
-# BigCommerce.Api.StoreInformationApi
+# StoreInfo.Api.StoreInformationApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v2*
 
@@ -18,9 +18,9 @@ Returns metadata about a store.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using StoreInfo.Api;
+using StoreInfo.Client;
+using StoreInfo.Model;
 
 namespace Example
 {

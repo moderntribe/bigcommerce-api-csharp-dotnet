@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfrespProductImageData
+# Catalog.Model.AllOfrespProductImageData
 ## Properties
 
 Name | Type | Description | Notes

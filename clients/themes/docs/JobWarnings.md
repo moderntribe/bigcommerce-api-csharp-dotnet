@@ -1,4 +1,4 @@
-# BigCommerce.Model.JobWarnings
+# Themes.Model.JobWarnings
 ## Properties
 
 Name | Type | Description | Notes

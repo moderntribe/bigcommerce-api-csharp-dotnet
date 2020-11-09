@@ -1,4 +1,4 @@
-# BigCommerce.Model.InlineResponse2011
+# OrdersV3.Model.InlineResponse2011
 ## Properties
 
 Name | Type | Description | Notes

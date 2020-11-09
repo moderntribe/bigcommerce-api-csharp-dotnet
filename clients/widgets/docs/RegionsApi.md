@@ -1,4 +1,4 @@
-# BigCommerce.Api.RegionsApi
+# Widgets.Api.RegionsApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -18,9 +18,9 @@ Returns a list of unique **Theme Regions** in a file.  **Required Query** * `tem
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Widgets.Api;
+using Widgets.Client;
+using Widgets.Model;
 
 namespace Example
 {

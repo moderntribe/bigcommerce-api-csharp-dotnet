@@ -1,4 +1,4 @@
-# BigCommerce.Model.LineItem
+# Carts.Model.LineItem
 ## Properties
 
 Name | Type | Description | Notes

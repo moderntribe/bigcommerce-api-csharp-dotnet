@@ -1,4 +1,4 @@
-# BigCommerce.Model.PriceRecord
+# PriceLists.Model.PriceRecord
 ## Properties
 
 Name | Type | Description | Notes

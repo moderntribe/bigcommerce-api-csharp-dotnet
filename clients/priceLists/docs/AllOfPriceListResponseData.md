@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfPriceListResponseData
+# PriceLists.Model.AllOfPriceListResponseData
 ## Properties
 
 Name | Type | Description | Notes

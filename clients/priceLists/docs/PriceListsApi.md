@@ -1,4 +1,4 @@
-# BigCommerce.Api.PriceListsApi
+# PriceLists.Api.PriceListsApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -23,9 +23,9 @@ Creates a *Price List*.  **Required Fields** * name
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using PriceLists.Api;
+using PriceLists.Client;
+using PriceLists.Model;
 
 namespace Example
 {
@@ -92,9 +92,9 @@ Deletes a *Price List*. All associated price records are also removed.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using PriceLists.Api;
+using PriceLists.Client;
+using PriceLists.Model;
 
 namespace Example
 {
@@ -156,9 +156,9 @@ Deletes a *Price List*. All associated price records are also removed. Optional 
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using PriceLists.Api;
+using PriceLists.Client;
+using PriceLists.Model;
 
 namespace Example
 {
@@ -226,9 +226,9 @@ Get a Price List
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using PriceLists.Api;
+using PriceLists.Client;
+using PriceLists.Model;
 
 namespace Example
 {
@@ -303,9 +303,9 @@ Returns a list of *Price Lists*. Optional parameters can be passed in.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using PriceLists.Api;
+using PriceLists.Client;
+using PriceLists.Model;
 
 namespace Example
 {
@@ -382,9 +382,9 @@ Updates a *Price List*.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using PriceLists.Api;
+using PriceLists.Client;
+using PriceLists.Model;
 
 namespace Example
 {

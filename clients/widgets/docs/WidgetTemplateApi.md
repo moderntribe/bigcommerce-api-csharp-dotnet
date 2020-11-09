@@ -1,4 +1,4 @@
-# BigCommerce.Api.WidgetTemplateApi
+# Widgets.Api.WidgetTemplateApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -22,9 +22,9 @@ Creates a **Widget Template**.  ***Note:*** *There is a limit of 100 custom widg
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Widgets.Api;
+using Widgets.Client;
+using Widgets.Model;
 
 namespace Example
 {
@@ -91,9 +91,9 @@ Delete a **Widget Template**.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Widgets.Api;
+using Widgets.Client;
+using Widgets.Model;
 
 namespace Example
 {
@@ -159,9 +159,9 @@ Return a single **Widget Template**.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Widgets.Api;
+using Widgets.Client;
+using Widgets.Model;
 
 namespace Example
 {
@@ -228,9 +228,9 @@ Returns a list of **Widget Templates**.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Widgets.Api;
+using Widgets.Client;
+using Widgets.Model;
 
 namespace Example
 {
@@ -301,9 +301,9 @@ Update a **Widget Template**.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Widgets.Api;
+using Widgets.Client;
+using Widgets.Model;
 
 namespace Example
 {

@@ -1,4 +1,4 @@
-# BigCommerce - the C# library for the Carts
+# Carts - the C# library for the Carts
 
 Create a cart using BigCommerce cart logic.
 
@@ -36,9 +36,9 @@ Run the following command to generate the DLL
 
 Then include the DLL (under the `bin` folder) in the C# project, and use the namespaces:
 ```csharp
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Carts.Api;
+using Carts.Client;
+using Carts.Model;
 ```
 <a name="packaging"></a>
 ## Packaging
@@ -48,7 +48,7 @@ A `.nuspec` is included with the project. You can follow the Nuget quickstart to
 This `.nuspec` uses placeholders from the `.csproj`, so build the `.csproj` directly:
 
 ```
-nuget pack -Build -OutputDirectory out BigCommerce.csproj
+nuget pack -Build -OutputDirectory out Carts.csproj
 ```
 
 Then, publish to a [local feed](https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds) or [other host](https://docs.microsoft.com/en-us/nuget/hosting-packages/overview) and consume the new package via Nuget as usual.
@@ -59,9 +59,9 @@ Then, publish to a [local feed](https://docs.microsoft.com/en-us/nuget/hosting-p
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Carts.Api;
+using Carts.Client;
+using Carts.Model;
 
 namespace Example
 {

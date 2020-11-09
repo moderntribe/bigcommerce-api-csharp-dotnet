@@ -1,4 +1,4 @@
-# BigCommerce.Model.VariantResponse
+# Catalog.Model.VariantResponse
 ## Properties
 
 Name | Type | Description | Notes

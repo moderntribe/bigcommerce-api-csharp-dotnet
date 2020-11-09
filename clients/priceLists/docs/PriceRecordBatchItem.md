@@ -1,4 +1,4 @@
-# BigCommerce.Model.PriceRecordBatchItem
+# PriceLists.Model.PriceRecordBatchItem
 ## Properties
 
 Name | Type | Description | Notes

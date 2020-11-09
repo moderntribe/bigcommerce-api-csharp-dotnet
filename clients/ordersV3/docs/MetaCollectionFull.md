@@ -1,4 +1,4 @@
-# BigCommerce.Model.MetaCollectionFull
+# OrdersV3.Model.MetaCollectionFull
 ## Properties
 
 Name | Type | Description | Notes

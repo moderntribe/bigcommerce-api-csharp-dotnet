@@ -1,4 +1,4 @@
-# BigCommerce.Model.BaseError
+# Scripts.Model.BaseError
 ## Properties
 
 Name | Type | Description | Notes

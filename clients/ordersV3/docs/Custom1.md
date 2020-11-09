@@ -1,4 +1,4 @@
-# BigCommerce.Model.Custom1
+# OrdersV3.Model.Custom1
 ## Properties
 
 Name | Type | Description | Notes

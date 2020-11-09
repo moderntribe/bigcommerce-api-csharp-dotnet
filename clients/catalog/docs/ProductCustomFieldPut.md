@@ -1,4 +1,4 @@
-# BigCommerce.Model.ProductCustomFieldPut
+# Catalog.Model.ProductCustomFieldPut
 ## Properties
 
 Name | Type | Description | Notes

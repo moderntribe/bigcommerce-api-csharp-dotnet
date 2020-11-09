@@ -1,4 +1,4 @@
-# BigCommerce.Model.RespProductOptionValue
+# Catalog.Model.RespProductOptionValue
 ## Properties
 
 Name | Type | Description | Notes

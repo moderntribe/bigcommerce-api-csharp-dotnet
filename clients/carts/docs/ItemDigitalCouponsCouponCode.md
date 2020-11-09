@@ -1,4 +1,4 @@
-# BigCommerce.Model.ItemDigitalCouponsCouponCode
+# Carts.Model.ItemDigitalCouponsCouponCode
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.ItemReferenceId
+# OrdersV3.Model.ItemReferenceId
 ## Properties
 
 Name | Type | Description | Notes

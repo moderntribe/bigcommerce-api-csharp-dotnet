@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfinlineResponse2003Data
+# OrdersV3.Model.AllOfinlineResponse2003Data
 ## Properties
 
 Name | Type | Description | Notes

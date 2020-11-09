@@ -1,4 +1,4 @@
-# BigCommerce.Model.ErrorNotFound
+# Catalog.Model.ErrorNotFound
 ## Properties
 
 Name | Type | Description | Notes

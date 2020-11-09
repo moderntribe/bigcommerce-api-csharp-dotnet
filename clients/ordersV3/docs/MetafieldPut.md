@@ -1,4 +1,4 @@
-# BigCommerce.Model.MetafieldPut
+# OrdersV3.Model.MetafieldPut
 ## Properties
 
 Name | Type | Description | Notes

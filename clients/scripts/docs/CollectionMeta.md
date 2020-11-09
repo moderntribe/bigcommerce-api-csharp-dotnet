@@ -1,4 +1,4 @@
-# BigCommerce.Model.CollectionMeta
+# Scripts.Model.CollectionMeta
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.InlineResponse422
+# PriceLists.Model.InlineResponse422
 ## Properties
 
 Name | Type | Description | Notes

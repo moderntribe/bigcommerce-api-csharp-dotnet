@@ -1,4 +1,4 @@
-# BigCommerce.Model.CustomUrlCategory
+# Catalog.Model.CustomUrlCategory
 ## Properties
 
 Name | Type | Description | Notes

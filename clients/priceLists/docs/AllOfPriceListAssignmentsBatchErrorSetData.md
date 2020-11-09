@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfPriceListAssignmentsBatchErrorSetData
+# PriceLists.Model.AllOfPriceListAssignmentsBatchErrorSetData
 ## Properties
 
 Name | Type | Description | Notes

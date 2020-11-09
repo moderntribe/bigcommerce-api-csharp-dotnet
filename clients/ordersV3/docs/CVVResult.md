@@ -1,4 +1,4 @@
-# BigCommerce.Model.CVVResult
+# OrdersV3.Model.CVVResult
 ## Properties
 
 Name | Type | Description | Notes

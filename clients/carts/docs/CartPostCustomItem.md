@@ -1,4 +1,4 @@
-# BigCommerce.Model.CartPostCustomItem
+# Carts.Model.CartPostCustomItem
 ## Properties
 
 Name | Type | Description | Notes

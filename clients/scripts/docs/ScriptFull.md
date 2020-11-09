@@ -1,4 +1,4 @@
-# BigCommerce.Model.ScriptFull
+# Scripts.Model.ScriptFull
 ## Properties
 
 Name | Type | Description | Notes

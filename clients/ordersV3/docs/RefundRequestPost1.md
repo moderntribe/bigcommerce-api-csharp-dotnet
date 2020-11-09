@@ -1,4 +1,4 @@
-# BigCommerce.Model.RefundRequestPost1
+# OrdersV3.Model.RefundRequestPost1
 ## Properties
 
 Name | Type | Description | Notes

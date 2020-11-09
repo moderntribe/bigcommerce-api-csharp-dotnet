@@ -1,4 +1,4 @@
-# BigCommerce.Model.ReceivedItemsPut
+# OrdersV3.Model.ReceivedItemsPut
 ## Properties
 
 Name | Type | Description | Notes

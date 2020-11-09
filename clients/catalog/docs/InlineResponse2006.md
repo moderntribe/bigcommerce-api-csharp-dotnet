@@ -1,4 +1,4 @@
-# BigCommerce.Model.InlineResponse2006
+# Catalog.Model.InlineResponse2006
 ## Properties
 
 Name | Type | Description | Notes

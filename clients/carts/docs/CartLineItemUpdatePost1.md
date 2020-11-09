@@ -1,4 +1,4 @@
-# BigCommerce.Model.CartLineItemUpdatePost1
+# Carts.Model.CartLineItemUpdatePost1
 ## Properties
 
 Name | Type | Description | Notes

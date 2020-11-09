@@ -1,4 +1,4 @@
-# BigCommerce.Api.SubscribersApi
+# Subscribers.Api.SubscribersApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -23,9 +23,9 @@ Creates a *Subscriber*.  **Required Fields** * email  **Read Only Fields** * id
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Subscribers.Api;
+using Subscribers.Client;
+using Subscribers.Model;
 
 namespace Example
 {
@@ -92,9 +92,9 @@ Deletes a *Subscriber*.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Subscribers.Api;
+using Subscribers.Client;
+using Subscribers.Model;
 
 namespace Example
 {
@@ -160,9 +160,9 @@ By default, it deletes all *Subscribers*. A filter should be added to avoid dele
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Subscribers.Api;
+using Subscribers.Client;
+using Subscribers.Model;
 
 namespace Example
 {
@@ -240,9 +240,9 @@ Returns a *Subscriber*.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Subscribers.Api;
+using Subscribers.Client;
+using Subscribers.Model;
 
 namespace Example
 {
@@ -309,9 +309,9 @@ Returns a list of *Subscribers*. Optional filter parameters can be passed in.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Subscribers.Api;
+using Subscribers.Client;
+using Subscribers.Model;
 
 namespace Example
 {
@@ -394,9 +394,9 @@ Updates a *Subscriber*.  **Read Only Fields** * id
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Subscribers.Api;
+using Subscribers.Client;
+using Subscribers.Model;
 
 namespace Example
 {

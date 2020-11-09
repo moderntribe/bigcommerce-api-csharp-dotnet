@@ -1,4 +1,4 @@
-# BigCommerce.Model.StoreInformationLogo
+# StoreInfo.Model.StoreInformationLogo
 ## Properties
 
 Name | Type | Description | Notes

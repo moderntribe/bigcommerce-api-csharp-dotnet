@@ -1,4 +1,4 @@
-# BigCommerce.Model.ThemeVariations
+# Themes.Model.ThemeVariations
 ## Properties
 
 Name | Type | Description | Notes

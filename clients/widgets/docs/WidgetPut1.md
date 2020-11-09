@@ -1,4 +1,4 @@
-# BigCommerce.Model.WidgetPut1
+# Widgets.Model.WidgetPut1
 ## Properties
 
 Name | Type | Description | Notes

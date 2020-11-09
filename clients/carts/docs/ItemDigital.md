@@ -1,4 +1,4 @@
-# BigCommerce.Model.ItemDigital
+# Carts.Model.ItemDigital
 ## Properties
 
 Name | Type | Description | Notes

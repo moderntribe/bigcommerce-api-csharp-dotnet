@@ -1,4 +1,4 @@
-# BigCommerce.Model.QuantityBoundItem
+# OrdersV3.Model.QuantityBoundItem
 ## Properties
 
 Name | Type | Description | Notes

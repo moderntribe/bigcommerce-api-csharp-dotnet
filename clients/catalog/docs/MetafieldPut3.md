@@ -1,4 +1,4 @@
-# BigCommerce.Model.MetafieldPut3
+# Catalog.Model.MetafieldPut3
 ## Properties
 
 Name | Type | Description | Notes

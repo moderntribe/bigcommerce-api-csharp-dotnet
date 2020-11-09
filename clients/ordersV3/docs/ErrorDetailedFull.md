@@ -1,4 +1,4 @@
-# BigCommerce.Model.ErrorDetailedFull
+# OrdersV3.Model.ErrorDetailedFull
 ## Properties
 
 Name | Type | Description | Notes

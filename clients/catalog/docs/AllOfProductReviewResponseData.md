@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfProductReviewResponseData
+# Catalog.Model.AllOfProductReviewResponseData
 ## Properties
 
 Name | Type | Description | Notes

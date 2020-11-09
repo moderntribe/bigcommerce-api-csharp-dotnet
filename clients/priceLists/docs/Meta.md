@@ -1,4 +1,4 @@
-# BigCommerce.Model.Meta
+# PriceLists.Model.Meta
 ## Properties
 
 Name | Type | Description | Notes

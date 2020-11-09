@@ -1,4 +1,4 @@
-# BigCommerce.Api.VariantsApi
+# Catalog.Api.VariantsApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -19,9 +19,9 @@ Returns a list of all variants in your catalog. Optional parameters can be passe
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {
@@ -100,9 +100,9 @@ Creates or updates a batch of `Variant` objects. At the time of writing, the cur
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Catalog.Api;
+using Catalog.Client;
+using Catalog.Model;
 
 namespace Example
 {

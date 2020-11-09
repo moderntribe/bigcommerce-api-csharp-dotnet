@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfModifierValueResponseData
+# Catalog.Model.AllOfModifierValueResponseData
 ## Properties
 
 Name | Type | Description | Notes

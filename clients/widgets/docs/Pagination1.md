@@ -1,4 +1,4 @@
-# BigCommerce.Model.Pagination1
+# Widgets.Model.Pagination1
 ## Properties
 
 Name | Type | Description | Notes

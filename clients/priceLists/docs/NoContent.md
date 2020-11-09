@@ -1,4 +1,4 @@
-# BigCommerce.Model.NoContent
+# PriceLists.Model.NoContent
 ## Properties
 
 Name | Type | Description | Notes

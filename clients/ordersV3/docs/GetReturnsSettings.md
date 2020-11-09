@@ -1,4 +1,4 @@
-# BigCommerce.Model.GetReturnsSettings
+# OrdersV3.Model.GetReturnsSettings
 ## Properties
 
 Name | Type | Description | Notes

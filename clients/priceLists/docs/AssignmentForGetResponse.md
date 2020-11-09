@@ -1,4 +1,4 @@
-# BigCommerce.Model.AssignmentForGetResponse
+# PriceLists.Model.AssignmentForGetResponse
 ## Properties
 
 Name | Type | Description | Notes

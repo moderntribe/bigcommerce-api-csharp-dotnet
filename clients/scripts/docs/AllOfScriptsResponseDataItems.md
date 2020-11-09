@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfScriptsResponseDataItems
+# Scripts.Model.AllOfScriptsResponseDataItems
 ## Properties
 
 Name | Type | Description | Notes

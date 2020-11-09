@@ -1,4 +1,4 @@
-# BigCommerce.Model.Pagination1
+# PriceLists.Model.Pagination1
 ## Properties
 
 Name | Type | Description | Notes

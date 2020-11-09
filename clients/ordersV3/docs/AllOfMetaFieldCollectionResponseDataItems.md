@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfMetaFieldCollectionResponseDataItems
+# OrdersV3.Model.AllOfMetaFieldCollectionResponseDataItems
 ## Properties
 
 Name | Type | Description | Notes

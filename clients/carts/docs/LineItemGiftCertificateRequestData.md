@@ -1,4 +1,4 @@
-# BigCommerce.Model.LineItemGiftCertificateRequestData
+# Carts.Model.LineItemGiftCertificateRequestData
 ## Properties
 
 Name | Type | Description | Notes

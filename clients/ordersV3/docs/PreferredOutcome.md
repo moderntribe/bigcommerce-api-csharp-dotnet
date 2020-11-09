@@ -1,4 +1,4 @@
-# BigCommerce.Model.PreferredOutcome
+# OrdersV3.Model.PreferredOutcome
 ## Properties
 
 Name | Type | Description | Notes

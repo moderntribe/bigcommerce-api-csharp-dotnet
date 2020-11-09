@@ -1,4 +1,4 @@
-# BigCommerce.Model.MetafieldBase
+# OrdersV3.Model.MetafieldBase
 ## Properties
 
 Name | Type | Description | Notes

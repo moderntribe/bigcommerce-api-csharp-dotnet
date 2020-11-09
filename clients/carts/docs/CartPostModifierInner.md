@@ -1,4 +1,4 @@
-# BigCommerce.Model.CartPostModifierInner
+# Carts.Model.CartPostModifierInner
 ## Properties
 
 Name | Type | Description | Notes

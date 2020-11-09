@@ -1,4 +1,4 @@
-# BigCommerce.Model.Meta
+# Subscribers.Model.Meta
 ## Properties
 
 Name | Type | Description | Notes

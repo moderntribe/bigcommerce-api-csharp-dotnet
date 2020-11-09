@@ -1,4 +1,4 @@
-# BigCommerce.Model.Problem
+# OrdersV3.Model.Problem
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.Pagination
+# Themes.Model.Pagination
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.ErrorResponse
+# Themes.Model.ErrorResponse
 ## Properties
 
 Name | Type | Description | Notes

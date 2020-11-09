@@ -1,4 +1,4 @@
-# BigCommerce.Model.ProductModifierBase
+# Catalog.Model.ProductModifierBase
 ## Properties
 
 Name | Type | Description | Notes

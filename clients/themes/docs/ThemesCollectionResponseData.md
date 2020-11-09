@@ -1,4 +1,4 @@
-# BigCommerce.Model.ThemesCollectionResponseData
+# Themes.Model.ThemesCollectionResponseData
 ## Properties
 
 Name | Type | Description | Notes

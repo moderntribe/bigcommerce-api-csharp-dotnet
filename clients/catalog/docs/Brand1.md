@@ -1,4 +1,4 @@
-# BigCommerce.Model.Brand1
+# Catalog.Model.Brand1
 ## Properties
 
 Name | Type | Description | Notes

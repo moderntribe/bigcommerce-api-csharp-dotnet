@@ -1,4 +1,4 @@
-# BigCommerce.Model.MetafieldResponse1
+# Catalog.Model.MetafieldResponse1
 ## Properties
 
 Name | Type | Description | Notes

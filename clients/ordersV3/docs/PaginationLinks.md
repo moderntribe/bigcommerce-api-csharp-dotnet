@@ -1,4 +1,4 @@
-# BigCommerce.Model.PaginationLinks
+# OrdersV3.Model.PaginationLinks
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.InlineResponse2005
+# Catalog.Model.InlineResponse2005
 ## Properties
 
 Name | Type | Description | Notes

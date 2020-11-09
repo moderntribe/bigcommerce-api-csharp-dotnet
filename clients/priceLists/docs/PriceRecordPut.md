@@ -1,4 +1,4 @@
-# BigCommerce.Model.PriceRecordPut
+# PriceLists.Model.PriceRecordPut
 ## Properties
 
 Name | Type | Description | Notes

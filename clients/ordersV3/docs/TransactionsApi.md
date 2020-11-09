@@ -1,4 +1,4 @@
-# BigCommerce.Api.TransactionsApi
+# OrdersV3.Api.TransactionsApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -18,9 +18,9 @@ Returns an **order's** transactions.   **Usage Notes** * Depending on the paymen
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using OrdersV3.Api;
+using OrdersV3.Client;
+using OrdersV3.Model;
 
 namespace Example
 {

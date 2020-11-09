@@ -1,4 +1,4 @@
-# BigCommerce.Model.ThemeRegion1
+# Widgets.Model.ThemeRegion1
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Model.DateFormat
+# StoreInfo.Model.DateFormat
 ## Properties
 
 Name | Type | Description | Notes

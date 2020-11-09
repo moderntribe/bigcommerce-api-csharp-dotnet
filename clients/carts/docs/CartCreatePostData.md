@@ -1,4 +1,4 @@
-# BigCommerce.Model.CartCreatePostData
+# Carts.Model.CartCreatePostData
 ## Properties
 
 Name | Type | Description | Notes

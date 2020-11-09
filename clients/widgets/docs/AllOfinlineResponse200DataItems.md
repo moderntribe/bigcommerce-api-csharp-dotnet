@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfinlineResponse200DataItems
+# Widgets.Model.AllOfinlineResponse200DataItems
 ## Properties
 
 Name | Type | Description | Notes

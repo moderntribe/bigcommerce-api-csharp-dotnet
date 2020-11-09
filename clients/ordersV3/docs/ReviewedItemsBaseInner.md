@@ -1,4 +1,4 @@
-# BigCommerce.Model.ReviewedItemsBaseInner
+# OrdersV3.Model.ReviewedItemsBaseInner
 ## Properties
 
 Name | Type | Description | Notes

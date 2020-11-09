@@ -1,4 +1,4 @@
-# BigCommerce.Model.CreateReturnRequestItem
+# OrdersV3.Model.CreateReturnRequestItem
 ## Properties
 
 Name | Type | Description | Notes

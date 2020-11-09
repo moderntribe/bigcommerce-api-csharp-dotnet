@@ -1,4 +1,4 @@
-# BigCommerce.Model.InlineResponse201
+# Carts.Model.InlineResponse201
 ## Properties
 
 Name | Type | Description | Notes

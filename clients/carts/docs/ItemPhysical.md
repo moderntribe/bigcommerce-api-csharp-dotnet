@@ -1,4 +1,4 @@
-# BigCommerce.Model.ItemPhysical
+# Carts.Model.ItemPhysical
 ## Properties
 
 Name | Type | Description | Notes

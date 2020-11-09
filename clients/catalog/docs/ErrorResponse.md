@@ -1,4 +1,4 @@
-# BigCommerce.Model.ErrorResponse
+# Catalog.Model.ErrorResponse
 ## Properties
 
 Name | Type | Description | Notes

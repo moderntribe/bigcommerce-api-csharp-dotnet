@@ -1,4 +1,4 @@
-# BigCommerce.Model.TimeStampFull
+# StoreInfo.Model.TimeStampFull
 ## Properties
 
 Name | Type | Description | Notes

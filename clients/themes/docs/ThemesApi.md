@@ -1,4 +1,4 @@
-# BigCommerce.Api.ThemesApi
+# Themes.Api.ThemesApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -21,9 +21,9 @@ Deletes a store *Theme*. Theme variations can not be deleted using this endpoint
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Themes.Api;
+using Themes.Client;
+using Themes.Model;
 
 namespace Example
 {
@@ -89,9 +89,9 @@ Returns a store *Theme*. The theme variation is not available at this endpoint.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Themes.Api;
+using Themes.Client;
+using Themes.Model;
 
 namespace Example
 {
@@ -158,9 +158,9 @@ Returns a list of store *Themes*.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Themes.Api;
+using Themes.Client;
+using Themes.Model;
 
 namespace Example
 {
@@ -225,9 +225,9 @@ Uploads a new *Theme* to your BigCommerce store.  **Required Fields** * file
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Themes.Api;
+using Themes.Client;
+using Themes.Model;
 
 namespace Example
 {

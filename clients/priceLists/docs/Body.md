@@ -1,4 +1,4 @@
-# BigCommerce.Model.Body
+# PriceLists.Model.Body
 ## Properties
 
 Name | Type | Description | Notes

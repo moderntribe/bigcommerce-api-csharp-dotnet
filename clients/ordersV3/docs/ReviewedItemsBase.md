@@ -1,4 +1,4 @@
-# BigCommerce.Model.ReviewedItemsBase
+# OrdersV3.Model.ReviewedItemsBase
 ## Properties
 
 Name | Type | Description | Notes

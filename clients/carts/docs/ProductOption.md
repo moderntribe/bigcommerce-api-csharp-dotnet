@@ -1,4 +1,4 @@
-# BigCommerce.Model.ProductOption
+# Carts.Model.ProductOption
 ## Properties
 
 Name | Type | Description | Notes

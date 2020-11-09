@@ -1,4 +1,4 @@
-# BigCommerce.Model.SubscriberCollectionResponse
+# Subscribers.Model.SubscriberCollectionResponse
 ## Properties
 
 Name | Type | Description | Notes

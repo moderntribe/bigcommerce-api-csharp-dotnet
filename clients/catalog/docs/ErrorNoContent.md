@@ -1,4 +1,4 @@
-# BigCommerce.Model.ErrorNoContent
+# Catalog.Model.ErrorNoContent
 ## Properties
 
 Name | Type | Description | Notes

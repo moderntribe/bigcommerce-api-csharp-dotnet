@@ -1,4 +1,4 @@
-# BigCommerce.Model.MetaCollection
+# Widgets.Model.MetaCollection
 ## Properties
 
 Name | Type | Description | Notes

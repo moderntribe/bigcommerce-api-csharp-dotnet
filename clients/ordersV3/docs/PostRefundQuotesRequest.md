@@ -1,4 +1,4 @@
-# BigCommerce.Model.PostRefundQuotesRequest
+# OrdersV3.Model.PostRefundQuotesRequest
 ## Properties
 
 Name | Type | Description | Notes

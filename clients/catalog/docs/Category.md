@@ -1,4 +1,4 @@
-# BigCommerce.Model.Category
+# Catalog.Model.Category
 ## Properties
 
 Name | Type | Description | Notes

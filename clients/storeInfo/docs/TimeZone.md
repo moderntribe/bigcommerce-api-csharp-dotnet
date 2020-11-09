@@ -1,4 +1,4 @@
-# BigCommerce.Model.Timezone
+# StoreInfo.Model.Timezone
 ## Properties
 
 Name | Type | Description | Notes

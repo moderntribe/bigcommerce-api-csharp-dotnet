@@ -1,4 +1,4 @@
-# BigCommerce.Api.MetafieldsApi
+# OrdersV3.Api.MetafieldsApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -22,9 +22,9 @@ Creates an order `Metafield`.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using OrdersV3.Api;
+using OrdersV3.Client;
+using OrdersV3.Model;
 
 namespace Example
 {
@@ -91,9 +91,9 @@ Deletes a `Metafield`.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using OrdersV3.Api;
+using OrdersV3.Client;
+using OrdersV3.Model;
 
 namespace Example
 {
@@ -157,9 +157,9 @@ Gets a `Metafield`, by `order_id`.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using OrdersV3.Api;
+using OrdersV3.Client;
+using OrdersV3.Model;
 
 namespace Example
 {
@@ -224,9 +224,9 @@ Gets a `Metafield` object list, by `order_id`.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using OrdersV3.Api;
+using OrdersV3.Client;
+using OrdersV3.Model;
 
 namespace Example
 {
@@ -297,9 +297,9 @@ Updates a `Metafield` object.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using OrdersV3.Api;
+using OrdersV3.Client;
+using OrdersV3.Model;
 
 namespace Example
 {

@@ -1,4 +1,4 @@
-# BigCommerce.Model.Meta
+# Catalog.Model.Meta
 ## Properties
 
 Name | Type | Description | Notes

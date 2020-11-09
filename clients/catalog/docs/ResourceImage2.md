@@ -1,4 +1,4 @@
-# BigCommerce.Model.ResourceImage2
+# Catalog.Model.ResourceImage2
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# BigCommerce.Api.WidgetApi
+# Widgets.Api.WidgetApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -22,9 +22,9 @@ Creates a **Widget**.  ***Note:*** *There is a limit of 1000 widgets per store.*
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Widgets.Api;
+using Widgets.Client;
+using Widgets.Model;
 
 namespace Example
 {
@@ -91,9 +91,9 @@ Deletes a **Widget**.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Widgets.Api;
+using Widgets.Client;
+using Widgets.Model;
 
 namespace Example
 {
@@ -159,9 +159,9 @@ Returns a single **Widget**.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Widgets.Api;
+using Widgets.Client;
+using Widgets.Model;
 
 namespace Example
 {
@@ -228,9 +228,9 @@ Returns a list of **Widgets**. Optional parameters can be passed in.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Widgets.Api;
+using Widgets.Client;
+using Widgets.Model;
 
 namespace Example
 {
@@ -305,9 +305,9 @@ Updates a **Widget**.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Widgets.Api;
+using Widgets.Client;
+using Widgets.Model;
 
 namespace Example
 {

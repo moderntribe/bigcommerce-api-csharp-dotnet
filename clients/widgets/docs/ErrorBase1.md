@@ -1,4 +1,4 @@
-# BigCommerce.Model.ErrorBase1
+# Widgets.Model.ErrorBase1
 ## Properties
 
 Name | Type | Description | Notes

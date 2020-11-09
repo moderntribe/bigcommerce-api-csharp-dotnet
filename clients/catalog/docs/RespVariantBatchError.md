@@ -1,4 +1,4 @@
-# BigCommerce.Model.RespVariantBatchError
+# Catalog.Model.RespVariantBatchError
 ## Properties
 
 Name | Type | Description | Notes

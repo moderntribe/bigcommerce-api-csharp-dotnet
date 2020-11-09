@@ -1,4 +1,4 @@
-# BigCommerce.Model.AllOfinlineResponse2001DataItems
+# Catalog.Model.AllOfinlineResponse2001DataItems
 ## Properties
 
 Name | Type | Description | Notes

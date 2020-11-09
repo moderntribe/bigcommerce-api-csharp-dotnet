@@ -1,4 +1,4 @@
-# BigCommerce.Model.Body2
+# Catalog.Model.Body2
 ## Properties
 
 Name | Type | Description | Notes

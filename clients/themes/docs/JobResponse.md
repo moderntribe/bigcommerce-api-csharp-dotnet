@@ -1,4 +1,4 @@
-# BigCommerce.Model.JobResponse
+# Themes.Model.JobResponse
 ## Properties
 
 Name | Type | Description | Notes

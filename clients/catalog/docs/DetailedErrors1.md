@@ -1,4 +1,4 @@
-# BigCommerce.Model.DetailedErrors1
+# Catalog.Model.DetailedErrors1
 ## Properties
 
 Name | Type | Description | Notes

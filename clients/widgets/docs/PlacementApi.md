@@ -1,4 +1,4 @@
-# BigCommerce.Api.PlacementApi
+# Widgets.Api.PlacementApi
 
 All URIs are relative to *https://api.bigcommerce.com/stores/{$$.env.store_hash}/v3*
 
@@ -22,9 +22,9 @@ Creates a **Placement**.  ## Template files  The `template_file` property accept
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Widgets.Api;
+using Widgets.Client;
+using Widgets.Model;
 
 namespace Example
 {
@@ -91,9 +91,9 @@ Deletes a **Placement**.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Widgets.Api;
+using Widgets.Client;
+using Widgets.Model;
 
 namespace Example
 {
@@ -159,9 +159,9 @@ Returns a single **Placement**.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Widgets.Api;
+using Widgets.Client;
+using Widgets.Model;
 
 namespace Example
 {
@@ -228,9 +228,9 @@ Returns a list of **Placements**. Optional parameters can be passed in.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Widgets.Api;
+using Widgets.Client;
+using Widgets.Model;
 
 namespace Example
 {
@@ -307,9 +307,9 @@ Updates a **Placement**.
 ```csharp
 using System;
 using System.Diagnostics;
-using BigCommerce.Api;
-using BigCommerce.Client;
-using BigCommerce.Model;
+using Widgets.Api;
+using Widgets.Client;
+using Widgets.Model;
 
 namespace Example
 {

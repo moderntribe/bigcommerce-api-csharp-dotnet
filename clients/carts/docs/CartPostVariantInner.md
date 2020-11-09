@@ -1,4 +1,4 @@
-# BigCommerce.Model.CartPostVariantInner
+# Carts.Model.CartPostVariantInner
 ## Properties
 
 Name | Type | Description | Notes
