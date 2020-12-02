@@ -26,6 +26,7 @@ const apis = [
     name: 'themes',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/themes/themes.v3.json',
     packageName: 'Themes',
+    patch: 'themes.patch',
   },
   {
     name: 'catalog',
@@ -142,6 +143,7 @@ const postCleanup = api => () => (
 const applyPatch = api => (done) => {
   // duplicate the src dir to src.orig
   // make the fix in src
+  // rm -rf src/bin src/obj
   // diff -ur src.orig src > ../../resources/patches/catalog_api.patch
   // to patch an unfixed src: cd src && patch -p1 -i ../../../resources/patches/catalog_api.patch
   // add the patch prop to api above

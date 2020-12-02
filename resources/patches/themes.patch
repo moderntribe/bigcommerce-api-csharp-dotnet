@@ -1,0 +1,137 @@
+diff -ur src.orig/Themes/Api/ThemesApi.cs src/Themes/Api/ThemesApi.cs
+--- src.orig/Themes/Api/ThemesApi.cs	2020-12-02 00:34:06.503698800 -0700
++++ src/Themes/Api/ThemesApi.cs	2020-12-02 01:02:19.970286000 -0700
+@@ -706,8 +706,6 @@
+             if (localVarHttpHeaderAccept != null)
+                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+ 
+-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+@@ -783,8 +781,6 @@
+             if (localVarHttpHeaderAccept != null)
+                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+ 
+-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+@@ -860,10 +856,7 @@
+             if (localVarHttpHeaderAccept != null)
+                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+ 
+-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+-            if (_file != null) localVarFileParams.Add("file", this.Configuration.ApiClient.ParameterToFile("file", _file));
+-            // authentication (X-Auth-Token) required
++             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+                 localVarHeaderParams["X-Auth-Token"] = this.Configuration.GetApiKeyWithPrefix("X-Auth-Token");
+@@ -939,9 +932,6 @@
+             if (localVarHttpHeaderAccept != null)
+                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+ 
+-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+-            if (_file != null) localVarFileParams.Add("file", this.Configuration.ApiClient.ParameterToFile("file", _file));
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+diff -ur src.orig/Themes/Model/DetailedErrors.cs src/Themes/Model/DetailedErrors.cs
+--- src.orig/Themes/Model/DetailedErrors.cs	2020-12-02 00:34:06.355510100 -0700
++++ src/Themes/Model/DetailedErrors.cs	2020-12-02 00:50:13.841587300 -0700
+@@ -53,7 +53,7 @@
+         /// Returns the JSON string presentation of the object
+         /// </summary>
+         /// <returns>JSON string presentation of the object</returns>
+-        public override string ToJson()
++        public virtual string ToJson()
+         {
+             return JsonConvert.SerializeObject(this, Formatting.Indented);
+         }
+@@ -101,8 +101,13 @@
+         /// <returns>Validation Result</returns>
+         IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+         {
+-            foreach(var x in BaseValidate(validationContext)) yield return x;
++            foreach(var x in BaseValidate(validationContext)) yield return (ValidationResult)x;
+             yield break;
+-        }
++        }
++
++        private IEnumerable<object> BaseValidate(ValidationContext validationContext)
++        {
++            throw new NotImplementedException();
++        }
+     }
+ }
+diff -ur src.orig/Themes/Model/JobId.cs src/Themes/Model/JobId.cs
+--- src.orig/Themes/Model/JobId.cs	2020-12-02 00:34:06.378498600 -0700
++++ src/Themes/Model/JobId.cs	2020-12-02 00:43:32.134730200 -0700
+@@ -35,7 +35,7 @@
+         /// <param name="jobId">The job identifier..</param>
+         public JobId(string jobId = default(string))
+         {
+-            this.JobId = jobId;
++            this.jobId = jobId;
+         }
+         
+         /// <summary>
+@@ -43,7 +43,7 @@
+         /// </summary>
+         /// <value>The job identifier.</value>
+         [DataMember(Name="job_id", EmitDefaultValue=false)]
+-        public string JobId { get; set; }
++        public string jobId { get; set; }
+ 
+         /// <summary>
+         /// Returns the string presentation of the object
+@@ -53,7 +53,7 @@
+         {
+             var sb = new StringBuilder();
+             sb.Append("class JobId {\n");
+-            sb.Append("  JobId: ").Append(JobId).Append("\n");
++            sb.Append("  jobId: ").Append(jobId).Append("\n");
+             sb.Append("}\n");
+             return sb.ToString();
+         }
+@@ -89,9 +89,9 @@
+ 
+             return 
+                 (
+-                    this.JobId == input.JobId ||
+-                    (this.JobId != null &&
+-                    this.JobId.Equals(input.JobId))
++                    this.jobId == input.jobId ||
++                    (this.jobId != null &&
++                    this.jobId.Equals(input.jobId))
+                 );
+         }
+ 
+@@ -104,8 +104,8 @@
+             unchecked // Overflow is fine, just wrap
+             {
+                 int hashCode = 41;
+-                if (this.JobId != null)
+-                    hashCode = hashCode * 59 + this.JobId.GetHashCode();
++                if (this.jobId != null)
++                    hashCode = hashCode * 59 + this.jobId.GetHashCode();
+                 return hashCode;
+             }
+         }
+diff -ur src.orig/Themes/Themes.csproj src/Themes/Themes.csproj
+--- src.orig/Themes/Themes.csproj	2020-12-02 00:34:06.561665100 -0700
++++ src/Themes/Themes.csproj	2020-12-02 00:35:24.514475000 -0700
+@@ -2,7 +2,7 @@
+ <!--
+ Themes
+ 
+-Backup, restore, download, and activate themes; and, get the status of theme jobs and read theme configurations.  - [OAuth Scopes](#oauth-scopes) - [Authentication](#authentication)  For more information on OAuth Scopes, see: [Authentication](https://developer.bigcommerce.com/api-docs/getting-started/authentication).  ## Authentication  Requests can be authenticated by sending an `access_token` via `X-Auth-Token` HTTP header:  ```http GET /stores/{$$.env.store_hash}/v3/catalog/summary host: api.bigcommerce.com Accept: application/json X-Auth-Token: {access_token} ```  ### OAuth Scopes | UI Name                                      | Permission | Parameter                                     | |- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -|- -- -- -- -- -- -|- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --| | Themes                                       | modify     | `store_themes_manage`                         |
++Backup, restore, download, and activate themes; and, get the status of theme jobs and read theme configurations.  - [OAuth Scopes](#oauth-scopes) - [Authentication](#authentication)  For more information on OAuth Scopes, see: [Authentication](https://developer.bigcommerce.com/api-docs/getting-started/authentication).  ## Authentication  Requests can be authenticated by sending an `access_token` via `X-Auth-Token` HTTP header:  ```http GET /stores/{$$.env.store_hash}/v3/catalog/summary host: api.bigcommerce.com Accept: application/json X-Auth-Token: {access_token} ```  ### OAuth Scopes | UI Name                                      | Permission | Parameter                                     | Themes                                       | modify     | `store_themes_manage`                         |
+ 
+ OpenAPI spec version: 1.0.0
+ 

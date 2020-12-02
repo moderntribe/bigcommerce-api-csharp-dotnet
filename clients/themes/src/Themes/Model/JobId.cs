@@ -35,7 +35,7 @@ namespace Themes.Model
         /// <param name="jobId">The job identifier..</param>
         public JobId(string jobId = default(string))
         {
-            this.JobId = jobId;
+            this.jobId = jobId;
         }
         
         /// <summary>
@@ -43,7 +43,7 @@ namespace Themes.Model
         /// </summary>
         /// <value>The job identifier.</value>
         [DataMember(Name="job_id", EmitDefaultValue=false)]
-        public string JobId { get; set; }
+        public string jobId { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -53,7 +53,7 @@ namespace Themes.Model
         {
             var sb = new StringBuilder();
             sb.Append("class JobId {\n");
-            sb.Append("  JobId: ").Append(JobId).Append("\n");
+            sb.Append("  jobId: ").Append(jobId).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -89,9 +89,9 @@ namespace Themes.Model
 
             return 
                 (
-                    this.JobId == input.JobId ||
-                    (this.JobId != null &&
-                    this.JobId.Equals(input.JobId))
+                    this.jobId == input.jobId ||
+                    (this.jobId != null &&
+                    this.jobId.Equals(input.jobId))
                 );
         }
 
@@ -104,8 +104,8 @@ namespace Themes.Model
             unchecked // Overflow is fine, just wrap
             {
                 int hashCode = 41;
-                if (this.JobId != null)
-                    hashCode = hashCode * 59 + this.JobId.GetHashCode();
+                if (this.jobId != null)
+                    hashCode = hashCode * 59 + this.jobId.GetHashCode();
                 return hashCode;
             }
         }

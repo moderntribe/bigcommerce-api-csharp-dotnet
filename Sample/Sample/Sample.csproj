@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StoreInfo.cs" />
+    <Compile Include="SampleRunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -57,6 +57,10 @@
     <ProjectReference Include="..\..\clients\storeInfo\src\StoreInfo\StoreInfo.csproj">
       <Project>{d0fe075f-69c4-4209-b3b2-a83548e6891b}</Project>
       <Name>StoreInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\clients\themes\src\Themes\Themes.csproj">
+      <Project>{02faf147-8944-4017-b164-442b50c16ab0}</Project>
+      <Name>Themes</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

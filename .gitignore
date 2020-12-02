@@ -32,3 +32,5 @@ node_modules
 Sample/packages/*
 Sample/Sample/bin/*
 Sample/Sample/obj/*
+
+**/src.orig
