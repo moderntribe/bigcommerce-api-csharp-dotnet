@@ -1,0 +1,121 @@
+diff -ur src.orig/StoreInfo/Api/StoreInformationApi.cs src/StoreInfo/Api/StoreInformationApi.cs
+--- src.orig/StoreInfo/Api/StoreInformationApi.cs	2020-11-29 23:30:13.420929700 -0700
++++ src/StoreInfo/Api/StoreInformationApi.cs	2020-11-29 23:33:57.205255300 -0700
+@@ -234,8 +234,8 @@
+             if (localVarHttpHeaderAccept != null)
+                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+ 
+-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
++            // if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
++            // if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+@@ -255,6 +255,10 @@
+                 if (exception != null) throw exception;
+             }
+ 
++            string pattern = @".logo.:[^\[]*\[\],";
++            var s = System.Text.RegularExpressions.Regex.Replace(localVarResponse.Content, pattern, "\"logo\": {},");
++            localVarResponse.Content = s;
++
+             return new ApiResponse<StoreInformation>(localVarStatusCode,
+                 localVarResponse.Headers.ToDictionary(x => x.Name, x => string.Join(",", x.Value)),
+                 (StoreInformation) this.Configuration.ApiClient.Deserialize(localVarResponse, typeof(StoreInformation)));
+@@ -313,8 +317,8 @@
+             if (localVarHttpHeaderAccept != null)
+                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+ 
+-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
++            // if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
++            // if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+@@ -334,6 +338,10 @@
+                 if (exception != null) throw exception;
+             }
+ 
++            string pattern = @".logo.:[^\[]*\[\],";
++            var s = System.Text.RegularExpressions.Regex.Replace(localVarResponse.Content, pattern, "\"logo\": {},");
++            localVarResponse.Content = s;
++
+             return new ApiResponse<StoreInformation>(localVarStatusCode,
+                 localVarResponse.Headers.ToDictionary(x => x.Name, x => string.Join(",", x.Value)),
+                 (StoreInformation) this.Configuration.ApiClient.Deserialize(localVarResponse, typeof(StoreInformation)));
+diff -ur src.orig/StoreInfo/Model/StoreInformation.cs src/StoreInfo/Model/StoreInformation.cs
+--- src.orig/StoreInfo/Model/StoreInformation.cs	2020-11-29 23:30:13.557308600 -0700
++++ src/StoreInfo/Model/StoreInformation.cs	2020-11-29 23:46:37.938547200 -0700
+@@ -64,7 +64,7 @@
+         /// <param name="isPriceEnteredWithTax">A Boolean value that indicates whether or not prices are entered with tax..</param>
+         /// <param name="activeComparisonModules">activeComparisonModules.</param>
+         /// <param name="features">features.</param>
+-        public StoreInformation(string id = default(string), string domain = default(string), string secureURL = default(string), string controlPanelBaseUrl = default(string), string name = default(string), string firstName = default(string), string lastName = default(string), string address = default(string), string country = default(string), string phone = default(string), string adminEmail = default(string), string orderEmail = default(string), TimeZone timezone = default(TimeZone), string language = default(string), string currency = default(string), string currencySymbol = default(string), string decimalSeparator = default(string), string thousandsSeparator = default(string), int? decimalPlaces = default(int?), string currencySymbolLocation = default(string), string weightUnits = default(string), string dimensionUnits = default(string), int? dimensionDecimalPlaces = default(int?), string dimensionDecimalToken = default(string), string dimensionThousandsToken = default(string), string planName = default(string), string planLevel = default(string), string industry = default(string), StoreInformationLogo logo = default(StoreInformationLogo), bool? isPriceEnteredWithTax = default(bool?), List<Object> activeComparisonModules = default(List<Object>), StoreInformationFeatures features = default(StoreInformationFeatures))
++        public StoreInformation(string id = default(string), string domain = default(string), string secureURL = default(string), string controlPanelBaseUrl = default(string), string name = default(string), string firstName = default(string), string lastName = default(string), string address = default(string), string country = default(string), string phone = default(string), string adminEmail = default(string), string orderEmail = default(string), Timezone timezone = default(Timezone), string language = default(string), string currency = default(string), string currencySymbol = default(string), string decimalSeparator = default(string), string thousandsSeparator = default(string), int? decimalPlaces = default(int?), string currencySymbolLocation = default(string), string weightUnits = default(string), string dimensionUnits = default(string), int? dimensionDecimalPlaces = default(int?), string dimensionDecimalToken = default(string), string dimensionThousandsToken = default(string), string planName = default(string), string planLevel = default(string), string industry = default(string), StoreInformationLogo logo = default(StoreInformationLogo), bool? isPriceEnteredWithTax = default(bool?), List<Object> activeComparisonModules = default(List<Object>), StoreInformationFeatures features = default(StoreInformationFeatures))
+         {
+             this.Id = id;
+             this.Domain = domain;
+@@ -188,7 +188,7 @@
+         /// Gets or Sets Timezone
+         /// </summary>
+         [DataMember(Name="timezone", EmitDefaultValue=false)]
+-        public TimeZone Timezone { get; set; }
++        public Timezone Timezone { get; set; }
+ 
+         /// <summary>
+         /// Default language code.
+Binary files src.orig/StoreInfo/obj/Debug/StoreInfo.csprojAssemblyReference.cache and src/StoreInfo/obj/Debug/StoreInfo.csprojAssemblyReference.cache differ
+diff -ur src.orig/StoreInfo.Test/Model/TimeZoneTests.cs src/StoreInfo.Test/Model/TimeZoneTests.cs
+--- src.orig/StoreInfo.Test/Model/TimeZoneTests.cs	2020-11-29 23:30:13.683235900 -0700
++++ src/StoreInfo.Test/Model/TimeZoneTests.cs	2020-11-29 23:46:40.913300300 -0700
+@@ -23,7 +23,7 @@
+ namespace StoreInfo.Test
+ {
+     /// <summary>
+-    ///  Class for testing TimeZone
++    ///  Class for testing Timezone
+     /// </summary>
+     /// <remarks>
+     /// This file is automatically generated by Swagger Codegen.
+@@ -32,8 +32,8 @@
+     [TestFixture]
+     public class TimeZoneTests
+     {
+-        // TODO uncomment below to declare an instance variable for TimeZone
+-        //private TimeZone instance;
++        // TODO uncomment below to declare an instance variable for Timezone
++        //private Timezone instance;
+ 
+         /// <summary>
+         /// Setup before each test
+@@ -41,8 +41,8 @@
+         [SetUp]
+         public void Init()
+         {
+-            // TODO uncomment below to create an instance of TimeZone
+-            //instance = new TimeZone();
++            // TODO uncomment below to create an instance of Timezone
++            //instance = new Timezone();
+         }
+ 
+         /// <summary>
+@@ -55,13 +55,13 @@
+         }
+ 
+         /// <summary>
+-        /// Test an instance of TimeZone
++        /// Test an instance of Timezone
+         /// </summary>
+         [Test]
+         public void TimeZoneInstanceTest()
+         {
+-            // TODO uncomment below to test "IsInstanceOfType" TimeZone
+-            //Assert.IsInstanceOfType<TimeZone> (instance, "variable 'instance' is a TimeZone");
++            // TODO uncomment below to test "IsInstanceOfType" Timezone
++            //Assert.IsInstanceOfType<Timezone> (instance, "variable 'instance' is a Timezone");
+         }
+ 
+ 
+Only in src.orig/StoreInfo.Test/obj/Debug: StoreInfo.Test.csprojAssemblyReference.cache

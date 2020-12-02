@@ -27,3 +27,4 @@ gulpfile.config.json
 node_modules
 
 **/.idea
+**/.vs/*

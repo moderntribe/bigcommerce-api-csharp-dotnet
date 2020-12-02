@@ -41,6 +41,7 @@ const apis = [
     name: 'storeInfo',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/store-information-api/store_information.v2.json',
     packageName: 'StoreInfo',
+    patches: 'storeInfo.patch',
   },
   {
     name: 'scripts',
@@ -232,7 +233,7 @@ const testSupport = async (done) => {
 
 // export tasks
 export {
-  buildAll, buildOne, testSupport, parentPom,
+  buildAll, buildOne, testSupport,
 };
 
 export default buildAll;
