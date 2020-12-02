@@ -28,3 +28,7 @@ node_modules
 
 **/.idea
 **/.vs/*
+
+Sample/packages/*
+Sample/Sample/bin/*
+Sample/Sample/obj/*
