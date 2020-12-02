@@ -47,8 +47,8 @@ Make sure it is in the gulpfile.esm.js. Update as above.
 
 ## Creating a new project in VS2019
 
-Create a new .NET Framework. Target 4.7 or later.
-On your solution, add an existing project. Locate for example clients/storeInfo/src/StoreInfo/StoreInfo.csproj
-On your project, add a reference. Choose the Project you just added.
-Now you can use the code in your own project, as exemplified in the Sample project.
-You'll need to include NewtonSoft.Json as a dependency if you want to read your gulpfile.config.json file.
+* Create a new .NET Framework. Target 4.7 or later.
+* On your solution, add an existing project. Locate for example clients/storeInfo/src/StoreInfo/StoreInfo.csproj
+* On your project, add a reference. Choose the Project you just added.
+* Now you can use the code in your own project, as exemplified in the Sample project.
+* You'll need to include NewtonSoft.Json as a dependency if you want to read your gulpfile.config.json file.
