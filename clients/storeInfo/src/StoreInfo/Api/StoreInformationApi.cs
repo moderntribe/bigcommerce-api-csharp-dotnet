@@ -234,8 +234,6 @@ namespace StoreInfo.Api
             if (localVarHttpHeaderAccept != null)
                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
 
-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
             // authentication (X-Auth-Token) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
             {
@@ -254,6 +252,10 @@ namespace StoreInfo.Api
                 Exception exception = ExceptionFactory("StoreGet", localVarResponse);
                 if (exception != null) throw exception;
             }
+
+            string pattern = @".logo.:[^\[]*\[\],";
+            var s = System.Text.RegularExpressions.Regex.Replace(localVarResponse.Content, pattern, "\"logo\": {},");
+            localVarResponse.Content = s;            
 
             return new ApiResponse<StoreInformation>(localVarStatusCode,
                 localVarResponse.Headers.ToDictionary(x => x.Name, x => string.Join(",", x.Value)),
@@ -313,8 +315,6 @@ namespace StoreInfo.Api
             if (localVarHttpHeaderAccept != null)
                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
 
-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
             // authentication (X-Auth-Token) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
             {
@@ -333,6 +333,10 @@ namespace StoreInfo.Api
                 Exception exception = ExceptionFactory("StoreGet", localVarResponse);
                 if (exception != null) throw exception;
             }
+
+            string pattern = @".logo.:[^\[]*\[\],";
+            var s = System.Text.RegularExpressions.Regex.Replace(localVarResponse.Content, pattern, "\"logo\": {},");
+            localVarResponse.Content = s;
 
             return new ApiResponse<StoreInformation>(localVarStatusCode,
                 localVarResponse.Headers.ToDictionary(x => x.Name, x => string.Join(",", x.Value)),

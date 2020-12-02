@@ -1,40 +1,36 @@
 diff -ur src.orig/StoreInfo/Api/StoreInformationApi.cs src/StoreInfo/Api/StoreInformationApi.cs
---- src.orig/StoreInfo/Api/StoreInformationApi.cs	2020-11-29 23:30:13.420929700 -0700
-+++ src/StoreInfo/Api/StoreInformationApi.cs	2020-11-29 23:33:57.205255300 -0700
-@@ -234,8 +234,8 @@
+--- src.orig/StoreInfo/Api/StoreInformationApi.cs	2020-12-01 22:42:19.964120400 -0700
++++ src/StoreInfo/Api/StoreInformationApi.cs	2020-12-01 22:43:33.956429400 -0700
+@@ -234,8 +234,6 @@
              if (localVarHttpHeaderAccept != null)
                  localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
  
 -            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
 -            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
-+            // if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
-+            // if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
              // authentication (X-Auth-Token) required
              if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
              {
-@@ -255,6 +255,10 @@
+@@ -255,6 +253,10 @@
                  if (exception != null) throw exception;
              }
  
 +            string pattern = @".logo.:[^\[]*\[\],";
 +            var s = System.Text.RegularExpressions.Regex.Replace(localVarResponse.Content, pattern, "\"logo\": {},");
-+            localVarResponse.Content = s;
++            localVarResponse.Content = s;            
 +
              return new ApiResponse<StoreInformation>(localVarStatusCode,
                  localVarResponse.Headers.ToDictionary(x => x.Name, x => string.Join(",", x.Value)),
                  (StoreInformation) this.Configuration.ApiClient.Deserialize(localVarResponse, typeof(StoreInformation)));
-@@ -313,8 +317,8 @@
+@@ -313,8 +315,6 @@
              if (localVarHttpHeaderAccept != null)
                  localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
  
 -            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
 -            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
-+            // if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
-+            // if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
              // authentication (X-Auth-Token) required
              if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
              {
-@@ -334,6 +338,10 @@
+@@ -334,6 +334,10 @@
                  if (exception != null) throw exception;
              }
  
@@ -46,8 +42,8 @@ diff -ur src.orig/StoreInfo/Api/StoreInformationApi.cs src/StoreInfo/Api/StoreIn
                  localVarResponse.Headers.ToDictionary(x => x.Name, x => string.Join(",", x.Value)),
                  (StoreInformation) this.Configuration.ApiClient.Deserialize(localVarResponse, typeof(StoreInformation)));
 diff -ur src.orig/StoreInfo/Model/StoreInformation.cs src/StoreInfo/Model/StoreInformation.cs
---- src.orig/StoreInfo/Model/StoreInformation.cs	2020-11-29 23:30:13.557308600 -0700
-+++ src/StoreInfo/Model/StoreInformation.cs	2020-11-29 23:46:37.938547200 -0700
+--- src.orig/StoreInfo/Model/StoreInformation.cs	2020-12-01 22:42:20.010992200 -0700
++++ src/StoreInfo/Model/StoreInformation.cs	2020-12-01 22:44:38.579711900 -0700
 @@ -64,7 +64,7 @@
          /// <param name="isPriceEnteredWithTax">A Boolean value that indicates whether or not prices are entered with tax..</param>
          /// <param name="activeComparisonModules">activeComparisonModules.</param>
@@ -66,10 +62,9 @@ diff -ur src.orig/StoreInfo/Model/StoreInformation.cs src/StoreInfo/Model/StoreI
  
          /// <summary>
          /// Default language code.
-Binary files src.orig/StoreInfo/obj/Debug/StoreInfo.csprojAssemblyReference.cache and src/StoreInfo/obj/Debug/StoreInfo.csprojAssemblyReference.cache differ
 diff -ur src.orig/StoreInfo.Test/Model/TimeZoneTests.cs src/StoreInfo.Test/Model/TimeZoneTests.cs
---- src.orig/StoreInfo.Test/Model/TimeZoneTests.cs	2020-11-29 23:30:13.683235900 -0700
-+++ src/StoreInfo.Test/Model/TimeZoneTests.cs	2020-11-29 23:46:40.913300300 -0700
+--- src.orig/StoreInfo.Test/Model/TimeZoneTests.cs	2020-12-01 22:42:19.932889300 -0700
++++ src/StoreInfo.Test/Model/TimeZoneTests.cs	2020-12-01 22:44:38.579711900 -0700
 @@ -23,7 +23,7 @@
  namespace StoreInfo.Test
  {
@@ -118,4 +113,3 @@ diff -ur src.orig/StoreInfo.Test/Model/TimeZoneTests.cs src/StoreInfo.Test/Model
          }
  
  
-Only in src.orig/StoreInfo.Test/obj/Debug: StoreInfo.Test.csprojAssemblyReference.cache

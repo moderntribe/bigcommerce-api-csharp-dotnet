@@ -64,7 +64,7 @@ namespace StoreInfo.Model
         /// <param name="isPriceEnteredWithTax">A Boolean value that indicates whether or not prices are entered with tax..</param>
         /// <param name="activeComparisonModules">activeComparisonModules.</param>
         /// <param name="features">features.</param>
-        public StoreInformation(string id = default(string), string domain = default(string), string secureURL = default(string), string controlPanelBaseUrl = default(string), string name = default(string), string firstName = default(string), string lastName = default(string), string address = default(string), string country = default(string), string phone = default(string), string adminEmail = default(string), string orderEmail = default(string), TimeZone timezone = default(TimeZone), string language = default(string), string currency = default(string), string currencySymbol = default(string), string decimalSeparator = default(string), string thousandsSeparator = default(string), int? decimalPlaces = default(int?), string currencySymbolLocation = default(string), string weightUnits = default(string), string dimensionUnits = default(string), int? dimensionDecimalPlaces = default(int?), string dimensionDecimalToken = default(string), string dimensionThousandsToken = default(string), string planName = default(string), string planLevel = default(string), string industry = default(string), StoreInformationLogo logo = default(StoreInformationLogo), bool? isPriceEnteredWithTax = default(bool?), List<Object> activeComparisonModules = default(List<Object>), StoreInformationFeatures features = default(StoreInformationFeatures))
+        public StoreInformation(string id = default(string), string domain = default(string), string secureURL = default(string), string controlPanelBaseUrl = default(string), string name = default(string), string firstName = default(string), string lastName = default(string), string address = default(string), string country = default(string), string phone = default(string), string adminEmail = default(string), string orderEmail = default(string), Timezone timezone = default(Timezone), string language = default(string), string currency = default(string), string currencySymbol = default(string), string decimalSeparator = default(string), string thousandsSeparator = default(string), int? decimalPlaces = default(int?), string currencySymbolLocation = default(string), string weightUnits = default(string), string dimensionUnits = default(string), int? dimensionDecimalPlaces = default(int?), string dimensionDecimalToken = default(string), string dimensionThousandsToken = default(string), string planName = default(string), string planLevel = default(string), string industry = default(string), StoreInformationLogo logo = default(StoreInformationLogo), bool? isPriceEnteredWithTax = default(bool?), List<Object> activeComparisonModules = default(List<Object>), StoreInformationFeatures features = default(StoreInformationFeatures))
         {
             this.Id = id;
             this.Domain = domain;
@@ -188,7 +188,7 @@ namespace StoreInfo.Model
         /// Gets or Sets Timezone
         /// </summary>
         [DataMember(Name="timezone", EmitDefaultValue=false)]
-        public TimeZone Timezone { get; set; }
+        public Timezone Timezone { get; set; }
 
         /// <summary>
         /// Default language code.

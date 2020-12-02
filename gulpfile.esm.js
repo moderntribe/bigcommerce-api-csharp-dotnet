@@ -41,7 +41,7 @@ const apis = [
     name: 'storeInfo',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/store-information-api/store_information.v2.json',
     packageName: 'StoreInfo',
-    patches: 'storeInfo.patch',
+    patch: 'store_info.patch',
   },
   {
     name: 'scripts',
@@ -128,20 +128,6 @@ const codegen = api => done => {
   );
 };
 
-const parentPom = () => (
-  gulp.src('./resources/clients/pom.xml.mustache')
-    .pipe(mustache({ 
-      artifactVersion,
-      modules: apis.map(api => api.artifactId),
-    }))
-    .pipe(rename(path => ({
-      dirname: path.dirname,
-      basename: path.basename,
-      extname: ""
-    })))
-    .pipe(gulp.dest('clients'))
-);
-
 const postCleanup = api => () => (
   gulp
     .src([
@@ -195,7 +181,6 @@ const buildClean = (api) => {
     Object.assign(clean(api), { displayName: 'clean' }),
     installSwagger,
     Object.assign(codegen(api), { displayName: 'codegen' }),
-    // parentPom,
     Object.assign(applyPatch(api), { displayName: 'applyPatch' }),
     // Object.assign(applyCustomFixes(api), { displayName: 'applyCustomFixes' }),
     Object.assign(postCleanup(api), { displayName: 'postCleanup' }),
