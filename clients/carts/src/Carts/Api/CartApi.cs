@@ -32,10 +32,11 @@ namespace Carts.Api
         /// <exception cref="Carts.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body">**Examples:**
 
-1. Creating a cart by adding a simple product (a product without option selections).
-2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
-3. Creating a cart with a variant, a checkbox, and a picklist modifier added.
-4. Creating a cart using a custom item.</param>
+        // 1. Creating a cart by adding a simple product (a product without option selections).
+        // 2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
+        // 3. Creating a cart using a date option. The API supports timestamps, “option_value”: 1743570000, and dates as an array, “option_value”: {“day”:”01”, “month”:”02”, “year”:”2020”}.
+        // 4. Creating a cart with a variant, a checkbox, and a picklist modifier added.
+        // 5. Creating a cart using a custom item.</param>
         /// <param name="accept"></param>
         /// <param name="contentType"></param>
         /// <param name="include">* &#x60;redirect_urls&#x60;: Create a direct link to a Cart. This can be used during the /POST request for Carts. * &#x60;line_items.physical_items.options&#x60;: The Cart returns an abbreviated result. Use this to return physical items product options. Can also be used in a /POST to have the extended Cart object return. * &#x60;line_items.digital_items.options&#x60;: The Cart returns an abbreviated result. Use this to return digital items product options.  Can also be used in a /POST to have the extended Cart object return. (optional)</param>
@@ -51,10 +52,11 @@ namespace Carts.Api
         /// <exception cref="Carts.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body">**Examples:**
 
-1. Creating a cart by adding a simple product (a product without option selections).
-2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
-3. Creating a cart with a variant, a checkbox, and a picklist modifier added.
-4. Creating a cart using a custom item.</param>
+        // 1. Creating a cart by adding a simple product (a product without option selections).
+        // 2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
+        // 3. Creating a cart using a date option. The API supports timestamps, “option_value”: 1743570000, and dates as an array, “option_value”: {“day”:”01”, “month”:”02”, “year”:”2020”}.
+        // 4. Creating a cart with a variant, a checkbox, and a picklist modifier added.
+        // 5. Creating a cart using a custom item.</param>
         /// <param name="accept"></param>
         /// <param name="contentType"></param>
         /// <param name="include">* &#x60;redirect_urls&#x60;: Create a direct link to a Cart. This can be used during the /POST request for Carts. * &#x60;line_items.physical_items.options&#x60;: The Cart returns an abbreviated result. Use this to return physical items product options. Can also be used in a /POST to have the extended Cart object return. * &#x60;line_items.digital_items.options&#x60;: The Cart returns an abbreviated result. Use this to return digital items product options.  Can also be used in a /POST to have the extended Cart object return. (optional)</param>
@@ -152,10 +154,11 @@ namespace Carts.Api
         /// <exception cref="Carts.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body">**Examples:**
 
-1. Creating a cart by adding a simple product (a product without option selections).
-2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
-3. Creating a cart with a variant, a checkbox, and a picklist modifier added.
-4. Creating a cart using a custom item.</param>
+        // 1. Creating a cart by adding a simple product (a product without option selections).
+        // 2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
+        // 3. Creating a cart using a date option. The API supports timestamps, “option_value”: 1743570000, and dates as an array, “option_value”: {“day”:”01”, “month”:”02”, “year”:”2020”}.
+        // 4. Creating a cart with a variant, a checkbox, and a picklist modifier added.
+        // 5. Creating a cart using a custom item.</param>
         /// <param name="accept"></param>
         /// <param name="contentType"></param>
         /// <param name="include">* &#x60;redirect_urls&#x60;: Create a direct link to a Cart. This can be used during the /POST request for Carts. * &#x60;line_items.physical_items.options&#x60;: The Cart returns an abbreviated result. Use this to return physical items product options. Can also be used in a /POST to have the extended Cart object return. * &#x60;line_items.digital_items.options&#x60;: The Cart returns an abbreviated result. Use this to return digital items product options.  Can also be used in a /POST to have the extended Cart object return. (optional)</param>
@@ -171,10 +174,11 @@ namespace Carts.Api
         /// <exception cref="Carts.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body">**Examples:**
 
-1. Creating a cart by adding a simple product (a product without option selections).
-2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
-3. Creating a cart with a variant, a checkbox, and a picklist modifier added.
-4. Creating a cart using a custom item.</param>
+        // 1. Creating a cart by adding a simple product (a product without option selections).
+        // 2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
+        // 3. Creating a cart using a date option. The API supports timestamps, “option_value”: 1743570000, and dates as an array, “option_value”: {“day”:”01”, “month”:”02”, “year”:”2020”}.
+        // 4. Creating a cart with a variant, a checkbox, and a picklist modifier added.
+        // 5. Creating a cart using a custom item.</param>
         /// <param name="accept"></param>
         /// <param name="contentType"></param>
         /// <param name="include">* &#x60;redirect_urls&#x60;: Create a direct link to a Cart. This can be used during the /POST request for Carts. * &#x60;line_items.physical_items.options&#x60;: The Cart returns an abbreviated result. Use this to return physical items product options. Can also be used in a /POST to have the extended Cart object return. * &#x60;line_items.digital_items.options&#x60;: The Cart returns an abbreviated result. Use this to return digital items product options.  Can also be used in a /POST to have the extended Cart object return. (optional)</param>
@@ -378,10 +382,11 @@ namespace Carts.Api
         /// <exception cref="Carts.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body">**Examples:**
 
-1. Creating a cart by adding a simple product (a product without option selections).
-2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
-3. Creating a cart with a variant, a checkbox, and a picklist modifier added.
-4. Creating a cart using a custom item.</param>
+        // 1. Creating a cart by adding a simple product (a product without option selections).
+        // 2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
+        // 3. Creating a cart using a date option. The API supports timestamps, “option_value”: 1743570000, and dates as an array, “option_value”: {“day”:”01”, “month”:”02”, “year”:”2020”}.
+        // 4. Creating a cart with a variant, a checkbox, and a picklist modifier added.
+        // 5. Creating a cart using a custom item.</param>
         /// <param name="accept"></param>
         /// <param name="contentType"></param>
         /// <param name="include">* &#x60;redirect_urls&#x60;: Create a direct link to a Cart. This can be used during the /POST request for Carts. * &#x60;line_items.physical_items.options&#x60;: The Cart returns an abbreviated result. Use this to return physical items product options. Can also be used in a /POST to have the extended Cart object return. * &#x60;line_items.digital_items.options&#x60;: The Cart returns an abbreviated result. Use this to return digital items product options.  Can also be used in a /POST to have the extended Cart object return. (optional)</param>
@@ -398,10 +403,11 @@ namespace Carts.Api
         /// <exception cref="Carts.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body">**Examples:**
 
-1. Creating a cart by adding a simple product (a product without option selections).
-2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
-3. Creating a cart with a variant, a checkbox, and a picklist modifier added.
-4. Creating a cart using a custom item.</param>
+        // 1. Creating a cart by adding a simple product (a product without option selections).
+        // 2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
+        // 3. Creating a cart using a date option. The API supports timestamps, “option_value”: 1743570000, and dates as an array, “option_value”: {“day”:”01”, “month”:”02”, “year”:”2020”}.
+        // 4. Creating a cart with a variant, a checkbox, and a picklist modifier added.
+        // 5. Creating a cart using a custom item.</param>
         /// <param name="accept"></param>
         /// <param name="contentType"></param>
         /// <param name="include">* &#x60;redirect_urls&#x60;: Create a direct link to a Cart. This can be used during the /POST request for Carts. * &#x60;line_items.physical_items.options&#x60;: The Cart returns an abbreviated result. Use this to return physical items product options. Can also be used in a /POST to have the extended Cart object return. * &#x60;line_items.digital_items.options&#x60;: The Cart returns an abbreviated result. Use this to return digital items product options.  Can also be used in a /POST to have the extended Cart object return. (optional)</param>
@@ -441,8 +447,6 @@ namespace Carts.Api
                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
 
             if (include != null) localVarQueryParams.AddRange(this.Configuration.ApiClient.ParameterToKeyValuePairs("", "include", include)); // query parameter
-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
             if (body != null && body.GetType() != typeof(byte[]))
             {
                 localVarPostBody = this.Configuration.ApiClient.Serialize(body); // http body (model) parameter
@@ -481,10 +485,11 @@ namespace Carts.Api
         /// <exception cref="Carts.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body">**Examples:**
 
-1. Creating a cart by adding a simple product (a product without option selections).
-2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
-3. Creating a cart with a variant, a checkbox, and a picklist modifier added.
-4. Creating a cart using a custom item.</param>
+        // 1. Creating a cart by adding a simple product (a product without option selections).
+        // 2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
+        // 3. Creating a cart using a date option. The API supports timestamps, “option_value”: 1743570000, and dates as an array, “option_value”: {“day”:”01”, “month”:”02”, “year”:”2020”}.
+        // 4. Creating a cart with a variant, a checkbox, and a picklist modifier added.
+        // 5. Creating a cart using a custom item.</param>
         /// <param name="accept"></param>
         /// <param name="contentType"></param>
         /// <param name="include">* &#x60;redirect_urls&#x60;: Create a direct link to a Cart. This can be used during the /POST request for Carts. * &#x60;line_items.physical_items.options&#x60;: The Cart returns an abbreviated result. Use this to return physical items product options. Can also be used in a /POST to have the extended Cart object return. * &#x60;line_items.digital_items.options&#x60;: The Cart returns an abbreviated result. Use this to return digital items product options.  Can also be used in a /POST to have the extended Cart object return. (optional)</param>
@@ -502,10 +507,11 @@ namespace Carts.Api
         /// <exception cref="Carts.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body">**Examples:**
 
-1. Creating a cart by adding a simple product (a product without option selections).
-2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
-3. Creating a cart with a variant, a checkbox, and a picklist modifier added.
-4. Creating a cart using a custom item.</param>
+        // 1. Creating a cart by adding a simple product (a product without option selections).
+        // 2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
+        // 3. Creating a cart using a date option. The API supports timestamps, “option_value”: 1743570000, and dates as an array, “option_value”: {“day”:”01”, “month”:”02”, “year”:”2020”}.
+        // 4. Creating a cart with a variant, a checkbox, and a picklist modifier added.
+        // 5. Creating a cart using a custom item.</param>
         /// <param name="accept"></param>
         /// <param name="contentType"></param>
         /// <param name="include">* &#x60;redirect_urls&#x60;: Create a direct link to a Cart. This can be used during the /POST request for Carts. * &#x60;line_items.physical_items.options&#x60;: The Cart returns an abbreviated result. Use this to return physical items product options. Can also be used in a /POST to have the extended Cart object return. * &#x60;line_items.digital_items.options&#x60;: The Cart returns an abbreviated result. Use this to return digital items product options.  Can also be used in a /POST to have the extended Cart object return. (optional)</param>
@@ -545,8 +551,6 @@ namespace Carts.Api
                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
 
             if (include != null) localVarQueryParams.AddRange(this.Configuration.ApiClient.ParameterToKeyValuePairs("", "include", include)); // query parameter
-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
             if (body != null && body.GetType() != typeof(byte[]))
             {
                 localVarPostBody = this.Configuration.ApiClient.Serialize(body); // http body (model) parameter
@@ -633,8 +637,6 @@ namespace Carts.Api
                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
 
             if (cartId != null) localVarPathParams.Add("cartId", this.Configuration.ApiClient.ParameterToString(cartId)); // path parameter
-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
             // authentication (X-Auth-Token) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
             {
@@ -714,8 +716,6 @@ namespace Carts.Api
                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
 
             if (cartId != null) localVarPathParams.Add("cartId", this.Configuration.ApiClient.ParameterToString(cartId)); // path parameter
-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
             // authentication (X-Auth-Token) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
             {
@@ -799,8 +799,6 @@ namespace Carts.Api
 
             if (cartId != null) localVarPathParams.Add("cartId", this.Configuration.ApiClient.ParameterToString(cartId)); // path parameter
             if (include != null) localVarQueryParams.AddRange(this.Configuration.ApiClient.ParameterToKeyValuePairs("", "include", include)); // query parameter
-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
             // authentication (X-Auth-Token) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
             {
@@ -885,8 +883,6 @@ namespace Carts.Api
 
             if (cartId != null) localVarPathParams.Add("cartId", this.Configuration.ApiClient.ParameterToString(cartId)); // path parameter
             if (include != null) localVarQueryParams.AddRange(this.Configuration.ApiClient.ParameterToKeyValuePairs("", "include", include)); // query parameter
-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
             // authentication (X-Auth-Token) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
             {
@@ -976,8 +972,6 @@ namespace Carts.Api
 
             if (cartId != null) localVarPathParams.Add("cartId", this.Configuration.ApiClient.ParameterToString(cartId)); // path parameter
             if (include != null) localVarQueryParams.AddRange(this.Configuration.ApiClient.ParameterToKeyValuePairs("", "include", include)); // query parameter
-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
             if (body != null && body.GetType() != typeof(byte[]))
             {
                 localVarPostBody = this.Configuration.ApiClient.Serialize(body); // http body (model) parameter
@@ -1076,8 +1070,6 @@ namespace Carts.Api
 
             if (cartId != null) localVarPathParams.Add("cartId", this.Configuration.ApiClient.ParameterToString(cartId)); // path parameter
             if (include != null) localVarQueryParams.AddRange(this.Configuration.ApiClient.ParameterToKeyValuePairs("", "include", include)); // query parameter
-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
             if (body != null && body.GetType() != typeof(byte[]))
             {
                 localVarPostBody = this.Configuration.ApiClient.Serialize(body); // http body (model) parameter

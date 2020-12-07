@@ -41,8 +41,9 @@ namespace Example
 
 1. Creating a cart by adding a simple product (a product without option selections).
 2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
-3. Creating a cart with a variant, a checkbox, and a picklist modifier added.
-4. Creating a cart using a custom item.
+3. Creating a cart using a date option. The API supports timestamps, “option_value”: 1743570000, and dates as an array, “option_value”: {“day”:”01”, “month”:”02”, “year”:”2020”}.
+4. Creating a cart with a variant, a checkbox, and a picklist modifier added.
+5. Creating a cart using a custom item.
             var accept = accept_example;  // string |  (default to application/json)
             var contentType = contentType_example;  // string |  (default to application/json)
             var include = include_example;  // string | * `redirect_urls`: Create a direct link to a Cart. This can be used during the /POST request for Carts. * `line_items.physical_items.options`: The Cart returns an abbreviated result. Use this to return physical items product options. Can also be used in a /POST to have the extended Cart object return. * `line_items.digital_items.options`: The Cart returns an abbreviated result. Use this to return digital items product options.  Can also be used in a /POST to have the extended Cart object return. (optional) 
@@ -70,8 +71,9 @@ Name | Type | Description  | Notes
 
 1. Creating a cart by adding a simple product (a product without option selections).
 2. Creating a cart with a variant. This works when a product can be specified purely by a variant, without any other required options.
-3. Creating a cart with a variant, a checkbox, and a picklist modifier added.
-4. Creating a cart using a custom item. | 
+3. Creating a cart using a date option. The API supports timestamps, “option_value”: 1743570000, and dates as an array, “option_value”: {“day”:”01”, “month”:”02”, “year”:”2020”}.
+4. Creating a cart with a variant, a checkbox, and a picklist modifier added.
+5. Creating a cart using a custom item. | 
  **accept** | **string**|  | [default to application/json]
  **contentType** | **string**|  | [default to application/json]
  **include** | **string**| * &#x60;redirect_urls&#x60;: Create a direct link to a Cart. This can be used during the /POST request for Carts. * &#x60;line_items.physical_items.options&#x60;: The Cart returns an abbreviated result. Use this to return physical items product options. Can also be used in a /POST to have the extended Cart object return. * &#x60;line_items.digital_items.options&#x60;: The Cart returns an abbreviated result. Use this to return digital items product options.  Can also be used in a /POST to have the extended Cart object return. | [optional] 

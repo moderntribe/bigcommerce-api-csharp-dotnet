@@ -7,14 +7,17 @@ namespace Sample
     {
         static void Main(string[] args)
         {
-            // read in json file
+            // read in json file (see Readme.md for instructions)
             JObject authConfig = JObject.Parse(File.ReadAllText(@"..\..\..\..\gulpfile.config.json"));
 
             StoreInfoSample storeInfoSample = new StoreInfoSample(authConfig);
             storeInfoSample.getStoreInfo();
 
-            ThemesSample themesCheck = new ThemesSample(authConfig);
-            themesCheck.getStoreThemes();
+            ThemesSample themesSample = new ThemesSample(authConfig);
+            themesSample.getStoreThemes();
+
+            CartSample cartSample = new CartSample(authConfig);
+            cartSample.getACart();
         }
     }
 }

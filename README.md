@@ -43,7 +43,8 @@ gulp buildOne --name StoreInfo
 
 ## Adding a new API
 
-Make sure it is in the gulpfile.esm.js. Update as above.
+Make sure it is in the gulpfile.esm.js. Build the client library as described above for updating.
+In VS2019, add a new existing project to the solution. Then in your project, add a reference to the new project.
 
 ## Creating a new project in VS2019
 

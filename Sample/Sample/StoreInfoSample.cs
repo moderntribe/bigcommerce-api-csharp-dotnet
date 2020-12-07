@@ -36,6 +36,5 @@ namespace Sample
                 Debug.Print("Exception when calling StoreInformationApi.StoreGet: " + e.ToString());
             }
         }
-
     }
 }

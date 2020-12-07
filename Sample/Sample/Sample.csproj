@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CartSample.cs" />
     <Compile Include="StoreInfoSample.cs" />
     <Compile Include="ThemesSample.cs" />
     <Compile Include="SampleRunner.cs" />
@@ -56,6 +57,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\clients\carts\src\Carts\Carts.csproj">
+      <Project>{c9d9acd4-4c8d-42f1-89c3-7216d1f75356}</Project>
+      <Name>Carts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\clients\storeInfo\src\StoreInfo\StoreInfo.csproj">
       <Project>{d0fe075f-69c4-4209-b3b2-a83548e6891b}</Project>
       <Name>StoreInfo</Name>

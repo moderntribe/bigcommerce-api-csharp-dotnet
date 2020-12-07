@@ -81,6 +81,7 @@ const apis = [
     name: 'carts',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/carts/carts.v3.json',
     packageName: 'Carts',
+    patch: 'carts.patch',
   }
 ];
 
