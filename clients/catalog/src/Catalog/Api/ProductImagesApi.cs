@@ -27,7 +27,7 @@ namespace Catalog.Api
         /// Create a Product Image
         /// </summary>
         /// <remarks>
-        /// Creates a *Product Image*.    **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - Only one image at a time can be created
+        /// Creates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - Only one image at a time can be created
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -41,7 +41,7 @@ namespace Catalog.Api
         /// Create a Product Image
         /// </summary>
         /// <remarks>
-        /// Creates a *Product Image*.    **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - Only one image at a time can be created
+        /// Creates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - Only one image at a time can be created
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -145,7 +145,7 @@ namespace Catalog.Api
         /// Update a Product Image
         /// </summary>
         /// <remarks>
-        /// Updates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - When using file upload, other image file params can be updated using &#x60;key:value&#x60; pairs. 
+        /// Updates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - When using file upload, other image file params can be updated using &#x60;key:value&#x60; pairs.
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -160,7 +160,7 @@ namespace Catalog.Api
         /// Update a Product Image
         /// </summary>
         /// <remarks>
-        /// Updates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - When using file upload, other image file params can be updated using &#x60;key:value&#x60; pairs. 
+        /// Updates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - When using file upload, other image file params can be updated using &#x60;key:value&#x60; pairs.
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -176,7 +176,7 @@ namespace Catalog.Api
         /// Create a Product Image
         /// </summary>
         /// <remarks>
-        /// Creates a *Product Image*.    **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - Only one image at a time can be created
+        /// Creates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - Only one image at a time can be created
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -190,7 +190,7 @@ namespace Catalog.Api
         /// Create a Product Image
         /// </summary>
         /// <remarks>
-        /// Creates a *Product Image*.    **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - Only one image at a time can be created
+        /// Creates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - Only one image at a time can be created
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -294,7 +294,7 @@ namespace Catalog.Api
         /// Update a Product Image
         /// </summary>
         /// <remarks>
-        /// Updates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - When using file upload, other image file params can be updated using &#x60;key:value&#x60; pairs. 
+        /// Updates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - When using file upload, other image file params can be updated using &#x60;key:value&#x60; pairs.
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -309,7 +309,7 @@ namespace Catalog.Api
         /// Update a Product Image
         /// </summary>
         /// <remarks>
-        /// Updates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - When using file upload, other image file params can be updated using &#x60;key:value&#x60; pairs. 
+        /// Updates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - When using file upload, other image file params can be updated using &#x60;key:value&#x60; pairs.
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -431,7 +431,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Create a Product Image Creates a *Product Image*.    **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - Only one image at a time can be created
+        /// Create a Product Image Creates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - Only one image at a time can be created
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -446,7 +446,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Create a Product Image Creates a *Product Image*.    **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - Only one image at a time can be created
+        /// Create a Product Image Creates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - Only one image at a time can be created
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -528,7 +528,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Create a Product Image Creates a *Product Image*.    **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - Only one image at a time can be created
+        /// Create a Product Image Creates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - Only one image at a time can be created
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -544,7 +544,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Create a Product Image Creates a *Product Image*.    **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - Only one image at a time can be created
+        /// Create a Product Image Creates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - Only one image at a time can be created
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -1177,7 +1177,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Update a Product Image Updates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - When using file upload, other image file params can be updated using &#x60;key:value&#x60; pairs. 
+        /// Update a Product Image Updates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - When using file upload, other image file params can be updated using &#x60;key:value&#x60; pairs.
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -1193,7 +1193,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Update a Product Image Updates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - When using file upload, other image file params can be updated using &#x60;key:value&#x60; pairs. 
+        /// Update a Product Image Updates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - When using file upload, other image file params can be updated using &#x60;key:value&#x60; pairs.
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -1279,7 +1279,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Update a Product Image Updates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - When using file upload, other image file params can be updated using &#x60;key:value&#x60; pairs. 
+        /// Update a Product Image Updates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - When using file upload, other image file params can be updated using &#x60;key:value&#x60; pairs.
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -1296,7 +1296,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Update a Product Image Updates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - When using file upload, other image file params can be updated using &#x60;key:value&#x60; pairs. 
+        /// Update a Product Image Updates a *Product Image*.   **Required Fields** - &#x60;image_file&#x60;, or - &#x60;image_url&#x60;  **Usage Notes** - &#x60;image_url&#x60; - &#x60;255&#x60; character limit - When using file upload, other image file params can be updated using &#x60;key:value&#x60; pairs.
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>

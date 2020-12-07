@@ -309,7 +309,7 @@ Name | Type | Description  | Notes
 
 Update a Custom Field
 
-Updates a *Custom Field*.   **Required Fields** - none  **Read-Only** - id
+Updates a *Custom Field*.  **Required Fields** - none  **Read-Only** - id
 
 ### Example
 ```csharp

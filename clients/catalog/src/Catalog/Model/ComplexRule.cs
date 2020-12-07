@@ -35,7 +35,7 @@ namespace Catalog.Model
         /// <param name="conditions">conditions.</param>
         /// <param name="enabled">Flag for determining whether the rule is to be used when adjusting a product&#x27;s price, weight, image, or availabilty. .</param>
         /// <param name="id">The unique numeric ID of the rule; increments sequentially. Read-Only.</param>
-        /// <param name="imageUrl">The URL for an image displayed on the storefront when the conditions are applied. Limit of 8MB per file.  .</param>
+        /// <param name="imageUrl">The URL for an image displayed on the storefront when the conditions are applied. Limit of 8MB per file. .</param>
         /// <param name="priceAdjuster">priceAdjuster.</param>
         /// <param name="productId">The unique numeric ID of the product with which the rule is associated; increments sequentially. .</param>
         /// <param name="purchasingDisabled">Flag for determining whether the rule should disable purchasing of a product when the conditions are applied. .</param>
@@ -81,9 +81,9 @@ namespace Catalog.Model
         public int? Id { get; set; }
 
         /// <summary>
-        /// The URL for an image displayed on the storefront when the conditions are applied. Limit of 8MB per file.  
+        /// The URL for an image displayed on the storefront when the conditions are applied. Limit of 8MB per file. 
         /// </summary>
-        /// <value>The URL for an image displayed on the storefront when the conditions are applied. Limit of 8MB per file.  </value>
+        /// <value>The URL for an image displayed on the storefront when the conditions are applied. Limit of 8MB per file. </value>
         [DataMember(Name="image_url", EmitDefaultValue=false)]
         public string ImageUrl { get; set; }
 

@@ -27,7 +27,7 @@ namespace Catalog.Api
         /// Create a Category Image
         /// </summary>
         /// <remarks>
-        /// Create a *Category Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  Only one image at a time can be created.  Limit image size to 1MB.   To update a *Category Image*, use the [PUT Categories](/api-reference/catalog/catalog-api/category/updatecategory) and an &#x60;image_url&#x60;. 
+        /// Create a *Category Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  Only one image at a time can be created. Limit image size to 1MB. To update a *Category Image*, use the [PUT Categories](/api-reference/catalog/catalog-api/category/updatecategory) and an &#x60;image_url&#x60;.
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="accept"></param>
@@ -40,7 +40,7 @@ namespace Catalog.Api
         /// Create a Category Image
         /// </summary>
         /// <remarks>
-        /// Create a *Category Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  Only one image at a time can be created.  Limit image size to 1MB.   To update a *Category Image*, use the [PUT Categories](/api-reference/catalog/catalog-api/category/updatecategory) and an &#x60;image_url&#x60;. 
+        /// Create a *Category Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  Only one image at a time can be created. Limit image size to 1MB. To update a *Category Image*, use the [PUT Categories](/api-reference/catalog/catalog-api/category/updatecategory) and an &#x60;image_url&#x60;.
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="accept"></param>
@@ -79,7 +79,7 @@ namespace Catalog.Api
         /// Create a Category Image
         /// </summary>
         /// <remarks>
-        /// Create a *Category Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  Only one image at a time can be created.  Limit image size to 1MB.   To update a *Category Image*, use the [PUT Categories](/api-reference/catalog/catalog-api/category/updatecategory) and an &#x60;image_url&#x60;. 
+        /// Create a *Category Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  Only one image at a time can be created. Limit image size to 1MB. To update a *Category Image*, use the [PUT Categories](/api-reference/catalog/catalog-api/category/updatecategory) and an &#x60;image_url&#x60;.
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="accept"></param>
@@ -92,7 +92,7 @@ namespace Catalog.Api
         /// Create a Category Image
         /// </summary>
         /// <remarks>
-        /// Create a *Category Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  Only one image at a time can be created.  Limit image size to 1MB.   To update a *Category Image*, use the [PUT Categories](/api-reference/catalog/catalog-api/category/updatecategory) and an &#x60;image_url&#x60;. 
+        /// Create a *Category Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  Only one image at a time can be created. Limit image size to 1MB. To update a *Category Image*, use the [PUT Categories](/api-reference/catalog/catalog-api/category/updatecategory) and an &#x60;image_url&#x60;.
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="accept"></param>
@@ -237,7 +237,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Create a Category Image Create a *Category Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  Only one image at a time can be created.  Limit image size to 1MB.   To update a *Category Image*, use the [PUT Categories](/api-reference/catalog/catalog-api/category/updatecategory) and an &#x60;image_url&#x60;. 
+        /// Create a Category Image Create a *Category Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  Only one image at a time can be created. Limit image size to 1MB. To update a *Category Image*, use the [PUT Categories](/api-reference/catalog/catalog-api/category/updatecategory) and an &#x60;image_url&#x60;.
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="accept"></param>
@@ -251,7 +251,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Create a Category Image Create a *Category Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  Only one image at a time can be created.  Limit image size to 1MB.   To update a *Category Image*, use the [PUT Categories](/api-reference/catalog/catalog-api/category/updatecategory) and an &#x60;image_url&#x60;. 
+        /// Create a Category Image Create a *Category Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  Only one image at a time can be created. Limit image size to 1MB. To update a *Category Image*, use the [PUT Categories](/api-reference/catalog/catalog-api/category/updatecategory) and an &#x60;image_url&#x60;.
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="accept"></param>
@@ -295,7 +295,6 @@ namespace Catalog.Api
             if (categoryId != null) localVarPathParams.Add("category_id", this.Configuration.ApiClient.ParameterToString(categoryId)); // path parameter
             if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
             if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
-            if (imageFile != null) localVarFileParams.Add("image_file", this.Configuration.ApiClient.ParameterToFile("image_file", imageFile));
             // authentication (X-Auth-Token) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
             {
@@ -321,7 +320,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Create a Category Image Create a *Category Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  Only one image at a time can be created.  Limit image size to 1MB.   To update a *Category Image*, use the [PUT Categories](/api-reference/catalog/catalog-api/category/updatecategory) and an &#x60;image_url&#x60;. 
+        /// Create a Category Image Create a *Category Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  Only one image at a time can be created. Limit image size to 1MB. To update a *Category Image*, use the [PUT Categories](/api-reference/catalog/catalog-api/category/updatecategory) and an &#x60;image_url&#x60;.
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="accept"></param>
@@ -336,7 +335,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Create a Category Image Create a *Category Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  Only one image at a time can be created.  Limit image size to 1MB.   To update a *Category Image*, use the [PUT Categories](/api-reference/catalog/catalog-api/category/updatecategory) and an &#x60;image_url&#x60;. 
+        /// Create a Category Image Create a *Category Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  Only one image at a time can be created. Limit image size to 1MB. To update a *Category Image*, use the [PUT Categories](/api-reference/catalog/catalog-api/category/updatecategory) and an &#x60;image_url&#x60;.
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="accept"></param>
@@ -380,7 +379,6 @@ namespace Catalog.Api
             if (categoryId != null) localVarPathParams.Add("category_id", this.Configuration.ApiClient.ParameterToString(categoryId)); // path parameter
             if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
             if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
-            if (imageFile != null) localVarFileParams.Add("image_file", this.Configuration.ApiClient.ParameterToFile("image_file", imageFile));
             // authentication (X-Auth-Token) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
             {

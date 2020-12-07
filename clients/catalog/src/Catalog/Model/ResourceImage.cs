@@ -32,16 +32,16 @@ namespace Catalog.Model
         /// <summary>
         /// Initializes a new instance of the <see cref="ResourceImage" /> class.
         /// </summary>
-        /// <param name="imageUrl">A public URL for a GIF, JPEG, or PNG image. Limit of 8MB per file.  .</param>
+        /// <param name="imageUrl">A public URL for a GIF, JPEG, or PNG image. Limit of 8MB per file. .</param>
         public ResourceImage(string imageUrl = default(string))
         {
             this.ImageUrl = imageUrl;
         }
         
         /// <summary>
-        /// A public URL for a GIF, JPEG, or PNG image. Limit of 8MB per file.  
+        /// A public URL for a GIF, JPEG, or PNG image. Limit of 8MB per file. 
         /// </summary>
-        /// <value>A public URL for a GIF, JPEG, or PNG image. Limit of 8MB per file.  </value>
+        /// <value>A public URL for a GIF, JPEG, or PNG image. Limit of 8MB per file. </value>
         [DataMember(Name="image_url", EmitDefaultValue=false)]
         public string ImageUrl { get; set; }
 

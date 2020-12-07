@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Themes", "..\clients\themes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carts", "..\clients\carts\src\Carts\Carts.csproj", "{C9D9ACD4-4C8D-42F1-89C3-7216D1F75356}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog", "..\clients\catalog\src\Catalog\Catalog.csproj", "{7C9F3B26-9107-4463-9F30-5F5D2066A39B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C9D9ACD4-4C8D-42F1-89C3-7216D1F75356}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9D9ACD4-4C8D-42F1-89C3-7216D1F75356}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9D9ACD4-4C8D-42F1-89C3-7216D1F75356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9F3B26-9107-4463-9F30-5F5D2066A39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9F3B26-9107-4463-9F30-5F5D2066A39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9F3B26-9107-4463-9F30-5F5D2066A39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9F3B26-9107-4463-9F30-5F5D2066A39B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

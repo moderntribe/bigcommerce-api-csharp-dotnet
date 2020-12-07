@@ -32,6 +32,7 @@ const apis = [
     name: 'catalog',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/catalog/catalog.v3.json',
     packageName: 'Catalog',
+    patch: 'catalog.patch',
   },
   {
     name: 'subscribers',

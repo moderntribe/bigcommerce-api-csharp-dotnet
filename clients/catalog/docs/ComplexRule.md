@@ -6,7 +6,7 @@ Name | Type | Description | Notes
 **Conditions** | [**List&lt;ComplexRuleCondition&gt;**](ComplexRuleCondition.md) |  | [optional] 
 **Enabled** | **bool?** | Flag for determining whether the rule is to be used when adjusting a product&#x27;s price, weight, image, or availabilty.  | [optional] 
 **Id** | **int?** | The unique numeric ID of the rule; increments sequentially. Read-Only | [optional] 
-**ImageUrl** | **string** | The URL for an image displayed on the storefront when the conditions are applied. Limit of 8MB per file.   | [optional] 
+**ImageUrl** | **string** | The URL for an image displayed on the storefront when the conditions are applied. Limit of 8MB per file.  | [optional] 
 **PriceAdjuster** | [**Adjuster**](Adjuster.md) |  | [optional] 
 **ProductId** | **int?** | The unique numeric ID of the product with which the rule is associated; increments sequentially.  | [optional] 
 **PurchasingDisabled** | **bool?** | Flag for determining whether the rule should disable purchasing of a product when the conditions are applied.  | [optional] 

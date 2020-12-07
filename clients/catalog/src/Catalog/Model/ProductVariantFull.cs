@@ -32,16 +32,14 @@ namespace Catalog.Model
         /// <summary>
         /// Initializes a new instance of the <see cref="ProductVariantFull" /> class.
         /// </summary>
-        /// <param name="">.</param>
         /// <param name="calculatedPrice">The price of the variant as seen on the storefront. This price takes into account &#x60;sale_price&#x60; and any price adjustment rules that are applicable to this variant. .</param>
         /// <param name="id">id.</param>
         /// <param name="optionValues">Array of option and option values IDs that make up this variant. Will be empty if the variant is the product&#x27;s base variant..</param>
         /// <param name="productId">productId.</param>
         /// <param name="sku">sku.</param>
         /// <param name="skuId">Read-only reference to v2 API&#x27;s SKU ID. Null if it is a base variant..</param>
-        public ProductVariantFull(string  = default(string), double? calculatedPrice = default(double?), int? id = default(int?), List<Object> optionValues = default(List<Object>), int? productId = default(int?), string sku = default(string), int? skuId = default(int?))
+        public ProductVariantFull(double? calculatedPrice = default(double?), int? id = default(int?), List<Object> optionValues = default(List<Object>), int? productId = default(int?), string sku = default(string), int? skuId = default(int?))
         {
-            this. = ;
             this.CalculatedPrice = calculatedPrice;
             this.Id = id;
             this.OptionValues = optionValues;
@@ -50,12 +48,6 @@ namespace Catalog.Model
             this.SkuId = skuId;
         }
         
-        /// <summary>
-        /// Gets or Sets 
-        /// </summary>
-        [DataMember(Name="", EmitDefaultValue=false)]
-        public string  { get; set; }
-
         /// <summary>
         /// The price of the variant as seen on the storefront. This price takes into account &#x60;sale_price&#x60; and any price adjustment rules that are applicable to this variant. 
         /// </summary>
@@ -103,7 +95,6 @@ namespace Catalog.Model
         {
             var sb = new StringBuilder();
             sb.Append("class ProductVariantFull {\n");
-            sb.Append("  : ").Append().Append("\n");
             sb.Append("  CalculatedPrice: ").Append(CalculatedPrice).Append("\n");
             sb.Append("  Id: ").Append(Id).Append("\n");
             sb.Append("  OptionValues: ").Append(OptionValues).Append("\n");
@@ -144,11 +135,6 @@ namespace Catalog.Model
                 return false;
 
             return 
-                (
-                    this. == input. ||
-                    (this. != null &&
-                    this..Equals(input.))
-                ) && 
                 (
                     this.CalculatedPrice == input.CalculatedPrice ||
                     (this.CalculatedPrice != null &&
@@ -191,8 +177,6 @@ namespace Catalog.Model
             unchecked // Overflow is fine, just wrap
             {
                 int hashCode = 41;
-                if (this. != null)
-                    hashCode = hashCode * 59 + this..GetHashCode();
                 if (this.CalculatedPrice != null)
                     hashCode = hashCode * 59 + this.CalculatedPrice.GetHashCode();
                 if (this.Id != null)

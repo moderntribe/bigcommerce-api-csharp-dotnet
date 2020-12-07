@@ -18,6 +18,9 @@ namespace Sample
 
             CartSample cartSample = new CartSample(authConfig);
             cartSample.getACart();
+
+            CatalogSample catalogSample = new CatalogSample(authConfig);
+            catalogSample.getProducts();
         }
     }
 }

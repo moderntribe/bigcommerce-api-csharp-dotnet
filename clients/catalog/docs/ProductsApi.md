@@ -364,7 +364,7 @@ namespace Example
             var weight = 1.2;  // decimal? | Filter items by weight.  (optional) 
             var condition = condition_example;  // string | Filter items by condition.  (optional) 
             var brandId = 56;  // int? | Filter items by brand_id.  (optional) 
-            var dateModified = 2013-10-20T19:20:30+01:00;  // DateTime? | Filter items by date_modified. For example `v3/catalog/products?date_modified:min=2018-06-15` (optional) 
+            var dateModified = 2013-10-20T19:20:30+01:00;  // DateTime? | Filter items by `date_modified`. For example, `/v3/catalog/products?date_modified:min=2018-06-15` gets all products modified after `2018-06-15` (optional) 
             var dateLastImported = 2013-10-20T19:20:30+01:00;  // DateTime? | Filter items by date_last_imported. For example `v3/catalog/products?date_last_imported:min=2018-06-15` (optional) 
             var isVisible = true;  // bool? | Filter items by if visible on the storefront.  (optional) 
             var isFeatured = 56;  // int? | Filter items by is_featured. `0` for true, `1` for false.  (optional) 
@@ -382,7 +382,7 @@ namespace Example
             var includeFields = includeFields_example;  // string | Fields to include, in a comma-separated list. The ID and the specified fields will be returned. (optional) 
             var excludeFields = excludeFields_example;  // string | Fields to exclude, in a comma-separated list. The specified fields will be excluded from a response. The ID cannot be excluded. (optional) 
             var availability = availability_example;  // string | Filter items by availability. Values are: available, disabled, preorder.  (optional) 
-            var priceListId = 56;  // int? | This filter returns the product pricing with the *Price List* pricing instead. To use:  `?price_list_id=1`. If there are variants use: `?price_list_id=1&include=variants` (optional) 
+            var priceListId = 56;  // int? | This filter returns the product pricing with the *Price List* pricing instead. To use: `?price_list_id=1`. If there are variants use: `?price_list_id=1&include=variants` (optional) 
             var page = 56;  // int? | Specifies the page number in a limited (paginated) list of products. (optional) 
             var limit = 56;  // int? | Controls the number of items per page in a limited (paginated) list of products. (optional) 
             var direction = direction_example;  // string | Sort direction. Acceptable values are: `asc`, `desc`.  (optional) 
@@ -421,7 +421,7 @@ Name | Type | Description  | Notes
  **weight** | **decimal?**| Filter items by weight.  | [optional] 
  **condition** | **string**| Filter items by condition.  | [optional] 
  **brandId** | **int?**| Filter items by brand_id.  | [optional] 
- **dateModified** | **DateTime?**| Filter items by date_modified. For example &#x60;v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; | [optional] 
+ **dateModified** | **DateTime?**| Filter items by &#x60;date_modified&#x60;. For example, &#x60;/v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; gets all products modified after &#x60;2018-06-15&#x60; | [optional] 
  **dateLastImported** | **DateTime?**| Filter items by date_last_imported. For example &#x60;v3/catalog/products?date_last_imported:min&#x3D;2018-06-15&#x60; | [optional] 
  **isVisible** | **bool?**| Filter items by if visible on the storefront.  | [optional] 
  **isFeatured** | **int?**| Filter items by is_featured. &#x60;0&#x60; for true, &#x60;1&#x60; for false.  | [optional] 
@@ -439,7 +439,7 @@ Name | Type | Description  | Notes
  **includeFields** | **string**| Fields to include, in a comma-separated list. The ID and the specified fields will be returned. | [optional] 
  **excludeFields** | **string**| Fields to exclude, in a comma-separated list. The specified fields will be excluded from a response. The ID cannot be excluded. | [optional] 
  **availability** | **string**| Filter items by availability. Values are: available, disabled, preorder.  | [optional] 
- **priceListId** | **int?**| This filter returns the product pricing with the *Price List* pricing instead. To use:  &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; | [optional] 
+ **priceListId** | **int?**| This filter returns the product pricing with the *Price List* pricing instead. To use: &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; | [optional] 
  **page** | **int?**| Specifies the page number in a limited (paginated) list of products. | [optional] 
  **limit** | **int?**| Controls the number of items per page in a limited (paginated) list of products. | [optional] 
  **direction** | **string**| Sort direction. Acceptable values are: &#x60;asc&#x60;, &#x60;desc&#x60;.  | [optional] 

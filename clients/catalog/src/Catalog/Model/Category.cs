@@ -93,7 +93,7 @@ namespace Catalog.Model
         /// <param name="customUrl">customUrl.</param>
         /// <param name="defaultProductSort">Determines how the products are sorted on category page load. .</param>
         /// <param name="description">The product description, which can include HTML formatting. .</param>
-        /// <param name="id">Unique ID of the *Category*. Increments sequentially. Read-Only. .</param>
+        /// <param name="id">Unique ID of the *Category*. Increments sequentially. Read-Only..</param>
         /// <param name="imageUrl">Image URL used for this category on the storefront. Images can be uploaded via form file post to &#x60;/categories/{categoryId}/image&#x60;, or by providing a publicly accessible URL in this field. .</param>
         /// <param name="isVisible">Flag to determine whether the product should be displayed to customers browsing the store. If &#x60;true&#x60;, the category will be displayed. If &#x60;false&#x60;, the category will be hidden from view. .</param>
         /// <param name="layoutFile">A valid layout file. (Please refer to [this article](https://support.bigcommerce.com/articles/Public/Creating-Custom-Template-Files/) on creating category files.) This field is writable only for stores with a Blueprint theme applied. .</param>
@@ -155,9 +155,9 @@ namespace Catalog.Model
         public string Description { get; set; }
 
         /// <summary>
-        /// Unique ID of the *Category*. Increments sequentially. Read-Only. 
+        /// Unique ID of the *Category*. Increments sequentially. Read-Only.
         /// </summary>
-        /// <value>Unique ID of the *Category*. Increments sequentially. Read-Only. </value>
+        /// <value>Unique ID of the *Category*. Increments sequentially. Read-Only.</value>
         [DataMember(Name="id", EmitDefaultValue=false)]
         public int? Id { get; set; }
 

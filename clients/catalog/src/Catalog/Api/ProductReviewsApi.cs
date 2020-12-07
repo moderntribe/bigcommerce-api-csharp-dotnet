@@ -148,8 +148,7 @@ namespace Catalog.Api
         /// Updates a *Product Review*.  **Required Fields** * none  **Read-Only Fields** * id
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.
-</param>
+        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.</param>
         /// <param name="accept"></param>
         /// <param name="contentType"></param>
         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
@@ -164,8 +163,7 @@ namespace Catalog.Api
         /// Updates a *Product Review*.  **Required Fields** * none  **Read-Only Fields** * id
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.
-</param>
+        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.</param>
         /// <param name="accept"></param>
         /// <param name="contentType"></param>
         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
@@ -299,8 +297,7 @@ namespace Catalog.Api
         /// Updates a *Product Review*.  **Required Fields** * none  **Read-Only Fields** * id
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.
-</param>
+        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.</param>
         /// <param name="accept"></param>
         /// <param name="contentType"></param>
         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
@@ -315,8 +312,7 @@ namespace Catalog.Api
         /// Updates a *Product Review*.  **Required Fields** * none  **Read-Only Fields** * id
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.
-</param>
+        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.</param>
         /// <param name="accept"></param>
         /// <param name="contentType"></param>
         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
@@ -1182,8 +1178,7 @@ namespace Catalog.Api
         /// Update a Product Review Updates a *Product Review*.  **Required Fields** * none  **Read-Only Fields** * id
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.
-</param>
+        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.</param>
         /// <param name="accept"></param>
         /// <param name="contentType"></param>
         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
@@ -1199,8 +1194,7 @@ namespace Catalog.Api
         /// Update a Product Review Updates a *Product Review*.  **Required Fields** * none  **Read-Only Fields** * id
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.
-</param>
+        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.</param>
         /// <param name="accept"></param>
         /// <param name="contentType"></param>
         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
@@ -1286,8 +1280,7 @@ namespace Catalog.Api
         /// Update a Product Review Updates a *Product Review*.  **Required Fields** * none  **Read-Only Fields** * id
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.
-</param>
+        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.</param>
         /// <param name="accept"></param>
         /// <param name="contentType"></param>
         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
@@ -1304,8 +1297,7 @@ namespace Catalog.Api
         /// Update a Product Review Updates a *Product Review*.  **Required Fields** * none  **Read-Only Fields** * id
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.
-</param>
+        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.s</param>
         /// <param name="accept"></param>
         /// <param name="contentType"></param>
         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>

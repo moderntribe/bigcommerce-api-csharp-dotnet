@@ -250,7 +250,7 @@ namespace Catalog.Model
         /// <param name="isConditionShown">Flag used to determine whether the product condition is shown to the customer on the product page. .</param>
         /// <param name="isFeatured">Flag to determine whether the product should be included in the &#x60;featured products&#x60; panel when viewing the store. .</param>
         /// <param name="isFreeShipping">Flag used to indicate whether the product has free shipping. If &#x60;true&#x60;, the shipping cost for the product will be zero. .</param>
-        /// <param name="isPreorderOnly">If set to true then on the preorder release date the preorder status will automatically be removed.   If set to false, then on the release date the preorder status **will not** be removed. It will need to be changed manually either in the control panel or using the API. Using the API set &#x60;availability&#x60; to &#x60;available&#x60;. .</param>
+        /// <param name="isPreorderOnly">If set to true then on the preorder release date the preorder status will automatically be removed. If set to false, then on the release date the preorder status **will not** be removed. It will need to be changed manually either in the control panel or using the API. Using the API set &#x60;availability&#x60; to &#x60;available&#x60;. .</param>
         /// <param name="isPriceHidden">False by default, indicating that this product&#x27;s price should be shown on the product page. If set to &#x60;true&#x60;, the price is hidden. (NOTE: To successfully set &#x60;is_price_hidden&#x60; to &#x60;true&#x60;, the &#x60;availability&#x60; value must be &#x60;disabled&#x60;.) .</param>
         /// <param name="isVisible">Flag to determine whether the product should be displayed to customers browsing the store. If &#x60;true&#x60;, the product will be displayed. If &#x60;false&#x60;, the product will be hidden from view. .</param>
         /// <param name="layoutFile">The layout template file used to render this product category. This field is writable only for stores with a Blueprint theme applied. .</param>
@@ -537,9 +537,9 @@ namespace Catalog.Model
         public bool? IsFreeShipping { get; set; }
 
         /// <summary>
-        /// If set to true then on the preorder release date the preorder status will automatically be removed.   If set to false, then on the release date the preorder status **will not** be removed. It will need to be changed manually either in the control panel or using the API. Using the API set &#x60;availability&#x60; to &#x60;available&#x60;. 
+        /// If set to true then on the preorder release date the preorder status will automatically be removed. If set to false, then on the release date the preorder status **will not** be removed. It will need to be changed manually either in the control panel or using the API. Using the API set &#x60;availability&#x60; to &#x60;available&#x60;. 
         /// </summary>
-        /// <value>If set to true then on the preorder release date the preorder status will automatically be removed.   If set to false, then on the release date the preorder status **will not** be removed. It will need to be changed manually either in the control panel or using the API. Using the API set &#x60;availability&#x60; to &#x60;available&#x60;. </value>
+        /// <value>If set to true then on the preorder release date the preorder status will automatically be removed. If set to false, then on the release date the preorder status **will not** be removed. It will need to be changed manually either in the control panel or using the API. Using the API set &#x60;availability&#x60; to &#x60;available&#x60;. </value>
         [DataMember(Name="is_preorder_only", EmitDefaultValue=false)]
         public bool? IsPreorderOnly { get; set; }
 

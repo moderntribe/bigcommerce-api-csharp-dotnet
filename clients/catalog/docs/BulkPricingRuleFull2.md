@@ -3,7 +3,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Amount** | **int?** | The discount can be a fixed dollar amount or a percentage. For a fixed dollar amount enter it as an integer and the response will return as an integer. For percentage enter the amount as the percentage divided by 100 using string format. For example 10% percent would be “.10”. The response will return as an integer.  Required in /POST. | 
+**Amount** | **int?** | The discount can be a fixed dollar amount or a percentage. For a fixed dollar amount enter it as an integer and the response will return as an integer. For percentage enter the amount as the percentage divided by 100 using string format. For example 10% percent would be “.10”. The response will return as an integer. Required in /POST. | 
 **Id** | **int?** | Unique ID of the *Bulk Pricing Rule*. Read-Only. | [optional] 
 **QuantityMax** | **int?** | The maximum inclusive quantity of a product to satisfy this rule. Must be greater than the &#x60;quantity_min&#x60; value – unless this field has a value of 0 (zero), in which case there will be no maximum bound for this rule. Required in /POST. | 
 **QuantityMin** | **int?** | The minimum inclusive quantity of a product to satisfy this rule. Must be greater than or equal to zero. Required in /POST.  | 

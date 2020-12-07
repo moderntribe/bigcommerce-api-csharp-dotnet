@@ -27,23 +27,16 @@ namespace Catalog.Model
     /// Empty meta object; may be used later.
     /// </summary>
     [DataContract]
-        public partial class Meta :  IEquatable<Meta>, IValidatableObject
+        public partial class Meta : IValidatableObject
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="Meta" /> class.
         /// </summary>
         /// <param name="">.</param>
-        public Meta(string  = default(string))
+        public Meta()
         {
-            this. = ;
         }
         
-        /// <summary>
-        /// Gets or Sets 
-        /// </summary>
-        [DataMember(Name="", EmitDefaultValue=false)]
-        public string  { get; set; }
-
         /// <summary>
         /// Returns the string presentation of the object
         /// </summary>
@@ -52,7 +45,6 @@ namespace Catalog.Model
         {
             var sb = new StringBuilder();
             sb.Append("class Meta {\n");
-            sb.Append("  : ").Append().Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -66,57 +58,9 @@ namespace Catalog.Model
             return JsonConvert.SerializeObject(this, Formatting.Indented);
         }
 
-        /// <summary>
-        /// Returns true if objects are equal
-        /// </summary>
-        /// <param name="input">Object to be compared</param>
-        /// <returns>Boolean</returns>
-        public override bool Equals(object input)
+        public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
-            return this.Equals(input as Meta);
-        }
-
-        /// <summary>
-        /// Returns true if Meta instances are equal
-        /// </summary>
-        /// <param name="input">Instance of Meta to be compared</param>
-        /// <returns>Boolean</returns>
-        public bool Equals(Meta input)
-        {
-            if (input == null)
-                return false;
-
-            return 
-                (
-                    this. == input. ||
-                    (this. != null &&
-                    this..Equals(input.))
-                );
-        }
-
-        /// <summary>
-        /// Gets the hash code
-        /// </summary>
-        /// <returns>Hash code</returns>
-        public override int GetHashCode()
-        {
-            unchecked // Overflow is fine, just wrap
-            {
-                int hashCode = 41;
-                if (this. != null)
-                    hashCode = hashCode * 59 + this..GetHashCode();
-                return hashCode;
-            }
-        }
-
-        /// <summary>
-        /// To validate all properties of the instance
-        /// </summary>
-        /// <param name="validationContext">Validation context</param>
-        /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
-        {
-            yield break;
+            return (IEnumerable<ValidationResult>)ValidationResult.Success;
         }
     }
 }

@@ -32,7 +32,7 @@ namespace Catalog.Model
         /// <summary>
         /// Initializes a new instance of the <see cref="AdjustersFull1" /> class.
         /// </summary>
-        /// <param name="imageUrl">The URL for an image displayed on the storefront when the modifier value is selected.Limit of 8MB per file.  .</param>
+        /// <param name="imageUrl">The URL for an image displayed on the storefront when the modifier value is selected.Limit of 8MB per file. .</param>
         /// <param name="price">price.</param>
         /// <param name="purchasingDisabled">purchasingDisabled.</param>
         /// <param name="weight">weight.</param>
@@ -45,9 +45,9 @@ namespace Catalog.Model
         }
         
         /// <summary>
-        /// The URL for an image displayed on the storefront when the modifier value is selected.Limit of 8MB per file.  
+        /// The URL for an image displayed on the storefront when the modifier value is selected.Limit of 8MB per file. 
         /// </summary>
-        /// <value>The URL for an image displayed on the storefront when the modifier value is selected.Limit of 8MB per file.  </value>
+        /// <value>The URL for an image displayed on the storefront when the modifier value is selected.Limit of 8MB per file. </value>
         [DataMember(Name="image_url", EmitDefaultValue=false)]
         public string ImageUrl { get; set; }
 

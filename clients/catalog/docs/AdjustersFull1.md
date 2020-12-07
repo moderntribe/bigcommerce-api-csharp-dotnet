@@ -3,7 +3,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ImageUrl** | **string** | The URL for an image displayed on the storefront when the modifier value is selected.Limit of 8MB per file.   | [optional] 
+**ImageUrl** | **string** | The URL for an image displayed on the storefront when the modifier value is selected.Limit of 8MB per file.  | [optional] 
 **Price** | [**Adjuster**](Adjuster.md) |  | [optional] 
 **PurchasingDisabled** | [**AdjustersFullPurchasingDisabled**](AdjustersFullPurchasingDisabled.md) |  | [optional] 
 **Weight** | [**Adjuster**](Adjuster.md) |  | [optional] 

@@ -27,7 +27,7 @@ namespace Catalog.Api
         /// Create a Product Variant
         /// </summary>
         /// <remarks>
-        /// Creates a *Product Variant*.   **Required Fields** * sku * option_values  **Read-Only Fields** * id  Variants need to be created one at a time using this endpoint. To use a variant array and create products and variants in the same call use the [Create Products](/api-reference/catalog/catalog-api/products/createproduct) during the initial product creation.
+        /// Creates a *Product Variant*.  **Required Fields** * sku * option_values  **Read-Only Fields** * id  Variants need to be created one at a time using this endpoint. To use a variant array and create products and variants in the same call use the [Create Products](/api-reference/catalog/catalog-api/products/createproduct) during the initial product creation.
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -39,38 +39,13 @@ namespace Catalog.Api
         /// Create a Product Variant
         /// </summary>
         /// <remarks>
-        /// Creates a *Product Variant*.   **Required Fields** * sku * option_values  **Read-Only Fields** * id  Variants need to be created one at a time using this endpoint. To use a variant array and create products and variants in the same call use the [Create Products](/api-reference/catalog/catalog-api/products/createproduct) during the initial product creation.
+        /// Creates a *Product Variant*.  **Required Fields** * sku * option_values  **Read-Only Fields** * id  Variants need to be created one at a time using this endpoint. To use a variant array and create products and variants in the same call use the [Create Products](/api-reference/catalog/catalog-api/products/createproduct) during the initial product creation.
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
         /// <returns>ApiResponse of VariantResponse</returns>
         ApiResponse<VariantResponse> CreateVariantWithHttpInfo (VariantPost body, int? productId);
-        /// <summary>
-        /// Create a Variant Image
-        /// </summary>
-        /// <remarks>
-        /// Creates a *Variant Image*.  The image will show on the storefront when the value is selected.   **Required Fields** - image_file: Form posts. Files larger than 1 MB are not accepted - image_url: Any publicly available URL
-        /// </remarks>
-        /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
-        /// <param name="variantId">ID of the variant on a product, or on an associated Price List Record. </param>
-        /// <param name="body"> (optional)</param>
-        /// <returns>ImageResponse</returns>
-        ImageResponse CreateVariantImage (int? productId, int? variantId, ResourceImage body = null);
-
-        /// <summary>
-        /// Create a Variant Image
-        /// </summary>
-        /// <remarks>
-        /// Creates a *Variant Image*.  The image will show on the storefront when the value is selected.   **Required Fields** - image_file: Form posts. Files larger than 1 MB are not accepted - image_url: Any publicly available URL
-        /// </remarks>
-        /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
-        /// <param name="variantId">ID of the variant on a product, or on an associated Price List Record. </param>
-        /// <param name="body"> (optional)</param>
-        /// <returns>ApiResponse of ImageResponse</returns>
-        ApiResponse<ImageResponse> CreateVariantImageWithHttpInfo (int? productId, int? variantId, ResourceImage body = null);
         /// <summary>
         /// Create a Variant Image
         /// </summary>
@@ -222,7 +197,7 @@ namespace Catalog.Api
         /// Create a Product Variant
         /// </summary>
         /// <remarks>
-        /// Creates a *Product Variant*.   **Required Fields** * sku * option_values  **Read-Only Fields** * id  Variants need to be created one at a time using this endpoint. To use a variant array and create products and variants in the same call use the [Create Products](/api-reference/catalog/catalog-api/products/createproduct) during the initial product creation.
+        /// Creates a *Product Variant*.  **Required Fields** * sku * option_values  **Read-Only Fields** * id  Variants need to be created one at a time using this endpoint. To use a variant array and create products and variants in the same call use the [Create Products](/api-reference/catalog/catalog-api/products/createproduct) during the initial product creation.
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -234,38 +209,13 @@ namespace Catalog.Api
         /// Create a Product Variant
         /// </summary>
         /// <remarks>
-        /// Creates a *Product Variant*.   **Required Fields** * sku * option_values  **Read-Only Fields** * id  Variants need to be created one at a time using this endpoint. To use a variant array and create products and variants in the same call use the [Create Products](/api-reference/catalog/catalog-api/products/createproduct) during the initial product creation.
+        /// Creates a *Product Variant*.  **Required Fields** * sku * option_values  **Read-Only Fields** * id  Variants need to be created one at a time using this endpoint. To use a variant array and create products and variants in the same call use the [Create Products](/api-reference/catalog/catalog-api/products/createproduct) during the initial product creation.
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
         /// <returns>Task of ApiResponse (VariantResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<VariantResponse>> CreateVariantAsyncWithHttpInfo (VariantPost body, int? productId);
-        /// <summary>
-        /// Create a Variant Image
-        /// </summary>
-        /// <remarks>
-        /// Creates a *Variant Image*.  The image will show on the storefront when the value is selected.   **Required Fields** - image_file: Form posts. Files larger than 1 MB are not accepted - image_url: Any publicly available URL
-        /// </remarks>
-        /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
-        /// <param name="variantId">ID of the variant on a product, or on an associated Price List Record. </param>
-        /// <param name="body"> (optional)</param>
-        /// <returns>Task of ImageResponse</returns>
-        System.Threading.Tasks.Task<ImageResponse> CreateVariantImageAsync (int? productId, int? variantId, ResourceImage body = null);
-
-        /// <summary>
-        /// Create a Variant Image
-        /// </summary>
-        /// <remarks>
-        /// Creates a *Variant Image*.  The image will show on the storefront when the value is selected.   **Required Fields** - image_file: Form posts. Files larger than 1 MB are not accepted - image_url: Any publicly available URL
-        /// </remarks>
-        /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
-        /// <param name="variantId">ID of the variant on a product, or on an associated Price List Record. </param>
-        /// <param name="body"> (optional)</param>
-        /// <returns>Task of ApiResponse (ImageResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<ImageResponse>> CreateVariantImageAsyncWithHttpInfo (int? productId, int? variantId, ResourceImage body = null);
         /// <summary>
         /// Create a Variant Image
         /// </summary>
@@ -523,7 +473,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Create a Product Variant Creates a *Product Variant*.   **Required Fields** * sku * option_values  **Read-Only Fields** * id  Variants need to be created one at a time using this endpoint. To use a variant array and create products and variants in the same call use the [Create Products](/api-reference/catalog/catalog-api/products/createproduct) during the initial product creation.
+        /// Create a Product Variant Creates a *Product Variant*.  **Required Fields** * sku * option_values  **Read-Only Fields** * id  Variants need to be created one at a time using this endpoint. To use a variant array and create products and variants in the same call use the [Create Products](/api-reference/catalog/catalog-api/products/createproduct) during the initial product creation.
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -536,7 +486,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Create a Product Variant Creates a *Product Variant*.   **Required Fields** * sku * option_values  **Read-Only Fields** * id  Variants need to be created one at a time using this endpoint. To use a variant array and create products and variants in the same call use the [Create Products](/api-reference/catalog/catalog-api/products/createproduct) during the initial product creation.
+        /// Create a Product Variant Creates a *Product Variant*.  **Required Fields** * sku * option_values  **Read-Only Fields** * id  Variants need to be created one at a time using this endpoint. To use a variant array and create products and variants in the same call use the [Create Products](/api-reference/catalog/catalog-api/products/createproduct) during the initial product creation.
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -607,7 +557,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Create a Product Variant Creates a *Product Variant*.   **Required Fields** * sku * option_values  **Read-Only Fields** * id  Variants need to be created one at a time using this endpoint. To use a variant array and create products and variants in the same call use the [Create Products](/api-reference/catalog/catalog-api/products/createproduct) during the initial product creation.
+        /// Create a Product Variant Creates a *Product Variant*.  **Required Fields** * sku * option_values  **Read-Only Fields** * id  Variants need to be created one at a time using this endpoint. To use a variant array and create products and variants in the same call use the [Create Products](/api-reference/catalog/catalog-api/products/createproduct) during the initial product creation.
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -621,7 +571,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Create a Product Variant Creates a *Product Variant*.   **Required Fields** * sku * option_values  **Read-Only Fields** * id  Variants need to be created one at a time using this endpoint. To use a variant array and create products and variants in the same call use the [Create Products](/api-reference/catalog/catalog-api/products/createproduct) during the initial product creation.
+        /// Create a Product Variant Creates a *Product Variant*.  **Required Fields** * sku * option_values  **Read-Only Fields** * id  Variants need to be created one at a time using this endpoint. To use a variant array and create products and variants in the same call use the [Create Products](/api-reference/catalog/catalog-api/products/createproduct) during the initial product creation.
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -844,169 +794,6 @@ namespace Catalog.Api
             {
                 localVarPostBody = body; // byte array
             }
-            // authentication (X-Auth-Token) required
-            if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
-            {
-                localVarHeaderParams["X-Auth-Token"] = this.Configuration.GetApiKeyWithPrefix("X-Auth-Token");
-            }
-
-            // make the HTTP request
-            IRestResponse localVarResponse = (IRestResponse) await this.Configuration.ApiClient.CallApiAsync(localVarPath,
-                Method.POST, localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarFileParams,
-                localVarPathParams, localVarHttpContentType);
-
-            int localVarStatusCode = (int) localVarResponse.StatusCode;
-
-            if (ExceptionFactory != null)
-            {
-                Exception exception = ExceptionFactory("CreateVariantImage", localVarResponse);
-                if (exception != null) throw exception;
-            }
-
-            return new ApiResponse<ImageResponse>(localVarStatusCode,
-                localVarResponse.Headers.ToDictionary(x => x.Name, x => string.Join(",", x.Value)),
-                (ImageResponse) this.Configuration.ApiClient.Deserialize(localVarResponse, typeof(ImageResponse)));
-        }
-
-        /// <summary>
-        /// Create a Variant Image Creates a *Variant Image*.  The image will show on the storefront when the value is selected.   **Required Fields** - image_file: Form posts. Files larger than 1 MB are not accepted - image_url: Any publicly available URL
-        /// </summary>
-        /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
-        /// <param name="variantId">ID of the variant on a product, or on an associated Price List Record. </param>
-        /// <param name="body"> (optional)</param>
-        /// <returns>ImageResponse</returns>
-        public ImageResponse CreateVariantImage (int? productId, int? variantId, ResourceImage body = null)
-        {
-             ApiResponse<ImageResponse> localVarResponse = CreateVariantImageWithHttpInfo(productId, variantId, body);
-             return localVarResponse.Data;
-        }
-
-        /// <summary>
-        /// Create a Variant Image Creates a *Variant Image*.  The image will show on the storefront when the value is selected.   **Required Fields** - image_file: Form posts. Files larger than 1 MB are not accepted - image_url: Any publicly available URL
-        /// </summary>
-        /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
-        /// <param name="variantId">ID of the variant on a product, or on an associated Price List Record. </param>
-        /// <param name="body"> (optional)</param>
-        /// <returns>ApiResponse of ImageResponse</returns>
-        public ApiResponse< ImageResponse > CreateVariantImageWithHttpInfo (int? productId, int? variantId, ResourceImage body = null)
-        {
-            // verify the required parameter 'productId' is set
-            if (productId == null)
-                throw new ApiException(400, "Missing required parameter 'productId' when calling ProductVariantsApi->CreateVariantImage");
-            // verify the required parameter 'variantId' is set
-            if (variantId == null)
-                throw new ApiException(400, "Missing required parameter 'variantId' when calling ProductVariantsApi->CreateVariantImage");
-
-            var localVarPath = "/catalog/products/{product_id}/variants/{variant_id}/image";
-            var localVarPathParams = new Dictionary<String, String>();
-            var localVarQueryParams = new List<KeyValuePair<String, String>>();
-            var localVarHeaderParams = new Dictionary<String, String>(this.Configuration.DefaultHeader);
-            var localVarFormParams = new Dictionary<String, String>();
-            var localVarFileParams = new Dictionary<String, FileParameter>();
-            Object localVarPostBody = null;
-
-            // to determine the Content-Type header
-            String[] localVarHttpContentTypes = new String[] {
-                "application/json", 
-                "multipart/form-data"
-            };
-            String localVarHttpContentType = this.Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
-
-            // to determine the Accept header
-            String[] localVarHttpHeaderAccepts = new String[] {
-                "application/json"
-            };
-            String localVarHttpHeaderAccept = this.Configuration.ApiClient.SelectHeaderAccept(localVarHttpHeaderAccepts);
-            if (localVarHttpHeaderAccept != null)
-                localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
-
-            if (productId != null) localVarPathParams.Add("product_id", this.Configuration.ApiClient.ParameterToString(productId)); // path parameter
-            if (variantId != null) localVarPathParams.Add("variant_id", this.Configuration.ApiClient.ParameterToString(variantId)); // path parameter
-            if (imageUrl != null) localVarFormParams.Add("image_url", this.Configuration.ApiClient.ParameterToString(imageUrl)); // form parameter
-            // authentication (X-Auth-Token) required
-            if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
-            {
-                localVarHeaderParams["X-Auth-Token"] = this.Configuration.GetApiKeyWithPrefix("X-Auth-Token");
-            }
-
-            // make the HTTP request
-            IRestResponse localVarResponse = (IRestResponse) this.Configuration.ApiClient.CallApi(localVarPath,
-                Method.POST, localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarFileParams,
-                localVarPathParams, localVarHttpContentType);
-
-            int localVarStatusCode = (int) localVarResponse.StatusCode;
-
-            if (ExceptionFactory != null)
-            {
-                Exception exception = ExceptionFactory("CreateVariantImage", localVarResponse);
-                if (exception != null) throw exception;
-            }
-
-            return new ApiResponse<ImageResponse>(localVarStatusCode,
-                localVarResponse.Headers.ToDictionary(x => x.Name, x => string.Join(",", x.Value)),
-                (ImageResponse) this.Configuration.ApiClient.Deserialize(localVarResponse, typeof(ImageResponse)));
-        }
-
-        /// <summary>
-        /// Create a Variant Image Creates a *Variant Image*.  The image will show on the storefront when the value is selected.   **Required Fields** - image_file: Form posts. Files larger than 1 MB are not accepted - image_url: Any publicly available URL
-        /// </summary>
-        /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
-        /// <param name="variantId">ID of the variant on a product, or on an associated Price List Record. </param>
-        /// <param name="body"> (optional)</param>
-        /// <returns>Task of ImageResponse</returns>
-        public async System.Threading.Tasks.Task<ImageResponse> CreateVariantImageAsync (int? productId, int? variantId, ResourceImage body = null)
-        {
-             ApiResponse<ImageResponse> localVarResponse = await CreateVariantImageAsyncWithHttpInfo(productId, variantId, body);
-             return localVarResponse.Data;
-
-        }
-
-        /// <summary>
-        /// Create a Variant Image Creates a *Variant Image*.  The image will show on the storefront when the value is selected.   **Required Fields** - image_file: Form posts. Files larger than 1 MB are not accepted - image_url: Any publicly available URL
-        /// </summary>
-        /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
-        /// <param name="variantId">ID of the variant on a product, or on an associated Price List Record. </param>
-        /// <param name="body"> (optional)</param>
-        /// <returns>Task of ApiResponse (ImageResponse)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<ImageResponse>> CreateVariantImageAsyncWithHttpInfo (int? productId, int? variantId, ResourceImage body = null)
-        {
-            // verify the required parameter 'productId' is set
-            if (productId == null)
-                throw new ApiException(400, "Missing required parameter 'productId' when calling ProductVariantsApi->CreateVariantImage");
-            // verify the required parameter 'variantId' is set
-            if (variantId == null)
-                throw new ApiException(400, "Missing required parameter 'variantId' when calling ProductVariantsApi->CreateVariantImage");
-
-            var localVarPath = "/catalog/products/{product_id}/variants/{variant_id}/image";
-            var localVarPathParams = new Dictionary<String, String>();
-            var localVarQueryParams = new List<KeyValuePair<String, String>>();
-            var localVarHeaderParams = new Dictionary<String, String>(this.Configuration.DefaultHeader);
-            var localVarFormParams = new Dictionary<String, String>();
-            var localVarFileParams = new Dictionary<String, FileParameter>();
-            Object localVarPostBody = null;
-
-            // to determine the Content-Type header
-            String[] localVarHttpContentTypes = new String[] {
-                "application/json", 
-                "multipart/form-data"
-            };
-            String localVarHttpContentType = this.Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
-
-            // to determine the Accept header
-            String[] localVarHttpHeaderAccepts = new String[] {
-                "application/json"
-            };
-            String localVarHttpHeaderAccept = this.Configuration.ApiClient.SelectHeaderAccept(localVarHttpHeaderAccepts);
-            if (localVarHttpHeaderAccept != null)
-                localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
-
-            if (productId != null) localVarPathParams.Add("product_id", this.Configuration.ApiClient.ParameterToString(productId)); // path parameter
-            if (variantId != null) localVarPathParams.Add("variant_id", this.Configuration.ApiClient.ParameterToString(variantId)); // path parameter
-            if (imageUrl != null) localVarFormParams.Add("image_url", this.Configuration.ApiClient.ParameterToString(imageUrl)); // form parameter
             // authentication (X-Auth-Token) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
             {

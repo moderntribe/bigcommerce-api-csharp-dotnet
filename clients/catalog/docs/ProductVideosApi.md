@@ -16,7 +16,7 @@ Method | HTTP request | Description
 
 Create a Product Video
 
-Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v=`R12345677`  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time. 
+Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v=`R12345677`  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time.
 
 ### Example
 ```csharp

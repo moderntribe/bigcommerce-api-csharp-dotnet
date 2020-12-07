@@ -145,7 +145,7 @@ namespace Catalog.Api
         /// Update a Custom Field
         /// </summary>
         /// <remarks>
-        /// Updates a *Custom Field*.   **Required Fields** - none  **Read-Only** - id
+        /// Updates a *Custom Field*.  **Required Fields** - none  **Read-Only** - id
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -160,7 +160,7 @@ namespace Catalog.Api
         /// Update a Custom Field
         /// </summary>
         /// <remarks>
-        /// Updates a *Custom Field*.   **Required Fields** - none  **Read-Only** - id
+        /// Updates a *Custom Field*.  **Required Fields** - none  **Read-Only** - id
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -294,7 +294,7 @@ namespace Catalog.Api
         /// Update a Custom Field
         /// </summary>
         /// <remarks>
-        /// Updates a *Custom Field*.   **Required Fields** - none  **Read-Only** - id
+        /// Updates a *Custom Field*.  **Required Fields** - none  **Read-Only** - id
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -309,7 +309,7 @@ namespace Catalog.Api
         /// Update a Custom Field
         /// </summary>
         /// <remarks>
-        /// Updates a *Custom Field*.   **Required Fields** - none  **Read-Only** - id
+        /// Updates a *Custom Field*.  **Required Fields** - none  **Read-Only** - id
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -1177,7 +1177,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Update a Custom Field Updates a *Custom Field*.   **Required Fields** - none  **Read-Only** - id
+        /// Update a Custom Field Updates a *Custom Field*.  **Required Fields** - none  **Read-Only** - id
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -1193,7 +1193,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Update a Custom Field Updates a *Custom Field*.   **Required Fields** - none  **Read-Only** - id
+        /// Update a Custom Field Updates a *Custom Field*.  **Required Fields** - none  **Read-Only** - id
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -1279,7 +1279,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Update a Custom Field Updates a *Custom Field*.   **Required Fields** - none  **Read-Only** - id
+        /// Update a Custom Field Updates a *Custom Field*.  **Required Fields** - none  **Read-Only** - id
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -1296,7 +1296,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Update a Custom Field Updates a *Custom Field*.   **Required Fields** - none  **Read-Only** - id
+        /// Update a Custom Field Updates a *Custom Field*.  **Required Fields** - none  **Read-Only** - id
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>

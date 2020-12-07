@@ -16,7 +16,7 @@ Method | HTTP request | Description
 
 Create a Product Image
 
-Creates a *Product Image*.    **Required Fields** - `image_file`, or - `image_url`  **Usage Notes** - `image_url` - `255` character limit - Only one image at a time can be created
+Creates a *Product Image*.   **Required Fields** - `image_file`, or - `image_url`  **Usage Notes** - `image_url` - `255` character limit - Only one image at a time can be created
 
 ### Example
 ```csharp
@@ -309,7 +309,7 @@ Name | Type | Description  | Notes
 
 Update a Product Image
 
-Updates a *Product Image*.   **Required Fields** - `image_file`, or - `image_url`  **Usage Notes** - `image_url` - `255` character limit - When using file upload, other image file params can be updated using `key:value` pairs. 
+Updates a *Product Image*.   **Required Fields** - `image_file`, or - `image_url`  **Usage Notes** - `image_url` - `255` character limit - When using file upload, other image file params can be updated using `key:value` pairs.
 
 ### Example
 ```csharp

@@ -27,7 +27,7 @@ namespace Catalog.Api
         /// Create a Product Video
         /// </summary>
         /// <remarks>
-        /// Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v&#x3D;&#x60;R12345677&#x60;  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time. 
+        /// Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v&#x3D;&#x60;R12345677&#x60;  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time.
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -41,7 +41,7 @@ namespace Catalog.Api
         /// Create a Product Video
         /// </summary>
         /// <remarks>
-        /// Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v&#x3D;&#x60;R12345677&#x60;  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time. 
+        /// Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v&#x3D;&#x60;R12345677&#x60;  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time.
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -172,7 +172,7 @@ namespace Catalog.Api
         /// Create a Product Video
         /// </summary>
         /// <remarks>
-        /// Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v&#x3D;&#x60;R12345677&#x60;  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time. 
+        /// Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v&#x3D;&#x60;R12345677&#x60;  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time.
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -186,7 +186,7 @@ namespace Catalog.Api
         /// Create a Product Video
         /// </summary>
         /// <remarks>
-        /// Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v&#x3D;&#x60;R12345677&#x60;  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time. 
+        /// Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v&#x3D;&#x60;R12345677&#x60;  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time.
         /// </remarks>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -423,7 +423,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Create a Product Video Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v&#x3D;&#x60;R12345677&#x60;  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time. 
+        /// Create a Product Video Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v&#x3D;&#x60;R12345677&#x60;  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time.
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -438,7 +438,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Create a Product Video Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v&#x3D;&#x60;R12345677&#x60;  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time. 
+        /// Create a Product Video Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v&#x3D;&#x60;R12345677&#x60;  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time.
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -519,7 +519,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Create a Product Video Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v&#x3D;&#x60;R12345677&#x60;  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time. 
+        /// Create a Product Video Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v&#x3D;&#x60;R12345677&#x60;  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time.
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>
@@ -535,7 +535,7 @@ namespace Catalog.Api
         }
 
         /// <summary>
-        /// Create a Product Video Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v&#x3D;&#x60;R12345677&#x60;  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time. 
+        /// Create a Product Video Creates a *Product Video*.  **Required Fields** * video_id - Example: https://www.youtube.com/watch?v&#x3D;&#x60;R12345677&#x60;  **Read-Only Fields** * id  Publicly accessible URLs are valid parameters. Videos must be loaded through YouTube at this time.
         /// </summary>
         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="body"></param>

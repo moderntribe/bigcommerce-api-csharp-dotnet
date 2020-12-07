@@ -35,7 +35,7 @@ namespace Catalog.Model
         /// <param name="dateModified">The date on which the product image was modified. .</param>
         /// <param name="id">The unique numeric ID of the image; increments sequentially. .</param>
         /// <param name="imageFile">The local path to the original image file uploaded to BigCommerce. Use image_url when creating a product. .</param>
-        /// <param name="imageUrl">Publically available URL.  Use the image_url when creating a product. .</param>
+        /// <param name="imageUrl">Publically available URL. Use the image_url when creating a product..</param>
         /// <param name="productId">The unique numeric identifier for the product with which the image is associated. .</param>
         /// <param name="urlStandard">The standard URL for this image. By default, this is used for product-page images. .</param>
         /// <param name="urlThumbnail">The thumbnail URL for this image. By default, this is the image size used on the category page and in side panels. .</param>
@@ -76,9 +76,9 @@ namespace Catalog.Model
         public string ImageFile { get; set; }
 
         /// <summary>
-        /// Publically available URL.  Use the image_url when creating a product. 
+        /// Publically available URL. Use the image_url when creating a product.
         /// </summary>
-        /// <value>Publically available URL.  Use the image_url when creating a product. </value>
+        /// <value>Publically available URL. Use the image_url when creating a product.</value>
         [DataMember(Name="image_url", EmitDefaultValue=false)]
         public string ImageUrl { get; set; }
 

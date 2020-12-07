@@ -180,7 +180,7 @@ namespace Catalog.Api
         /// <param name="weight">Filter items by weight.  (optional)</param>
         /// <param name="condition">Filter items by condition.  (optional)</param>
         /// <param name="brandId">Filter items by brand_id.  (optional)</param>
-        /// <param name="dateModified">Filter items by date_modified. For example &#x60;v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; (optional)</param>
+        /// <param name="dateModified">Filter items by &#x60;date_modified&#x60;. For example, &#x60;/v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; gets all products modified after &#x60;2018-06-15&#x60; (optional)</param>
         /// <param name="dateLastImported">Filter items by date_last_imported. For example &#x60;v3/catalog/products?date_last_imported:min&#x3D;2018-06-15&#x60; (optional)</param>
         /// <param name="isVisible">Filter items by if visible on the storefront.  (optional)</param>
         /// <param name="isFeatured">Filter items by is_featured. &#x60;0&#x60; for true, &#x60;1&#x60; for false.  (optional)</param>
@@ -198,7 +198,7 @@ namespace Catalog.Api
         /// <param name="includeFields">Fields to include, in a comma-separated list. The ID and the specified fields will be returned. (optional)</param>
         /// <param name="excludeFields">Fields to exclude, in a comma-separated list. The specified fields will be excluded from a response. The ID cannot be excluded. (optional)</param>
         /// <param name="availability">Filter items by availability. Values are: available, disabled, preorder.  (optional)</param>
-        /// <param name="priceListId">This filter returns the product pricing with the *Price List* pricing instead. To use:  &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; (optional)</param>
+        /// <param name="priceListId">This filter returns the product pricing with the *Price List* pricing instead. To use: &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; (optional)</param>
         /// <param name="page">Specifies the page number in a limited (paginated) list of products. (optional)</param>
         /// <param name="limit">Controls the number of items per page in a limited (paginated) list of products. (optional)</param>
         /// <param name="direction">Sort direction. Acceptable values are: &#x60;asc&#x60;, &#x60;desc&#x60;.  (optional)</param>
@@ -227,7 +227,7 @@ namespace Catalog.Api
         /// <param name="weight">Filter items by weight.  (optional)</param>
         /// <param name="condition">Filter items by condition.  (optional)</param>
         /// <param name="brandId">Filter items by brand_id.  (optional)</param>
-        /// <param name="dateModified">Filter items by date_modified. For example &#x60;v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; (optional)</param>
+        /// <param name="dateModified">Filter items by &#x60;date_modified&#x60;. For example, &#x60;/v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; gets all products modified after &#x60;2018-06-15&#x60; (optional)</param>
         /// <param name="dateLastImported">Filter items by date_last_imported. For example &#x60;v3/catalog/products?date_last_imported:min&#x3D;2018-06-15&#x60; (optional)</param>
         /// <param name="isVisible">Filter items by if visible on the storefront.  (optional)</param>
         /// <param name="isFeatured">Filter items by is_featured. &#x60;0&#x60; for true, &#x60;1&#x60; for false.  (optional)</param>
@@ -245,7 +245,7 @@ namespace Catalog.Api
         /// <param name="includeFields">Fields to include, in a comma-separated list. The ID and the specified fields will be returned. (optional)</param>
         /// <param name="excludeFields">Fields to exclude, in a comma-separated list. The specified fields will be excluded from a response. The ID cannot be excluded. (optional)</param>
         /// <param name="availability">Filter items by availability. Values are: available, disabled, preorder.  (optional)</param>
-        /// <param name="priceListId">This filter returns the product pricing with the *Price List* pricing instead. To use:  &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; (optional)</param>
+        /// <param name="priceListId">This filter returns the product pricing with the *Price List* pricing instead. To use: &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; (optional)</param>
         /// <param name="page">Specifies the page number in a limited (paginated) list of products. (optional)</param>
         /// <param name="limit">Controls the number of items per page in a limited (paginated) list of products. (optional)</param>
         /// <param name="direction">Sort direction. Acceptable values are: &#x60;asc&#x60;, &#x60;desc&#x60;.  (optional)</param>
@@ -467,7 +467,7 @@ namespace Catalog.Api
         /// <param name="weight">Filter items by weight.  (optional)</param>
         /// <param name="condition">Filter items by condition.  (optional)</param>
         /// <param name="brandId">Filter items by brand_id.  (optional)</param>
-        /// <param name="dateModified">Filter items by date_modified. For example &#x60;v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; (optional)</param>
+        /// <param name="dateModified">Filter items by &#x60;date_modified&#x60;. For example, &#x60;/v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; gets all products modified after &#x60;2018-06-15&#x60; (optional)</param>
         /// <param name="dateLastImported">Filter items by date_last_imported. For example &#x60;v3/catalog/products?date_last_imported:min&#x3D;2018-06-15&#x60; (optional)</param>
         /// <param name="isVisible">Filter items by if visible on the storefront.  (optional)</param>
         /// <param name="isFeatured">Filter items by is_featured. &#x60;0&#x60; for true, &#x60;1&#x60; for false.  (optional)</param>
@@ -485,7 +485,7 @@ namespace Catalog.Api
         /// <param name="includeFields">Fields to include, in a comma-separated list. The ID and the specified fields will be returned. (optional)</param>
         /// <param name="excludeFields">Fields to exclude, in a comma-separated list. The specified fields will be excluded from a response. The ID cannot be excluded. (optional)</param>
         /// <param name="availability">Filter items by availability. Values are: available, disabled, preorder.  (optional)</param>
-        /// <param name="priceListId">This filter returns the product pricing with the *Price List* pricing instead. To use:  &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; (optional)</param>
+        /// <param name="priceListId">This filter returns the product pricing with the *Price List* pricing instead. To use: &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; (optional)</param>
         /// <param name="page">Specifies the page number in a limited (paginated) list of products. (optional)</param>
         /// <param name="limit">Controls the number of items per page in a limited (paginated) list of products. (optional)</param>
         /// <param name="direction">Sort direction. Acceptable values are: &#x60;asc&#x60;, &#x60;desc&#x60;.  (optional)</param>
@@ -514,7 +514,7 @@ namespace Catalog.Api
         /// <param name="weight">Filter items by weight.  (optional)</param>
         /// <param name="condition">Filter items by condition.  (optional)</param>
         /// <param name="brandId">Filter items by brand_id.  (optional)</param>
-        /// <param name="dateModified">Filter items by date_modified. For example &#x60;v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; (optional)</param>
+        /// <param name="dateModified">Filter items by &#x60;date_modified&#x60;. For example, &#x60;/v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; gets all products modified after &#x60;2018-06-15&#x60; (optional)</param>
         /// <param name="dateLastImported">Filter items by date_last_imported. For example &#x60;v3/catalog/products?date_last_imported:min&#x3D;2018-06-15&#x60; (optional)</param>
         /// <param name="isVisible">Filter items by if visible on the storefront.  (optional)</param>
         /// <param name="isFeatured">Filter items by is_featured. &#x60;0&#x60; for true, &#x60;1&#x60; for false.  (optional)</param>
@@ -532,7 +532,7 @@ namespace Catalog.Api
         /// <param name="includeFields">Fields to include, in a comma-separated list. The ID and the specified fields will be returned. (optional)</param>
         /// <param name="excludeFields">Fields to exclude, in a comma-separated list. The specified fields will be excluded from a response. The ID cannot be excluded. (optional)</param>
         /// <param name="availability">Filter items by availability. Values are: available, disabled, preorder.  (optional)</param>
-        /// <param name="priceListId">This filter returns the product pricing with the *Price List* pricing instead. To use:  &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; (optional)</param>
+        /// <param name="priceListId">This filter returns the product pricing with the *Price List* pricing instead. To use: &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; (optional)</param>
         /// <param name="page">Specifies the page number in a limited (paginated) list of products. (optional)</param>
         /// <param name="limit">Controls the number of items per page in a limited (paginated) list of products. (optional)</param>
         /// <param name="direction">Sort direction. Acceptable values are: &#x60;asc&#x60;, &#x60;desc&#x60;.  (optional)</param>
@@ -1494,7 +1494,7 @@ namespace Catalog.Api
         /// <param name="weight">Filter items by weight.  (optional)</param>
         /// <param name="condition">Filter items by condition.  (optional)</param>
         /// <param name="brandId">Filter items by brand_id.  (optional)</param>
-        /// <param name="dateModified">Filter items by date_modified. For example &#x60;v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; (optional)</param>
+        /// <param name="dateModified">Filter items by &#x60;date_modified&#x60;. For example, &#x60;/v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; gets all products modified after &#x60;2018-06-15&#x60; (optional)</param>
         /// <param name="dateLastImported">Filter items by date_last_imported. For example &#x60;v3/catalog/products?date_last_imported:min&#x3D;2018-06-15&#x60; (optional)</param>
         /// <param name="isVisible">Filter items by if visible on the storefront.  (optional)</param>
         /// <param name="isFeatured">Filter items by is_featured. &#x60;0&#x60; for true, &#x60;1&#x60; for false.  (optional)</param>
@@ -1512,7 +1512,7 @@ namespace Catalog.Api
         /// <param name="includeFields">Fields to include, in a comma-separated list. The ID and the specified fields will be returned. (optional)</param>
         /// <param name="excludeFields">Fields to exclude, in a comma-separated list. The specified fields will be excluded from a response. The ID cannot be excluded. (optional)</param>
         /// <param name="availability">Filter items by availability. Values are: available, disabled, preorder.  (optional)</param>
-        /// <param name="priceListId">This filter returns the product pricing with the *Price List* pricing instead. To use:  &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; (optional)</param>
+        /// <param name="priceListId">This filter returns the product pricing with the *Price List* pricing instead. To use: &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; (optional)</param>
         /// <param name="page">Specifies the page number in a limited (paginated) list of products. (optional)</param>
         /// <param name="limit">Controls the number of items per page in a limited (paginated) list of products. (optional)</param>
         /// <param name="direction">Sort direction. Acceptable values are: &#x60;asc&#x60;, &#x60;desc&#x60;.  (optional)</param>
@@ -1542,7 +1542,7 @@ namespace Catalog.Api
         /// <param name="weight">Filter items by weight.  (optional)</param>
         /// <param name="condition">Filter items by condition.  (optional)</param>
         /// <param name="brandId">Filter items by brand_id.  (optional)</param>
-        /// <param name="dateModified">Filter items by date_modified. For example &#x60;v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; (optional)</param>
+        /// <param name="dateModified">Filter items by &#x60;date_modified&#x60;. For example, &#x60;/v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; gets all products modified after &#x60;2018-06-15&#x60; (optional)</param>
         /// <param name="dateLastImported">Filter items by date_last_imported. For example &#x60;v3/catalog/products?date_last_imported:min&#x3D;2018-06-15&#x60; (optional)</param>
         /// <param name="isVisible">Filter items by if visible on the storefront.  (optional)</param>
         /// <param name="isFeatured">Filter items by is_featured. &#x60;0&#x60; for true, &#x60;1&#x60; for false.  (optional)</param>
@@ -1560,7 +1560,7 @@ namespace Catalog.Api
         /// <param name="includeFields">Fields to include, in a comma-separated list. The ID and the specified fields will be returned. (optional)</param>
         /// <param name="excludeFields">Fields to exclude, in a comma-separated list. The specified fields will be excluded from a response. The ID cannot be excluded. (optional)</param>
         /// <param name="availability">Filter items by availability. Values are: available, disabled, preorder.  (optional)</param>
-        /// <param name="priceListId">This filter returns the product pricing with the *Price List* pricing instead. To use:  &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; (optional)</param>
+        /// <param name="priceListId">This filter returns the product pricing with the *Price List* pricing instead. To use: &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; (optional)</param>
         /// <param name="page">Specifies the page number in a limited (paginated) list of products. (optional)</param>
         /// <param name="limit">Controls the number of items per page in a limited (paginated) list of products. (optional)</param>
         /// <param name="direction">Sort direction. Acceptable values are: &#x60;asc&#x60;, &#x60;desc&#x60;.  (optional)</param>
@@ -1669,7 +1669,7 @@ namespace Catalog.Api
         /// <param name="weight">Filter items by weight.  (optional)</param>
         /// <param name="condition">Filter items by condition.  (optional)</param>
         /// <param name="brandId">Filter items by brand_id.  (optional)</param>
-        /// <param name="dateModified">Filter items by date_modified. For example &#x60;v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; (optional)</param>
+        /// <param name="dateModified">Filter items by &#x60;date_modified&#x60;. For example, &#x60;/v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; gets all products modified after &#x60;2018-06-15&#x60; (optional)</param>
         /// <param name="dateLastImported">Filter items by date_last_imported. For example &#x60;v3/catalog/products?date_last_imported:min&#x3D;2018-06-15&#x60; (optional)</param>
         /// <param name="isVisible">Filter items by if visible on the storefront.  (optional)</param>
         /// <param name="isFeatured">Filter items by is_featured. &#x60;0&#x60; for true, &#x60;1&#x60; for false.  (optional)</param>
@@ -1687,7 +1687,7 @@ namespace Catalog.Api
         /// <param name="includeFields">Fields to include, in a comma-separated list. The ID and the specified fields will be returned. (optional)</param>
         /// <param name="excludeFields">Fields to exclude, in a comma-separated list. The specified fields will be excluded from a response. The ID cannot be excluded. (optional)</param>
         /// <param name="availability">Filter items by availability. Values are: available, disabled, preorder.  (optional)</param>
-        /// <param name="priceListId">This filter returns the product pricing with the *Price List* pricing instead. To use:  &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; (optional)</param>
+        /// <param name="priceListId">This filter returns the product pricing with the *Price List* pricing instead. To use: &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; (optional)</param>
         /// <param name="page">Specifies the page number in a limited (paginated) list of products. (optional)</param>
         /// <param name="limit">Controls the number of items per page in a limited (paginated) list of products. (optional)</param>
         /// <param name="direction">Sort direction. Acceptable values are: &#x60;asc&#x60;, &#x60;desc&#x60;.  (optional)</param>
@@ -1718,7 +1718,7 @@ namespace Catalog.Api
         /// <param name="weight">Filter items by weight.  (optional)</param>
         /// <param name="condition">Filter items by condition.  (optional)</param>
         /// <param name="brandId">Filter items by brand_id.  (optional)</param>
-        /// <param name="dateModified">Filter items by date_modified. For example &#x60;v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; (optional)</param>
+        /// <param name="dateModified">Filter items by &#x60;date_modified&#x60;. For example, &#x60;/v3/catalog/products?date_modified:min&#x3D;2018-06-15&#x60; gets all products modified after &#x60;2018-06-15&#x60; (optional)</param>
         /// <param name="dateLastImported">Filter items by date_last_imported. For example &#x60;v3/catalog/products?date_last_imported:min&#x3D;2018-06-15&#x60; (optional)</param>
         /// <param name="isVisible">Filter items by if visible on the storefront.  (optional)</param>
         /// <param name="isFeatured">Filter items by is_featured. &#x60;0&#x60; for true, &#x60;1&#x60; for false.  (optional)</param>
@@ -1736,7 +1736,7 @@ namespace Catalog.Api
         /// <param name="includeFields">Fields to include, in a comma-separated list. The ID and the specified fields will be returned. (optional)</param>
         /// <param name="excludeFields">Fields to exclude, in a comma-separated list. The specified fields will be excluded from a response. The ID cannot be excluded. (optional)</param>
         /// <param name="availability">Filter items by availability. Values are: available, disabled, preorder.  (optional)</param>
-        /// <param name="priceListId">This filter returns the product pricing with the *Price List* pricing instead. To use:  &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; (optional)</param>
+        /// <param name="priceListId">This filter returns the product pricing with the *Price List* pricing instead. To use: &#x60;?price_list_id&#x3D;1&#x60;. If there are variants use: &#x60;?price_list_id&#x3D;1&amp;include&#x3D;variants&#x60; (optional)</param>
         /// <param name="page">Specifies the page number in a limited (paginated) list of products. (optional)</param>
         /// <param name="limit">Controls the number of items per page in a limited (paginated) list of products. (optional)</param>
         /// <param name="direction">Sort direction. Acceptable values are: &#x60;asc&#x60;, &#x60;desc&#x60;.  (optional)</param>

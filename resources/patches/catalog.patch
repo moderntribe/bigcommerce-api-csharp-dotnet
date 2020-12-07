@@ -1,0 +1,691 @@
+diff -ur src.orig/Catalog/Api/BrandImagesApi.cs src/Catalog/Api/BrandImagesApi.cs
+--- src.orig/Catalog/Api/BrandImagesApi.cs	2020-12-06 20:08:17.935365800 -0700
++++ src/Catalog/Api/BrandImagesApi.cs	2020-12-06 21:02:21.658147700 -0700
+@@ -295,7 +295,6 @@
+             if (brandId != null) localVarPathParams.Add("brand_id", this.Configuration.ApiClient.ParameterToString(brandId)); // path parameter
+             if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+             if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+-            if (imageFile != null) localVarFileParams.Add("image_file", this.Configuration.ApiClient.ParameterToFile("image_file", imageFile));
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+@@ -380,7 +379,6 @@
+             if (brandId != null) localVarPathParams.Add("brand_id", this.Configuration.ApiClient.ParameterToString(brandId)); // path parameter
+             if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+             if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+-            if (imageFile != null) localVarFileParams.Add("image_file", this.Configuration.ApiClient.ParameterToFile("image_file", imageFile));
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+diff -ur src.orig/Catalog/Api/CategoryImagesApi.cs src/Catalog/Api/CategoryImagesApi.cs
+--- src.orig/Catalog/Api/CategoryImagesApi.cs	2020-12-06 20:08:17.942361300 -0700
++++ src/Catalog/Api/CategoryImagesApi.cs	2020-12-06 21:02:56.298204100 -0700
+@@ -295,7 +295,6 @@
+             if (categoryId != null) localVarPathParams.Add("category_id", this.Configuration.ApiClient.ParameterToString(categoryId)); // path parameter
+             if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+             if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+-            if (imageFile != null) localVarFileParams.Add("image_file", this.Configuration.ApiClient.ParameterToFile("image_file", imageFile));
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+@@ -380,7 +379,6 @@
+             if (categoryId != null) localVarPathParams.Add("category_id", this.Configuration.ApiClient.ParameterToString(categoryId)); // path parameter
+             if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+             if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+-            if (imageFile != null) localVarFileParams.Add("image_file", this.Configuration.ApiClient.ParameterToFile("image_file", imageFile));
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+diff -ur src.orig/Catalog/Api/ProductModifierImagesApi.cs src/Catalog/Api/ProductModifierImagesApi.cs
+--- src.orig/Catalog/Api/ProductModifierImagesApi.cs	2020-12-06 20:08:17.954354000 -0700
++++ src/Catalog/Api/ProductModifierImagesApi.cs	2020-12-06 21:02:56.289208500 -0700
+@@ -323,7 +323,6 @@
+             if (valueId != null) localVarPathParams.Add("value_id", this.Configuration.ApiClient.ParameterToString(valueId)); // path parameter
+             if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+             if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+-            if (imageFile != null) localVarFileParams.Add("image_file", this.Configuration.ApiClient.ParameterToFile("image_file", imageFile));
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+@@ -420,7 +419,6 @@
+             if (valueId != null) localVarPathParams.Add("value_id", this.Configuration.ApiClient.ParameterToString(valueId)); // path parameter
+             if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+             if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+-            if (imageFile != null) localVarFileParams.Add("image_file", this.Configuration.ApiClient.ParameterToFile("image_file", imageFile));
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+diff -ur src.orig/Catalog/Api/ProductOptionValuesApi.cs src/Catalog/Api/ProductOptionValuesApi.cs
+--- src.orig/Catalog/Api/ProductOptionValuesApi.cs	2020-12-06 20:08:17.957352400 -0700
++++ src/Catalog/Api/ProductOptionValuesApi.cs	2020-12-06 20:47:21.922930200 -0700
+@@ -149,7 +149,7 @@
+         /// </remarks>
+         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+         /// <param name="body">A BigCommerce &#x60;OptionValue&#x60; object.
+-</param>
++        //</param>
+         /// <param name="accept"></param>
+         /// <param name="contentType"></param>
+         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+@@ -166,7 +166,7 @@
+         /// </remarks>
+         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+         /// <param name="body">A BigCommerce &#x60;OptionValue&#x60; object.
+-</param>
++        //</param>
+         /// <param name="accept"></param>
+         /// <param name="contentType"></param>
+         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+@@ -301,8 +301,7 @@
+         /// Updates a *Variant Option Value*.  **Read-Only Fields** * id
+         /// </remarks>
+         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A BigCommerce &#x60;OptionValue&#x60; object.
+-</param>
++        /// <param name="body">A BigCommerce &#x60;OptionValue&#x60; object.</param>
+         /// <param name="accept"></param>
+         /// <param name="contentType"></param>
+         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+@@ -318,8 +317,7 @@
+         /// Updates a *Variant Option Value*.  **Read-Only Fields** * id
+         /// </remarks>
+         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A BigCommerce &#x60;OptionValue&#x60; object.
+-</param>
++        /// <param name="body">A BigCommerce &#x60;OptionValue&#x60; object.</param>
+         /// <param name="accept"></param>
+         /// <param name="contentType"></param>
+         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+@@ -1199,7 +1197,7 @@
+         /// </summary>
+         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+         /// <param name="body">A BigCommerce &#x60;OptionValue&#x60; object.
+-</param>
++        //</param>
+         /// <param name="accept"></param>
+         /// <param name="contentType"></param>
+         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+@@ -1217,7 +1215,7 @@
+         /// </summary>
+         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+         /// <param name="body">A BigCommerce &#x60;OptionValue&#x60; object.
+-</param>
++        //</param>
+         /// <param name="accept"></param>
+         /// <param name="contentType"></param>
+         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+@@ -1309,7 +1307,7 @@
+         /// </summary>
+         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+         /// <param name="body">A BigCommerce &#x60;OptionValue&#x60; object.
+-</param>
++        //</param>
+         /// <param name="accept"></param>
+         /// <param name="contentType"></param>
+         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+@@ -1328,7 +1326,7 @@
+         /// </summary>
+         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+         /// <param name="body">A BigCommerce &#x60;OptionValue&#x60; object.
+-</param>
++        //</param>
+         /// <param name="accept"></param>
+         /// <param name="contentType"></param>
+         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+diff -ur src.orig/Catalog/Api/ProductReviewsApi.cs src/Catalog/Api/ProductReviewsApi.cs
+--- src.orig/Catalog/Api/ProductReviewsApi.cs	2020-12-06 20:08:17.960350600 -0700
++++ src/Catalog/Api/ProductReviewsApi.cs	2020-12-06 20:56:44.969561300 -0700
+@@ -148,8 +148,7 @@
+         /// Updates a *Product Review*.  **Required Fields** * none  **Read-Only Fields** * id
+         /// </remarks>
+         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.
+-</param>
++        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.</param>
+         /// <param name="accept"></param>
+         /// <param name="contentType"></param>
+         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+@@ -164,8 +163,7 @@
+         /// Updates a *Product Review*.  **Required Fields** * none  **Read-Only Fields** * id
+         /// </remarks>
+         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.
+-</param>
++        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.</param>
+         /// <param name="accept"></param>
+         /// <param name="contentType"></param>
+         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+@@ -299,8 +297,7 @@
+         /// Updates a *Product Review*.  **Required Fields** * none  **Read-Only Fields** * id
+         /// </remarks>
+         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.
+-</param>
++        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.</param>
+         /// <param name="accept"></param>
+         /// <param name="contentType"></param>
+         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+@@ -315,8 +312,7 @@
+         /// Updates a *Product Review*.  **Required Fields** * none  **Read-Only Fields** * id
+         /// </remarks>
+         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.
+-</param>
++        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.</param>
+         /// <param name="accept"></param>
+         /// <param name="contentType"></param>
+         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+@@ -1182,8 +1178,7 @@
+         /// Update a Product Review Updates a *Product Review*.  **Required Fields** * none  **Read-Only Fields** * id
+         /// </summary>
+         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.
+-</param>
++        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.</param>
+         /// <param name="accept"></param>
+         /// <param name="contentType"></param>
+         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+@@ -1199,8 +1194,7 @@
+         /// Update a Product Review Updates a *Product Review*.  **Required Fields** * none  **Read-Only Fields** * id
+         /// </summary>
+         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.
+-</param>
++        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.</param>
+         /// <param name="accept"></param>
+         /// <param name="contentType"></param>
+         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+@@ -1286,8 +1280,7 @@
+         /// Update a Product Review Updates a *Product Review*.  **Required Fields** * none  **Read-Only Fields** * id
+         /// </summary>
+         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.
+-</param>
++        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.</param>
+         /// <param name="accept"></param>
+         /// <param name="contentType"></param>
+         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+@@ -1304,8 +1297,7 @@
+         /// Update a Product Review Updates a *Product Review*.  **Required Fields** * none  **Read-Only Fields** * id
+         /// </summary>
+         /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.
+-</param>
++        /// <param name="body">A BigCommerce &#x60;ProductReview&#x60; object.s</param>
+         /// <param name="accept"></param>
+         /// <param name="contentType"></param>
+         /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+diff -ur src.orig/Catalog/Api/ProductVariantsApi.cs src/Catalog/Api/ProductVariantsApi.cs
+--- src.orig/Catalog/Api/ProductVariantsApi.cs	2020-12-06 20:08:17.962349600 -0700
++++ src/Catalog/Api/ProductVariantsApi.cs	2020-12-06 21:01:08.982301500 -0700
+@@ -72,31 +72,6 @@
+         /// <returns>ApiResponse of ImageResponse</returns>
+         ApiResponse<ImageResponse> CreateVariantImageWithHttpInfo (int? productId, int? variantId, ResourceImage body = null);
+         /// <summary>
+-        /// Create a Variant Image
+-        /// </summary>
+-        /// <remarks>
+-        /// Creates a *Variant Image*.  The image will show on the storefront when the value is selected.   **Required Fields** - image_file: Form posts. Files larger than 1 MB are not accepted - image_url: Any publicly available URL
+-        /// </remarks>
+-        /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+-        /// <param name="variantId">ID of the variant on a product, or on an associated Price List Record. </param>
+-        /// <param name="body"> (optional)</param>
+-        /// <returns>ImageResponse</returns>
+-        ImageResponse CreateVariantImage (int? productId, int? variantId, ResourceImage body = null);
+-
+-        /// <summary>
+-        /// Create a Variant Image
+-        /// </summary>
+-        /// <remarks>
+-        /// Creates a *Variant Image*.  The image will show on the storefront when the value is selected.   **Required Fields** - image_file: Form posts. Files larger than 1 MB are not accepted - image_url: Any publicly available URL
+-        /// </remarks>
+-        /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+-        /// <param name="variantId">ID of the variant on a product, or on an associated Price List Record. </param>
+-        /// <param name="body"> (optional)</param>
+-        /// <returns>ApiResponse of ImageResponse</returns>
+-        ApiResponse<ImageResponse> CreateVariantImageWithHttpInfo (int? productId, int? variantId, ResourceImage body = null);
+-        /// <summary>
+         /// Delete a Product Variant
+         /// </summary>
+         /// <remarks>
+@@ -267,31 +242,6 @@
+         /// <returns>Task of ApiResponse (ImageResponse)</returns>
+         System.Threading.Tasks.Task<ApiResponse<ImageResponse>> CreateVariantImageAsyncWithHttpInfo (int? productId, int? variantId, ResourceImage body = null);
+         /// <summary>
+-        /// Create a Variant Image
+-        /// </summary>
+-        /// <remarks>
+-        /// Creates a *Variant Image*.  The image will show on the storefront when the value is selected.   **Required Fields** - image_file: Form posts. Files larger than 1 MB are not accepted - image_url: Any publicly available URL
+-        /// </remarks>
+-        /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+-        /// <param name="variantId">ID of the variant on a product, or on an associated Price List Record. </param>
+-        /// <param name="body"> (optional)</param>
+-        /// <returns>Task of ImageResponse</returns>
+-        System.Threading.Tasks.Task<ImageResponse> CreateVariantImageAsync (int? productId, int? variantId, ResourceImage body = null);
+-
+-        /// <summary>
+-        /// Create a Variant Image
+-        /// </summary>
+-        /// <remarks>
+-        /// Creates a *Variant Image*.  The image will show on the storefront when the value is selected.   **Required Fields** - image_file: Form posts. Files larger than 1 MB are not accepted - image_url: Any publicly available URL
+-        /// </remarks>
+-        /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+-        /// <param name="variantId">ID of the variant on a product, or on an associated Price List Record. </param>
+-        /// <param name="body"> (optional)</param>
+-        /// <returns>Task of ApiResponse (ImageResponse)</returns>
+-        System.Threading.Tasks.Task<ApiResponse<ImageResponse>> CreateVariantImageAsyncWithHttpInfo (int? productId, int? variantId, ResourceImage body = null);
+-        /// <summary>
+         /// Delete a Product Variant
+         /// </summary>
+         /// <remarks>
+@@ -847,169 +797,6 @@
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+-                localVarHeaderParams["X-Auth-Token"] = this.Configuration.GetApiKeyWithPrefix("X-Auth-Token");
+-            }
+-
+-            // make the HTTP request
+-            IRestResponse localVarResponse = (IRestResponse) await this.Configuration.ApiClient.CallApiAsync(localVarPath,
+-                Method.POST, localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarFileParams,
+-                localVarPathParams, localVarHttpContentType);
+-
+-            int localVarStatusCode = (int) localVarResponse.StatusCode;
+-
+-            if (ExceptionFactory != null)
+-            {
+-                Exception exception = ExceptionFactory("CreateVariantImage", localVarResponse);
+-                if (exception != null) throw exception;
+-            }
+-
+-            return new ApiResponse<ImageResponse>(localVarStatusCode,
+-                localVarResponse.Headers.ToDictionary(x => x.Name, x => string.Join(",", x.Value)),
+-                (ImageResponse) this.Configuration.ApiClient.Deserialize(localVarResponse, typeof(ImageResponse)));
+-        }
+-
+-        /// <summary>
+-        /// Create a Variant Image Creates a *Variant Image*.  The image will show on the storefront when the value is selected.   **Required Fields** - image_file: Form posts. Files larger than 1 MB are not accepted - image_url: Any publicly available URL
+-        /// </summary>
+-        /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+-        /// <param name="variantId">ID of the variant on a product, or on an associated Price List Record. </param>
+-        /// <param name="body"> (optional)</param>
+-        /// <returns>ImageResponse</returns>
+-        public ImageResponse CreateVariantImage (int? productId, int? variantId, ResourceImage body = null)
+-        {
+-             ApiResponse<ImageResponse> localVarResponse = CreateVariantImageWithHttpInfo(productId, variantId, body);
+-             return localVarResponse.Data;
+-        }
+-
+-        /// <summary>
+-        /// Create a Variant Image Creates a *Variant Image*.  The image will show on the storefront when the value is selected.   **Required Fields** - image_file: Form posts. Files larger than 1 MB are not accepted - image_url: Any publicly available URL
+-        /// </summary>
+-        /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+-        /// <param name="variantId">ID of the variant on a product, or on an associated Price List Record. </param>
+-        /// <param name="body"> (optional)</param>
+-        /// <returns>ApiResponse of ImageResponse</returns>
+-        public ApiResponse< ImageResponse > CreateVariantImageWithHttpInfo (int? productId, int? variantId, ResourceImage body = null)
+-        {
+-            // verify the required parameter 'productId' is set
+-            if (productId == null)
+-                throw new ApiException(400, "Missing required parameter 'productId' when calling ProductVariantsApi->CreateVariantImage");
+-            // verify the required parameter 'variantId' is set
+-            if (variantId == null)
+-                throw new ApiException(400, "Missing required parameter 'variantId' when calling ProductVariantsApi->CreateVariantImage");
+-
+-            var localVarPath = "/catalog/products/{product_id}/variants/{variant_id}/image";
+-            var localVarPathParams = new Dictionary<String, String>();
+-            var localVarQueryParams = new List<KeyValuePair<String, String>>();
+-            var localVarHeaderParams = new Dictionary<String, String>(this.Configuration.DefaultHeader);
+-            var localVarFormParams = new Dictionary<String, String>();
+-            var localVarFileParams = new Dictionary<String, FileParameter>();
+-            Object localVarPostBody = null;
+-
+-            // to determine the Content-Type header
+-            String[] localVarHttpContentTypes = new String[] {
+-                "application/json", 
+-                "multipart/form-data"
+-            };
+-            String localVarHttpContentType = this.Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
+-
+-            // to determine the Accept header
+-            String[] localVarHttpHeaderAccepts = new String[] {
+-                "application/json"
+-            };
+-            String localVarHttpHeaderAccept = this.Configuration.ApiClient.SelectHeaderAccept(localVarHttpHeaderAccepts);
+-            if (localVarHttpHeaderAccept != null)
+-                localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+-
+-            if (productId != null) localVarPathParams.Add("product_id", this.Configuration.ApiClient.ParameterToString(productId)); // path parameter
+-            if (variantId != null) localVarPathParams.Add("variant_id", this.Configuration.ApiClient.ParameterToString(variantId)); // path parameter
+-            if (imageUrl != null) localVarFormParams.Add("image_url", this.Configuration.ApiClient.ParameterToString(imageUrl)); // form parameter
+-            // authentication (X-Auth-Token) required
+-            if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+-            {
+-                localVarHeaderParams["X-Auth-Token"] = this.Configuration.GetApiKeyWithPrefix("X-Auth-Token");
+-            }
+-
+-            // make the HTTP request
+-            IRestResponse localVarResponse = (IRestResponse) this.Configuration.ApiClient.CallApi(localVarPath,
+-                Method.POST, localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarFileParams,
+-                localVarPathParams, localVarHttpContentType);
+-
+-            int localVarStatusCode = (int) localVarResponse.StatusCode;
+-
+-            if (ExceptionFactory != null)
+-            {
+-                Exception exception = ExceptionFactory("CreateVariantImage", localVarResponse);
+-                if (exception != null) throw exception;
+-            }
+-
+-            return new ApiResponse<ImageResponse>(localVarStatusCode,
+-                localVarResponse.Headers.ToDictionary(x => x.Name, x => string.Join(",", x.Value)),
+-                (ImageResponse) this.Configuration.ApiClient.Deserialize(localVarResponse, typeof(ImageResponse)));
+-        }
+-
+-        /// <summary>
+-        /// Create a Variant Image Creates a *Variant Image*.  The image will show on the storefront when the value is selected.   **Required Fields** - image_file: Form posts. Files larger than 1 MB are not accepted - image_url: Any publicly available URL
+-        /// </summary>
+-        /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+-        /// <param name="variantId">ID of the variant on a product, or on an associated Price List Record. </param>
+-        /// <param name="body"> (optional)</param>
+-        /// <returns>Task of ImageResponse</returns>
+-        public async System.Threading.Tasks.Task<ImageResponse> CreateVariantImageAsync (int? productId, int? variantId, ResourceImage body = null)
+-        {
+-             ApiResponse<ImageResponse> localVarResponse = await CreateVariantImageAsyncWithHttpInfo(productId, variantId, body);
+-             return localVarResponse.Data;
+-
+-        }
+-
+-        /// <summary>
+-        /// Create a Variant Image Creates a *Variant Image*.  The image will show on the storefront when the value is selected.   **Required Fields** - image_file: Form posts. Files larger than 1 MB are not accepted - image_url: Any publicly available URL
+-        /// </summary>
+-        /// <exception cref="Catalog.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="productId">The ID of the &#x60;Product&#x60; to which the resource belongs. </param>
+-        /// <param name="variantId">ID of the variant on a product, or on an associated Price List Record. </param>
+-        /// <param name="body"> (optional)</param>
+-        /// <returns>Task of ApiResponse (ImageResponse)</returns>
+-        public async System.Threading.Tasks.Task<ApiResponse<ImageResponse>> CreateVariantImageAsyncWithHttpInfo (int? productId, int? variantId, ResourceImage body = null)
+-        {
+-            // verify the required parameter 'productId' is set
+-            if (productId == null)
+-                throw new ApiException(400, "Missing required parameter 'productId' when calling ProductVariantsApi->CreateVariantImage");
+-            // verify the required parameter 'variantId' is set
+-            if (variantId == null)
+-                throw new ApiException(400, "Missing required parameter 'variantId' when calling ProductVariantsApi->CreateVariantImage");
+-
+-            var localVarPath = "/catalog/products/{product_id}/variants/{variant_id}/image";
+-            var localVarPathParams = new Dictionary<String, String>();
+-            var localVarQueryParams = new List<KeyValuePair<String, String>>();
+-            var localVarHeaderParams = new Dictionary<String, String>(this.Configuration.DefaultHeader);
+-            var localVarFormParams = new Dictionary<String, String>();
+-            var localVarFileParams = new Dictionary<String, FileParameter>();
+-            Object localVarPostBody = null;
+-
+-            // to determine the Content-Type header
+-            String[] localVarHttpContentTypes = new String[] {
+-                "application/json", 
+-                "multipart/form-data"
+-            };
+-            String localVarHttpContentType = this.Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
+-
+-            // to determine the Accept header
+-            String[] localVarHttpHeaderAccepts = new String[] {
+-                "application/json"
+-            };
+-            String localVarHttpHeaderAccept = this.Configuration.ApiClient.SelectHeaderAccept(localVarHttpHeaderAccepts);
+-            if (localVarHttpHeaderAccept != null)
+-                localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+-
+-            if (productId != null) localVarPathParams.Add("product_id", this.Configuration.ApiClient.ParameterToString(productId)); // path parameter
+-            if (variantId != null) localVarPathParams.Add("variant_id", this.Configuration.ApiClient.ParameterToString(variantId)); // path parameter
+-            if (imageUrl != null) localVarFormParams.Add("image_url", this.Configuration.ApiClient.ParameterToString(imageUrl)); // form parameter
+-            // authentication (X-Auth-Token) required
+-            if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+-            {
+                 localVarHeaderParams["X-Auth-Token"] = this.Configuration.GetApiKeyWithPrefix("X-Auth-Token");
+             }
+ 
+Only in src/Catalog: bin
+diff -ur src.orig/Catalog/Catalog.csproj src/Catalog/Catalog.csproj
+--- src.orig/Catalog/Catalog.csproj	2020-12-06 20:08:17.997329000 -0700
++++ src/Catalog/Catalog.csproj	2020-12-06 20:13:22.116259000 -0700
+@@ -2,7 +2,7 @@
+ <!--
+ Catalog
+ 
+-Manage products, brands and categories. To learn more about catalog resources see [Catalog Overview](https://developer.bigcommerce.com/api-docs/catalog/products-overview).  - [Authentication](#authentication) - [Differentiating Variants & Modifiers](#variants-and-modifiers) - [Available Endpoints](#available-endpoints) - [Resources](#resources)  ## Authentication Requests can be authenticated by sending an `access_token` via `X-Auth-Token` HTTP header:  ```http GET /stores/{$$.env.store_hash}/v3/catalog/summary host: api.bigcommerce.com Accept: application/json X-Auth-Token: {access_token} ```  |Header|Parameter|Description| |-|-|-| |`X-Auth-Token`|`access_token `|Obtained by creating an API account or installing an app in a BigCommerce control panel.|  ### OAuth Scopes | UI Name  | Permission | Parameter                     | |- -- -- -- -- -|- -- -- -- -- -- -|- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --| | Products | modify     | `store_v2_products`           | | Products | read-only  | `store_v2_products_read_only` |  For more information on OAuth Scopes, see: [Authentication](https://developer.bigcommerce.com/api-docs/getting-started/authentication).  For more information on Authenticating BigCommerce APIs, see: [Authentication](https://developer.bigcommerce.com/api-docs/getting-started/authentication).  ## Differentiating Variants and Modifiers [Variants](https://support.bigcommerce.com/s/article/Product-Options-v3#variations) represent a physical product made up of [Product Option](https://support.bigcommerce.com/s/article/Product-Options-v3) choices, i.e. a large blue t-shirt. Each variant can have a unique SKU.  Modifiers represent a choice a customer makes about a product that doesn't represent a physical item, i.e. text to be printed on a t-shirt. Assigning a SKU to a modifier will turn it into a variant.  See [Variant Options](https://developer.bigcommerce.com/api-docs/catalog/products-overview#variant-options) and [Modifier Options](https://developer.bigcommerce.com/api-docs/catalog/products-overview#modifier-options) for more information.  ## Available Endpoints | Resource / Endpoint                     | Description                                                             | |- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --|- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --| | Brand Images                            | Create and manage brand images                                          | | Brand Metafields                        | Create and manage brand metafields                                      | | Brands                                  | Create and manage brands                                                | | Catalog                                 | Create and manage store categories, products, and brands                | | Categories                              | Create and manage categorties                                           | | Category Images                         | Create and manage category images                                       | | Category Metafields                     | Create and manage category metafields                                   | | Product Bulk Pricing Rules              | Create and manage product bulk pricing rules                            | | Product Complex Rules                   | Create and manage product complex rules                                 | | Product Custom Fields                   | Create and manage product custom fields                                 | | Product Images                          | Create and manage product images                                        | | Product Metafields                      | Create and manage product meta fields                                   | | Product Modifier Images                 | Create and manage product modifer images                                | | Product Modifier Values                 | Create and manage product modifier values                               | | Product Modifiers                       | Create and manage product midifiers                                     | | Product Reviews                         | Create and manage product reviews                                       | | Product Variant Option Values           | Create and manage product variant option values                         | | Product Variant Options                 | Create and manage product variant options                               | | Product Variants                        | Create and manage product variants                                      | | Product Videos                          | Create and manage product videos                                        | | Products                                | Create and manage products                                              | | ProductVariant Metafields               | Create and manage product meta flields                                  | | Variants                                | Get and update all variants                                             |  ## Resources  ### Webhooks * [Products](/api-docs/getting-started/webhooks/webhook-events#webhook-events_products) * [Categories](/api-docs/getting-started/webhooks/webhook-events#webhook-events_category) * [SKU](/api-docs/getting-started/webhooks/webhook-events#webhook-events_sku)  ### Related Endpoints * [Catalog API](/api-reference/catalog/catalog-api)
++Manage products, brands and categories. To learn more about catalog resources see [Catalog Overview](https://developer.bigcommerce.com/api-docs/catalog/products-overview).  - [Authentication](#authentication) - [Differentiating Variants & Modifiers](#variants-and-modifiers) - [Available Endpoints](#available-endpoints) - [Resources](#resources)  ## Authentication Requests can be authenticated by sending an `access_token` via `X-Auth-Token` HTTP header:  ```http GET /stores/{$$.env.store_hash}/v3/catalog/summary host: api.bigcommerce.com Accept: application/json X-Auth-Token: {access_token} ```  |Header|Parameter|Description| |-|-|-| |`X-Auth-Token`|`access_token `|Obtained by creating an API account or installing an app in a BigCommerce control panel.|  ### OAuth Scopes | UI Name  | Permission | Parameter                     | |-|-|-| | Products | modify     | `store_v2_products`           | | Products | read-only  | `store_v2_products_read_only` |  For more information on OAuth Scopes, see: [Authentication](https://developer.bigcommerce.com/api-docs/getting-started/authentication).  For more information on Authenticating BigCommerce APIs, see: [Authentication](https://developer.bigcommerce.com/api-docs/getting-started/authentication).  ## Differentiating Variants and Modifiers [Variants](https://support.bigcommerce.com/s/article/Product-Options-v3#variations) represent a physical product made up of [Product Option](https://support.bigcommerce.com/s/article/Product-Options-v3) choices, i.e. a large blue t-shirt. Each variant can have a unique SKU.  Modifiers represent a choice a customer makes about a product that doesn't represent a physical item, i.e. text to be printed on a t-shirt. Assigning a SKU to a modifier will turn it into a variant.  See [Variant Options](https://developer.bigcommerce.com/api-docs/catalog/products-overview#variant-options) and [Modifier Options](https://developer.bigcommerce.com/api-docs/catalog/products-overview#modifier-options) for more information.  ## Available Endpoints | Resource / Endpoint                     | Description                                                             | |- |- | | Brand Images                            | Create and manage brand images                                          | | Brand Metafields                        | Create and manage brand metafields                                      | | Brands                                  | Create and manage brands                                                | | Catalog                                 | Create and manage store categories, products, and brands                | | Categories                              | Create and manage categorties                                           | | Category Images                         | Create and manage category images                                       | | Category Metafields                     | Create and manage category metafields                                   | | Product Bulk Pricing Rules              | Create and manage product bulk pricing rules                            | | Product Complex Rules                   | Create and manage product complex rules                                 | | Product Custom Fields                   | Create and manage product custom fields                                 | | Product Images                          | Create and manage product images                                        | | Product Metafields                      | Create and manage product meta fields                                   | | Product Modifier Images                 | Create and manage product modifer images                                | | Product Modifier Values                 | Create and manage product modifier values                               | | Product Modifiers                       | Create and manage product midifiers                                     | | Product Reviews                         | Create and manage product reviews                                       | | Product Variant Option Values           | Create and manage product variant option values                         | | Product Variant Options                 | Create and manage product variant options                               | | Product Variants                        | Create and manage product variants                                      | | Product Videos                          | Create and manage product videos                                        | | Products                                | Create and manage products                                              | | ProductVariant Metafields               | Create and manage product meta flields                                  | | Variants                                | Get and update all variants                                             |  ## Resources  ### Webhooks * [Products](/api-docs/getting-started/webhooks/webhook-events#webhook-events_products) * [Categories](/api-docs/getting-started/webhooks/webhook-events#webhook-events_category) * [SKU](/api-docs/getting-started/webhooks/webhook-events#webhook-events_sku)  ### Related Endpoints * [Catalog API](/api-reference/catalog/catalog-api)
+ 
+ OpenAPI spec version: 1.0.0
+ 
+diff -ur src.orig/Catalog/Model/AllOfVariantResponse1Data.cs src/Catalog/Model/AllOfVariantResponse1Data.cs
+--- src.orig/Catalog/Model/AllOfVariantResponse1Data.cs	2020-12-06 20:08:17.418661900 -0700
++++ src/Catalog/Model/AllOfVariantResponse1Data.cs	2020-12-06 20:49:29.200434100 -0700
+@@ -39,9 +39,8 @@
+         /// <param name="productId">productId.</param>
+         /// <param name="sku">sku.</param>
+         /// <param name="skuId">Read-only reference to v2 API&#x27;s SKU ID. Null if it is a base variant..</param>
+-        public AllOfVariantResponse1Data(string  = default(string), double? calculatedPrice = default(double?), int? id = default(int?), List<Object> optionValues = default(List<Object>), int? productId = default(int?), string sku = default(string), int? skuId = default(int?))
++        public AllOfVariantResponse1Data(double? calculatedPrice = default(double?), int? id = default(int?), List<Object> optionValues = default(List<Object>), int? productId = default(int?), string sku = default(string), int? skuId = default(int?))
+         {
+-            this. = ;
+             this.CalculatedPrice = calculatedPrice;
+             this.Id = id;
+             this.OptionValues = optionValues;
+@@ -51,12 +50,6 @@
+         }
+         
+         /// <summary>
+-        /// Gets or Sets 
+-        /// </summary>
+-        [DataMember(Name="", EmitDefaultValue=false)]
+-        public string  { get; set; }
+-
+-        /// <summary>
+         /// The price of the variant as seen on the storefront. This price takes into account &#x60;sale_price&#x60; and any price adjustment rules that are applicable to this variant. 
+         /// </summary>
+         /// <value>The price of the variant as seen on the storefront. This price takes into account &#x60;sale_price&#x60; and any price adjustment rules that are applicable to this variant. </value>
+@@ -103,7 +96,6 @@
+         {
+             var sb = new StringBuilder();
+             sb.Append("class AllOfVariantResponse1Data {\n");
+-            sb.Append("  : ").Append().Append("\n");
+             sb.Append("  CalculatedPrice: ").Append(CalculatedPrice).Append("\n");
+             sb.Append("  Id: ").Append(Id).Append("\n");
+             sb.Append("  OptionValues: ").Append(OptionValues).Append("\n");
+@@ -145,11 +137,6 @@
+ 
+             return 
+                 (
+-                    this. == input. ||
+-                    (this. != null &&
+-                    this..Equals(input.))
+-                ) && 
+-                (
+                     this.CalculatedPrice == input.CalculatedPrice ||
+                     (this.CalculatedPrice != null &&
+                     this.CalculatedPrice.Equals(input.CalculatedPrice))
+@@ -191,8 +178,6 @@
+             unchecked // Overflow is fine, just wrap
+             {
+                 int hashCode = 41;
+-                if (this. != null)
+-                    hashCode = hashCode * 59 + this..GetHashCode();
+                 if (this.CalculatedPrice != null)
+                     hashCode = hashCode * 59 + this.CalculatedPrice.GetHashCode();
+                 if (this.Id != null)
+diff -ur src.orig/Catalog/Model/Meta.cs src/Catalog/Model/Meta.cs
+--- src.orig/Catalog/Model/Meta.cs	2020-12-06 20:08:17.632539100 -0700
++++ src/Catalog/Model/Meta.cs	2020-12-06 20:56:44.959566800 -0700
+@@ -27,24 +27,17 @@
+     /// Empty meta object; may be used later.
+     /// </summary>
+     [DataContract]
+-        public partial class Meta :  IEquatable<Meta>, IValidatableObject
++        public partial class Meta : IValidatableObject
+     {
+         /// <summary>
+         /// Initializes a new instance of the <see cref="Meta" /> class.
+         /// </summary>
+         /// <param name="">.</param>
+-        public Meta(string  = default(string))
++        public Meta()
+         {
+-            this. = ;
+         }
+         
+         /// <summary>
+-        /// Gets or Sets 
+-        /// </summary>
+-        [DataMember(Name="", EmitDefaultValue=false)]
+-        public string  { get; set; }
+-
+-        /// <summary>
+         /// Returns the string presentation of the object
+         /// </summary>
+         /// <returns>String presentation of the object</returns>
+@@ -52,7 +45,6 @@
+         {
+             var sb = new StringBuilder();
+             sb.Append("class Meta {\n");
+-            sb.Append("  : ").Append().Append("\n");
+             sb.Append("}\n");
+             return sb.ToString();
+         }
+@@ -64,59 +56,11 @@
+         public virtual string ToJson()
+         {
+             return JsonConvert.SerializeObject(this, Formatting.Indented);
+-        }
+-
+-        /// <summary>
+-        /// Returns true if objects are equal
+-        /// </summary>
+-        /// <param name="input">Object to be compared</param>
+-        /// <returns>Boolean</returns>
+-        public override bool Equals(object input)
+-        {
+-            return this.Equals(input as Meta);
+-        }
+-
+-        /// <summary>
+-        /// Returns true if Meta instances are equal
+-        /// </summary>
+-        /// <param name="input">Instance of Meta to be compared</param>
+-        /// <returns>Boolean</returns>
+-        public bool Equals(Meta input)
+-        {
+-            if (input == null)
+-                return false;
+-
+-            return 
+-                (
+-                    this. == input. ||
+-                    (this. != null &&
+-                    this..Equals(input.))
+-                );
+-        }
+-
+-        /// <summary>
+-        /// Gets the hash code
+-        /// </summary>
+-        /// <returns>Hash code</returns>
+-        public override int GetHashCode()
+-        {
+-            unchecked // Overflow is fine, just wrap
+-            {
+-                int hashCode = 41;
+-                if (this. != null)
+-                    hashCode = hashCode * 59 + this..GetHashCode();
+-                return hashCode;
+-            }
+-        }
+-
+-        /// <summary>
+-        /// To validate all properties of the instance
+-        /// </summary>
+-        /// <param name="validationContext">Validation context</param>
+-        /// <returns>Validation Result</returns>
+-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+-        {
+-            yield break;
+-        }
++        }
++
++        public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
++        {
++            return (IEnumerable<ValidationResult>)ValidationResult.Success;
++        }
+     }
+ }
+diff -ur src.orig/Catalog/Model/ProductVariantFull.cs src/Catalog/Model/ProductVariantFull.cs
+--- src.orig/Catalog/Model/ProductVariantFull.cs	2020-12-06 20:08:17.848415100 -0700
++++ src/Catalog/Model/ProductVariantFull.cs	2020-12-06 20:56:44.950571700 -0700
+@@ -32,16 +32,14 @@
+         /// <summary>
+         /// Initializes a new instance of the <see cref="ProductVariantFull" /> class.
+         /// </summary>
+-        /// <param name="">.</param>
+         /// <param name="calculatedPrice">The price of the variant as seen on the storefront. This price takes into account &#x60;sale_price&#x60; and any price adjustment rules that are applicable to this variant. .</param>
+         /// <param name="id">id.</param>
+         /// <param name="optionValues">Array of option and option values IDs that make up this variant. Will be empty if the variant is the product&#x27;s base variant..</param>
+         /// <param name="productId">productId.</param>
+         /// <param name="sku">sku.</param>
+         /// <param name="skuId">Read-only reference to v2 API&#x27;s SKU ID. Null if it is a base variant..</param>
+-        public ProductVariantFull(string  = default(string), double? calculatedPrice = default(double?), int? id = default(int?), List<Object> optionValues = default(List<Object>), int? productId = default(int?), string sku = default(string), int? skuId = default(int?))
++        public ProductVariantFull(double? calculatedPrice = default(double?), int? id = default(int?), List<Object> optionValues = default(List<Object>), int? productId = default(int?), string sku = default(string), int? skuId = default(int?))
+         {
+-            this. = ;
+             this.CalculatedPrice = calculatedPrice;
+             this.Id = id;
+             this.OptionValues = optionValues;
+@@ -51,12 +49,6 @@
+         }
+         
+         /// <summary>
+-        /// Gets or Sets 
+-        /// </summary>
+-        [DataMember(Name="", EmitDefaultValue=false)]
+-        public string  { get; set; }
+-
+-        /// <summary>
+         /// The price of the variant as seen on the storefront. This price takes into account &#x60;sale_price&#x60; and any price adjustment rules that are applicable to this variant. 
+         /// </summary>
+         /// <value>The price of the variant as seen on the storefront. This price takes into account &#x60;sale_price&#x60; and any price adjustment rules that are applicable to this variant. </value>
+@@ -103,7 +95,6 @@
+         {
+             var sb = new StringBuilder();
+             sb.Append("class ProductVariantFull {\n");
+-            sb.Append("  : ").Append().Append("\n");
+             sb.Append("  CalculatedPrice: ").Append(CalculatedPrice).Append("\n");
+             sb.Append("  Id: ").Append(Id).Append("\n");
+             sb.Append("  OptionValues: ").Append(OptionValues).Append("\n");
+@@ -145,11 +136,6 @@
+ 
+             return 
+                 (
+-                    this. == input. ||
+-                    (this. != null &&
+-                    this..Equals(input.))
+-                ) && 
+-                (
+                     this.CalculatedPrice == input.CalculatedPrice ||
+                     (this.CalculatedPrice != null &&
+                     this.CalculatedPrice.Equals(input.CalculatedPrice))
+@@ -191,8 +177,6 @@
+             unchecked // Overflow is fine, just wrap
+             {
+                 int hashCode = 41;
+-                if (this. != null)
+-                    hashCode = hashCode * 59 + this..GetHashCode();
+                 if (this.CalculatedPrice != null)
+                     hashCode = hashCode * 59 + this.CalculatedPrice.GetHashCode();
+                 if (this.Id != null)
+Only in src/Catalog: obj

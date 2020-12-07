@@ -323,7 +323,6 @@ namespace Catalog.Api
             if (valueId != null) localVarPathParams.Add("value_id", this.Configuration.ApiClient.ParameterToString(valueId)); // path parameter
             if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
             if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
-            if (imageFile != null) localVarFileParams.Add("image_file", this.Configuration.ApiClient.ParameterToFile("image_file", imageFile));
             // authentication (X-Auth-Token) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
             {
@@ -420,7 +419,6 @@ namespace Catalog.Api
             if (valueId != null) localVarPathParams.Add("value_id", this.Configuration.ApiClient.ParameterToString(valueId)); // path parameter
             if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
             if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
-            if (imageFile != null) localVarFileParams.Add("image_file", this.Configuration.ApiClient.ParameterToFile("image_file", imageFile));
             // authentication (X-Auth-Token) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
             {

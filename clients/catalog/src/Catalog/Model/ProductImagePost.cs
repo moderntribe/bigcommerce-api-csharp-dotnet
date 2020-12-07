@@ -33,7 +33,7 @@ namespace Catalog.Model
         /// Initializes a new instance of the <see cref="ProductImagePost" /> class.
         /// </summary>
         /// <param name="imageFile">Must be sent as a multipart/form-data field in the request body. .</param>
-        /// <param name="imageUrl">Must be a fully qualified URL path, including protocol. Limit of 8MB per file.  .</param>
+        /// <param name="imageUrl">Must be a fully qualified URL path, including protocol. Limit of 8MB per file. .</param>
         public ProductImagePost(string imageFile = default(string), string imageUrl = default(string))
         {
             this.ImageFile = imageFile;
@@ -48,9 +48,9 @@ namespace Catalog.Model
         public string ImageFile { get; set; }
 
         /// <summary>
-        /// Must be a fully qualified URL path, including protocol. Limit of 8MB per file.  
+        /// Must be a fully qualified URL path, including protocol. Limit of 8MB per file. 
         /// </summary>
-        /// <value>Must be a fully qualified URL path, including protocol. Limit of 8MB per file.  </value>
+        /// <value>Must be a fully qualified URL path, including protocol. Limit of 8MB per file. </value>
         [DataMember(Name="image_url", EmitDefaultValue=false)]
         public string ImageUrl { get; set; }
 

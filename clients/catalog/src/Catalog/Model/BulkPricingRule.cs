@@ -60,7 +60,7 @@ namespace Catalog.Model
         /// <summary>
         /// Initializes a new instance of the <see cref="BulkPricingRule" /> class.
         /// </summary>
-        /// <param name="amount">The discount can be a fixed dollar amount or a percentage. For a fixed dollar amount enter it as an integer and the response will return as an integer. For percentage enter the amount as the percentage divided by 100 using string format. For example 10% percent would be “.10”. The response will return as an integer.  Required in /POST. (required).</param>
+        /// <param name="amount">The discount can be a fixed dollar amount or a percentage. For a fixed dollar amount enter it as an integer and the response will return as an integer. For percentage enter the amount as the percentage divided by 100 using string format. For example 10% percent would be “.10”. The response will return as an integer. Required in /POST. (required).</param>
         /// <param name="id">Unique ID of the *Bulk Pricing Rule*. Read-Only..</param>
         /// <param name="quantityMax">The maximum inclusive quantity of a product to satisfy this rule. Must be greater than the &#x60;quantity_min&#x60; value – unless this field has a value of 0 (zero), in which case there will be no maximum bound for this rule. Required in /POST. (required).</param>
         /// <param name="quantityMin">The minimum inclusive quantity of a product to satisfy this rule. Must be greater than or equal to zero. Required in /POST.  (required).</param>
@@ -107,9 +107,9 @@ namespace Catalog.Model
         }
         
         /// <summary>
-        /// The discount can be a fixed dollar amount or a percentage. For a fixed dollar amount enter it as an integer and the response will return as an integer. For percentage enter the amount as the percentage divided by 100 using string format. For example 10% percent would be “.10”. The response will return as an integer.  Required in /POST.
+        /// The discount can be a fixed dollar amount or a percentage. For a fixed dollar amount enter it as an integer and the response will return as an integer. For percentage enter the amount as the percentage divided by 100 using string format. For example 10% percent would be “.10”. The response will return as an integer. Required in /POST.
         /// </summary>
-        /// <value>The discount can be a fixed dollar amount or a percentage. For a fixed dollar amount enter it as an integer and the response will return as an integer. For percentage enter the amount as the percentage divided by 100 using string format. For example 10% percent would be “.10”. The response will return as an integer.  Required in /POST.</value>
+        /// <value>The discount can be a fixed dollar amount or a percentage. For a fixed dollar amount enter it as an integer and the response will return as an integer. For percentage enter the amount as the percentage divided by 100 using string format. For example 10% percent would be “.10”. The response will return as an integer. Required in /POST.</value>
         [DataMember(Name="amount", EmitDefaultValue=false)]
         public int? Amount { get; set; }
 

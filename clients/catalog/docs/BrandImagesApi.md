@@ -13,7 +13,7 @@ Method | HTTP request | Description
 
 Create a Brand Image
 
-Creates a *Brand Image*.   **Required Fields** - image_file: Form posts are the only accepted upload option.  **Read-Only Fields** - id  Only one image at a time can be created. To update a *Brand Image*, use the [PUT Brands](/api-reference/catalog/catalog-api/brands/updatebrand) and an `image_url`. 
+Creates a *Brand Image*.  **Required Fields** - image_file: Form posts are the only accepted upload option.  **Read-Only Fields** - id  Only one image at a time can be created. To update a *Brand Image*, use the [PUT Brands](/api-reference/catalog/catalog-api/brands/updatebrand) and an `image_url`.
 
 ### Example
 ```csharp
