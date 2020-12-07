@@ -50,6 +50,7 @@ const apis = [
     name: 'scripts',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/scripts/scripts.v3.json',
     packageName: 'Scripts',
+    patch: 'scripts.patch',
   },
   {
     name: 'priceLists',

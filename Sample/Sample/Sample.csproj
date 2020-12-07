@@ -50,6 +50,7 @@
     <Compile Include="CatalogSample.cs" />
     <Compile Include="OrdersSample.cs" />
     <Compile Include="PriceListsSample.cs" />
+    <Compile Include="ScriptsSample.cs" />
     <Compile Include="StoreInfoSample.cs" />
     <Compile Include="SubscriberSample.cs" />
     <Compile Include="ThemesSample.cs" />
@@ -77,6 +78,10 @@
     <ProjectReference Include="..\..\clients\priceLists\src\PriceLists\PriceLists.csproj">
       <Project>{54442a3a-d6c9-40ff-b60e-c0b79bbffc64}</Project>
       <Name>PriceLists</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\clients\scripts\src\Scripts\Scripts.csproj">
+      <Project>{f10fc4f9-967b-42f7-bea0-e05e963b3380}</Project>
+      <Name>Scripts</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\clients\storeInfo\src\StoreInfo\StoreInfo.csproj">
       <Project>{d0fe075f-69c4-4209-b3b2-a83548e6891b}</Project>

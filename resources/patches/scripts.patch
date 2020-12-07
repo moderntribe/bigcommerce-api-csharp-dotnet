@@ -1,0 +1,109 @@
+diff -ur src.orig/Scripts/Api/ScriptsApi.cs src/Scripts/Api/ScriptsApi.cs
+--- src.orig/Scripts/Api/ScriptsApi.cs	2020-12-06 23:27:24.206746500 -0700
++++ src/Scripts/Api/ScriptsApi.cs	2020-12-06 23:36:29.328980600 -0700
+@@ -458,8 +458,6 @@
+             if (localVarHttpHeaderAccept != null)
+                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+ 
+-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+             if (body != null && body.GetType() != typeof(byte[]))
+             {
+                 localVarPostBody = this.Configuration.ApiClient.Serialize(body); // http body (model) parameter
+@@ -549,8 +547,6 @@
+             if (localVarHttpHeaderAccept != null)
+                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+ 
+-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+             if (body != null && body.GetType() != typeof(byte[]))
+             {
+                 localVarPostBody = this.Configuration.ApiClient.Serialize(body); // http body (model) parameter
+@@ -639,8 +635,6 @@
+                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+ 
+             if (uuid != null) localVarPathParams.Add("uuid", this.Configuration.ApiClient.ParameterToString(uuid)); // path parameter
+-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+@@ -722,8 +716,6 @@
+                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+ 
+             if (uuid != null) localVarPathParams.Add("uuid", this.Configuration.ApiClient.ParameterToString(uuid)); // path parameter
+-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+@@ -804,8 +796,6 @@
+                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+ 
+             if (uuid != null) localVarPathParams.Add("uuid", this.Configuration.ApiClient.ParameterToString(uuid)); // path parameter
+-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+@@ -887,8 +877,6 @@
+                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+ 
+             if (uuid != null) localVarPathParams.Add("uuid", this.Configuration.ApiClient.ParameterToString(uuid)); // path parameter
+-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+@@ -975,8 +963,6 @@
+             if (limit != null) localVarQueryParams.AddRange(this.Configuration.ApiClient.ParameterToKeyValuePairs("", "limit", limit)); // query parameter
+             if (sort != null) localVarQueryParams.AddRange(this.Configuration.ApiClient.ParameterToKeyValuePairs("", "sort", sort)); // query parameter
+             if (direction != null) localVarQueryParams.AddRange(this.Configuration.ApiClient.ParameterToKeyValuePairs("", "direction", direction)); // query parameter
+-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+@@ -1064,8 +1050,6 @@
+             if (limit != null) localVarQueryParams.AddRange(this.Configuration.ApiClient.ParameterToKeyValuePairs("", "limit", limit)); // query parameter
+             if (sort != null) localVarQueryParams.AddRange(this.Configuration.ApiClient.ParameterToKeyValuePairs("", "sort", sort)); // query parameter
+             if (direction != null) localVarQueryParams.AddRange(this.Configuration.ApiClient.ParameterToKeyValuePairs("", "direction", direction)); // query parameter
+-            if (accept != null) localVarHeaderParams.Add("Accept", this.Configuration.ApiClient.ParameterToString(accept)); // header parameter
+-            if (contentType != null) localVarHeaderParams.Add("Content-Type", this.Configuration.ApiClient.ParameterToString(contentType)); // header parameter
+             // authentication (X-Auth-Token) required
+             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-Auth-Token")))
+             {
+Only in src/Scripts: bin
+diff -ur src.orig/Scripts/Model/DetailedErrors.cs src/Scripts/Model/DetailedErrors.cs
+--- src.orig/Scripts/Model/DetailedErrors.cs	2020-12-06 23:27:24.178762100 -0700
++++ src/Scripts/Model/DetailedErrors.cs	2020-12-06 23:35:02.422446700 -0700
+@@ -53,7 +53,7 @@
+         /// Returns the JSON string presentation of the object
+         /// </summary>
+         /// <returns>JSON string presentation of the object</returns>
+-        public override string ToJson()
++        public virtual string ToJson()
+         {
+             return JsonConvert.SerializeObject(this, Formatting.Indented);
+         }
+@@ -101,7 +101,6 @@
+         /// <returns>Validation Result</returns>
+         IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+         {
+-            foreach(var x in BaseValidate(validationContext)) yield return x;
+             yield break;
+         }
+     }
+Only in src/Scripts: obj
+diff -ur src.orig/Scripts/Scripts.csproj src/Scripts/Scripts.csproj
+--- src.orig/Scripts/Scripts.csproj	2020-12-06 23:27:24.221737300 -0700
++++ src/Scripts/Scripts.csproj	2020-12-06 23:28:18.846872300 -0700
+@@ -2,7 +2,7 @@
+ <!--
+ Scripts
+ 
+-Inject client-side code onto a BigCommere storefront. To learn more about Scripts, see [here](/api-docs/scripts/scripts-overview).   - [OAuth Scopes](#oauth-scopes) - [Authentication](#authentication) - [Available Endpoints](#available-endpoints)  ## OAuth Scopes | UI Name                                      | Permission | Parameter                                     | |- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -|- -- -- -- -- -- -|- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --| | Checkout Content<sup>1</sup>                             | modify     | `store_content_checkout`                      | | Checkout Content<sup>1</sup>                             | read-only  | `store_content_checkout_read_only`            | | Content                                       | modify     | `store_v2_content`                            | | Content                                       | read-only  | `store_v2_content_read_only`                  |  1. `Checkout Content` scopes are required to create or read scripts on the checkout page.  For more information on OAuth Scopes, see: [Authentication](https://developer.bigcommerce.com/api-docs/getting-started/authentication).  ## Authentication  Requests can be authenticated by sending an`access_token` via `X-Auth-Token` HTTP header:  ```http GET /stores/{$$.env.store_hash}/v3/catalog/summary host: api.bigcommerce.com Accept: application/json X-Auth-Token: {access_token} ```  |Header|Parameter|Description| |-|-|-| |`X-Auth-Token`|`access_token `|Obtained by creating an API account or installing an app in a BigCommerce control panel.|  For more information on Authenticating BigCommerce APIs, see: [Authentication](https://developer.bigcommerce.com/api-docs/getting-started/authentication).  ## Available Endpoints | Resource / Endpoint                     | Description                                                             | |- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --|- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --| | Scripts                                 | Add client-side code to a store                                         |
++Inject client-side code onto a BigCommere storefront. To learn more about Scripts, see [here](/api-docs/scripts/scripts-overview).   - [OAuth Scopes](#oauth-scopes) - [Authentication](#authentication) - [Available Endpoints](#available-endpoints)  ## OAuth Scopes | UI Name                                      | Permission | Parameter                                     | |- -|- -|- | | Checkout Content<sup>1</sup>                             | modify     | `store_content_checkout`                      | | Checkout Content<sup>1</sup>                             | read-only  | `store_content_checkout_read_only`            | | Content                                       | modify     | `store_v2_content`                            | | Content                                       | read-only  | `store_v2_content_read_only`                  |  1. `Checkout Content` scopes are required to create or read scripts on the checkout page.  For more information on OAuth Scopes, see: [Authentication](https://developer.bigcommerce.com/api-docs/getting-started/authentication).  ## Authentication  Requests can be authenticated by sending an`access_token` via `X-Auth-Token` HTTP header:  ```http GET /stores/{$$.env.store_hash}/v3/catalog/summary host: api.bigcommerce.com Accept: application/json X-Auth-Token: {access_token} ```  |Header|Parameter|Description| |-|-|-| |`X-Auth-Token`|`access_token `|Obtained by creating an API account or installing an app in a BigCommerce control panel.|  For more information on Authenticating BigCommerce APIs, see: [Authentication](https://developer.bigcommerce.com/api-docs/getting-started/authentication).  ## Available Endpoints | Resource / Endpoint                     | Description                                                             | |-|-| | Scripts                                 | Add client-side code to a store                                         |
+ 
+ OpenAPI spec version: 1.0.0
+ 

@@ -33,6 +33,9 @@ namespace Sample
 
             PriceListsSample priceListsSample = new PriceListsSample(authConfig);
             priceListsSample.getPriceList();
+
+            ScriptsSample scriptsSample = new ScriptsSample(authConfig);
+            scriptsSample.getSubscribers();
         }
     }
 }
