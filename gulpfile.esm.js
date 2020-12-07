@@ -38,6 +38,7 @@ const apis = [
     name: 'subscribers',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/subscribers/subscribers.v3.json',
     packageName: 'Subscribers',
+    patch: 'subscribers.patch',
   },
   {
     name: 'storeInfo',

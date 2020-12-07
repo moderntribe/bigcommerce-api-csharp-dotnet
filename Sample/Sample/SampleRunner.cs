@@ -27,6 +27,9 @@ namespace Sample
 
             WidgetSample widgetSample = new WidgetSample(authConfig);
             widgetSample.getWidgets();
+
+            SubscriberSample subscriberSample = new SubscriberSample(authConfig);
+            subscriberSample.getSubscribers();
         }
     }
 }

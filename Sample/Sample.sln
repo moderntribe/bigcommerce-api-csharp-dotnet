@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersV3", "..\clients\orde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Widgets", "..\clients\widgets\src\Widgets\Widgets.csproj", "{02D151F1-3660-4E96-B0F4-687E3A739EBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscribers", "..\clients\subscribers\src\Subscribers\Subscribers.csproj", "{D25B96D4-492F-461D-A2D0-931068F59F63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{02D151F1-3660-4E96-B0F4-687E3A739EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02D151F1-3660-4E96-B0F4-687E3A739EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02D151F1-3660-4E96-B0F4-687E3A739EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25B96D4-492F-461D-A2D0-931068F59F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25B96D4-492F-461D-A2D0-931068F59F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25B96D4-492F-461D-A2D0-931068F59F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25B96D4-492F-461D-A2D0-931068F59F63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
