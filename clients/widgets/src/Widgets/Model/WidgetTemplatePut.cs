@@ -32,36 +32,18 @@ namespace Widgets.Model
         /// <summary>
         /// Initializes a new instance of the <see cref="WidgetTemplatePut" /> class.
         /// </summary>
-        /// <param name="name">The user-friendly name..</param>
-        /// <param name="schema">The schema for the widget&#x27;s merchant-facing UI. For more information, see [Page Builder Overview](https://developer.bigcommerce.com/stencil-docs/page-builder/page-builder-overview) .</param>
-        /// <param name="template">The widget template HTML. Supports Handlebars and Paper helpers..</param>
-        public WidgetTemplatePut(string name = default(string), List<Object> schema = default(List<Object>), string template = default(string))
+        /// <param name="createNewVersion">Can be added to create a new widget template version instead of updating the current one..</param>
+        public WidgetTemplatePut(bool? createNewVersion = default(bool?))
         {
-            this.Name = name;
-            this.Schema = schema;
-            this.Template = template;
+            this.CreateNewVersion = createNewVersion;
         }
         
         /// <summary>
-        /// The user-friendly name.
+        /// Can be added to create a new widget template version instead of updating the current one.
         /// </summary>
-        /// <value>The user-friendly name.</value>
-        [DataMember(Name="name", EmitDefaultValue=false)]
-        public string Name { get; set; }
-
-        /// <summary>
-        /// The schema for the widget&#x27;s merchant-facing UI. For more information, see [Page Builder Overview](https://developer.bigcommerce.com/stencil-docs/page-builder/page-builder-overview) 
-        /// </summary>
-        /// <value>The schema for the widget&#x27;s merchant-facing UI. For more information, see [Page Builder Overview](https://developer.bigcommerce.com/stencil-docs/page-builder/page-builder-overview) </value>
-        [DataMember(Name="schema", EmitDefaultValue=false)]
-        public List<Object> Schema { get; set; }
-
-        /// <summary>
-        /// The widget template HTML. Supports Handlebars and Paper helpers.
-        /// </summary>
-        /// <value>The widget template HTML. Supports Handlebars and Paper helpers.</value>
-        [DataMember(Name="template", EmitDefaultValue=false)]
-        public string Template { get; set; }
+        /// <value>Can be added to create a new widget template version instead of updating the current one.</value>
+        [DataMember(Name="create_new_version", EmitDefaultValue=false)]
+        public bool? CreateNewVersion { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -71,9 +53,7 @@ namespace Widgets.Model
         {
             var sb = new StringBuilder();
             sb.Append("class WidgetTemplatePut {\n");
-            sb.Append("  Name: ").Append(Name).Append("\n");
-            sb.Append("  Schema: ").Append(Schema).Append("\n");
-            sb.Append("  Template: ").Append(Template).Append("\n");
+            sb.Append("  CreateNewVersion: ").Append(CreateNewVersion).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -109,20 +89,9 @@ namespace Widgets.Model
 
             return 
                 (
-                    this.Name == input.Name ||
-                    (this.Name != null &&
-                    this.Name.Equals(input.Name))
-                ) && 
-                (
-                    this.Schema == input.Schema ||
-                    this.Schema != null &&
-                    input.Schema != null &&
-                    this.Schema.SequenceEqual(input.Schema)
-                ) && 
-                (
-                    this.Template == input.Template ||
-                    (this.Template != null &&
-                    this.Template.Equals(input.Template))
+                    this.CreateNewVersion == input.CreateNewVersion ||
+                    (this.CreateNewVersion != null &&
+                    this.CreateNewVersion.Equals(input.CreateNewVersion))
                 );
         }
 
@@ -135,12 +104,8 @@ namespace Widgets.Model
             unchecked // Overflow is fine, just wrap
             {
                 int hashCode = 41;
-                if (this.Name != null)
-                    hashCode = hashCode * 59 + this.Name.GetHashCode();
-                if (this.Schema != null)
-                    hashCode = hashCode * 59 + this.Schema.GetHashCode();
-                if (this.Template != null)
-                    hashCode = hashCode * 59 + this.Template.GetHashCode();
+                if (this.CreateNewVersion != null)
+                    hashCode = hashCode * 59 + this.CreateNewVersion.GetHashCode();
                 return hashCode;
             }
         }

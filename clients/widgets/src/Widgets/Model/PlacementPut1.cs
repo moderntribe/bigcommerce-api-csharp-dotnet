@@ -55,7 +55,7 @@ namespace Widgets.Model
         /// <summary>
         /// Initializes a new instance of the <see cref="PlacementPut1" /> class.
         /// </summary>
-        /// <param name="entityId">The specific instance of a page that you would like to target..</param>
+        /// <param name="entityId">The identifier of a page you would like to target. For product pages, choose product ID. For category pages, choose category ID. Home page does not support &#x60;entity_id&#x60;..</param>
         /// <param name="sortOrder">The sort order to control the position of a content widget in a region..</param>
         /// <param name="region">The name of the region in which to insert content widgets..</param>
         /// <param name="status">Sets the placement as either inactive or active. (default to StatusEnum.Inactive).</param>
@@ -76,9 +76,9 @@ namespace Widgets.Model
         }
         
         /// <summary>
-        /// The specific instance of a page that you would like to target.
+        /// The identifier of a page you would like to target. For product pages, choose product ID. For category pages, choose category ID. Home page does not support &#x60;entity_id&#x60;.
         /// </summary>
-        /// <value>The specific instance of a page that you would like to target.</value>
+        /// <value>The identifier of a page you would like to target. For product pages, choose product ID. For category pages, choose category ID. Home page does not support &#x60;entity_id&#x60;.</value>
         [DataMember(Name="entity_id", EmitDefaultValue=false)]
         public string EntityId { get; set; }
 

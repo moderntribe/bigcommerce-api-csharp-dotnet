@@ -53,6 +53,7 @@
     <Compile Include="ThemesSample.cs" />
     <Compile Include="SampleRunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WidgetSample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -78,6 +79,10 @@
     <ProjectReference Include="..\..\clients\themes\src\Themes\Themes.csproj">
       <Project>{02faf147-8944-4017-b164-442b50c16ab0}</Project>
       <Name>Themes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\clients\widgets\src\Widgets\Widgets.csproj">
+      <Project>{02d151f1-3660-4e96-b0f4-687e3a739ebf}</Project>
+      <Name>Widgets</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

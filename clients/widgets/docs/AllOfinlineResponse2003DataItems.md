@@ -3,7 +3,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**EntityId** | **string** | The specific instance of a page that you would like to target. | [optional] 
+**EntityId** | **string** | The identifier of a page you would like to target. For product pages, choose product ID. For category pages, choose category ID. Home page does not support &#x60;entity_id&#x60;. | [optional] 
 **SortOrder** | **int?** | The sort order to control the position of a content widget in a region. | [optional] 
 **Region** | **string** | The name of the region in which to insert content widgets. | [optional] 
 **Status** | **string** | Sets the placement as either inactive or active. | [optional] [default to StatusEnum.Inactive]

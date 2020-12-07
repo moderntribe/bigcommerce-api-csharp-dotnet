@@ -37,8 +37,8 @@ namespace Widgets.Model
         /// <param name="id">id.</param>
         /// <param name="_default">_default.</param>
         /// <param name="typeMeta">typeMeta.</param>
-        /// <param name="conditional">conditional.</param>
-        public NewmodelInner(string type = default(string), string label = default(string), string id = default(string), int? _default = default(int?), string typeMeta = default(string), string conditional = default(string))
+        /// <param name="conditional">An optional property that can be added to each setting to control whether it should be displayed to the user while editing in Page Builder. This does not clear the value in the setting, just controls the display of the setting..</param>
+        public NewmodelInner(string type = default(string), string label = default(string), string id = default(string), int? _default = default(int?), string typeMeta = default(string), Object conditional = default(Object))
         {
             this.Type = type;
             this.Label = label;
@@ -79,10 +79,11 @@ namespace Widgets.Model
         public string TypeMeta { get; set; }
 
         /// <summary>
-        /// Gets or Sets Conditional
+        /// An optional property that can be added to each setting to control whether it should be displayed to the user while editing in Page Builder. This does not clear the value in the setting, just controls the display of the setting.
         /// </summary>
+        /// <value>An optional property that can be added to each setting to control whether it should be displayed to the user while editing in Page Builder. This does not clear the value in the setting, just controls the display of the setting.</value>
         [DataMember(Name="conditional", EmitDefaultValue=false)]
-        public string Conditional { get; set; }
+        public Object Conditional { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object

@@ -24,6 +24,9 @@ namespace Sample
 
             OrdersSample ordersSample = new OrdersSample(authConfig);
             ordersSample.getTransactions();
+
+            WidgetSample widgetSample = new WidgetSample(authConfig);
+            widgetSample.getWidgets();
         }
     }
 }

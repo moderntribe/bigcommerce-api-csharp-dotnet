@@ -7,8 +7,8 @@ Name | Type | Description | Notes
 **Label** | **string** | The user friendly message to inform the user how this setting will be used. | [optional] 
 **Id** | **string** | The variable name where the setting value will be available in the widget template. | [optional] 
 **Default** | **string** | The default value to use when rendering the widget for the first time. Make sure to set sensible defaults to make your widget easier to use. | [optional] 
-**TypeMeta** | **string** | Additional information needed based on the selected setting type. | [optional] 
-**Conditional** | **string** |   Can be added on each setting to control whether it should be displayed to the user while editing in store design. This does not clear the value in the setting, just controls the display of the setting. Take a look at the regexInput for an example on using conditional.  | [optional] 
+**TypeMeta** | [**WidgetSchemaTabTypeMeta**](WidgetSchemaTabTypeMeta.md) |  | [optional] 
+**Conditional** | [**WidgetSchemaConditional1**](WidgetSchemaConditional1.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

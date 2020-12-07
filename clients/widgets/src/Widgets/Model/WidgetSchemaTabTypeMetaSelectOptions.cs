@@ -24,26 +24,33 @@ using SwaggerDateConverter = Widgets.Client.SwaggerDateConverter;
 namespace Widgets.Model
 {
     /// <summary>
-    /// WidgetTemplatePut1
+    /// WidgetSchemaTabTypeMetaSelectOptions
     /// </summary>
     [DataContract]
-        public partial class WidgetTemplatePut1 :  IEquatable<WidgetTemplatePut1>, IValidatableObject
+        public partial class WidgetSchemaTabTypeMetaSelectOptions :  IEquatable<WidgetSchemaTabTypeMetaSelectOptions>, IValidatableObject
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="WidgetTemplatePut1" /> class.
+        /// Initializes a new instance of the <see cref="WidgetSchemaTabTypeMetaSelectOptions" /> class.
         /// </summary>
-        /// <param name="createNewVersion">Can be added to create a new widget template version instead of updating the current one..</param>
-        public WidgetTemplatePut1(bool? createNewVersion = default(bool?))
+        /// <param name="label">label.</param>
+        /// <param name="value">value.</param>
+        public WidgetSchemaTabTypeMetaSelectOptions(string label = default(string), string value = default(string))
         {
-            this.CreateNewVersion = createNewVersion;
+            this.Label = label;
+            this.Value = value;
         }
         
         /// <summary>
-        /// Can be added to create a new widget template version instead of updating the current one.
+        /// Gets or Sets Label
         /// </summary>
-        /// <value>Can be added to create a new widget template version instead of updating the current one.</value>
-        [DataMember(Name="create_new_version", EmitDefaultValue=false)]
-        public bool? CreateNewVersion { get; set; }
+        [DataMember(Name="label", EmitDefaultValue=false)]
+        public string Label { get; set; }
+
+        /// <summary>
+        /// Gets or Sets Value
+        /// </summary>
+        [DataMember(Name="value", EmitDefaultValue=false)]
+        public string Value { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -52,8 +59,9 @@ namespace Widgets.Model
         public override string ToString()
         {
             var sb = new StringBuilder();
-            sb.Append("class WidgetTemplatePut1 {\n");
-            sb.Append("  CreateNewVersion: ").Append(CreateNewVersion).Append("\n");
+            sb.Append("class WidgetSchemaTabTypeMetaSelectOptions {\n");
+            sb.Append("  Label: ").Append(Label).Append("\n");
+            sb.Append("  Value: ").Append(Value).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -74,24 +82,29 @@ namespace Widgets.Model
         /// <returns>Boolean</returns>
         public override bool Equals(object input)
         {
-            return this.Equals(input as WidgetTemplatePut1);
+            return this.Equals(input as WidgetSchemaTabTypeMetaSelectOptions);
         }
 
         /// <summary>
-        /// Returns true if WidgetTemplatePut1 instances are equal
+        /// Returns true if WidgetSchemaTabTypeMetaSelectOptions instances are equal
         /// </summary>
-        /// <param name="input">Instance of WidgetTemplatePut1 to be compared</param>
+        /// <param name="input">Instance of WidgetSchemaTabTypeMetaSelectOptions to be compared</param>
         /// <returns>Boolean</returns>
-        public bool Equals(WidgetTemplatePut1 input)
+        public bool Equals(WidgetSchemaTabTypeMetaSelectOptions input)
         {
             if (input == null)
                 return false;
 
             return 
                 (
-                    this.CreateNewVersion == input.CreateNewVersion ||
-                    (this.CreateNewVersion != null &&
-                    this.CreateNewVersion.Equals(input.CreateNewVersion))
+                    this.Label == input.Label ||
+                    (this.Label != null &&
+                    this.Label.Equals(input.Label))
+                ) && 
+                (
+                    this.Value == input.Value ||
+                    (this.Value != null &&
+                    this.Value.Equals(input.Value))
                 );
         }
 
@@ -104,8 +117,10 @@ namespace Widgets.Model
             unchecked // Overflow is fine, just wrap
             {
                 int hashCode = 41;
-                if (this.CreateNewVersion != null)
-                    hashCode = hashCode * 59 + this.CreateNewVersion.GetHashCode();
+                if (this.Label != null)
+                    hashCode = hashCode * 59 + this.Label.GetHashCode();
+                if (this.Value != null)
+                    hashCode = hashCode * 59 + this.Value.GetHashCode();
                 return hashCode;
             }
         }

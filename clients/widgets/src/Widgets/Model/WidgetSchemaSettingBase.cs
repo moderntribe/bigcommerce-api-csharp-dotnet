@@ -124,9 +124,9 @@ namespace Widgets.Model
         /// <param name="label">The user friendly message to inform the user how this setting will be used..</param>
         /// <param name="id">The variable name where the setting value will be available in the widget template..</param>
         /// <param name="_default">The default value to use when rendering the widget for the first time. Make sure to set sensible defaults to make your widget easier to use..</param>
-        /// <param name="typeMeta">Additional information needed based on the selected setting type..</param>
-        /// <param name="conditional">  Can be added on each setting to control whether it should be displayed to the user while editing in store design. This does not clear the value in the setting, just controls the display of the setting. Take a look at the regexInput for an example on using conditional. .</param>
-        public WidgetSchemaSettingBase(TypeEnum? type = default(TypeEnum?), string label = default(string), string id = default(string), string _default = default(string), string typeMeta = default(string), string conditional = default(string))
+        /// <param name="typeMeta">typeMeta.</param>
+        /// <param name="conditional">conditional.</param>
+        public WidgetSchemaSettingBase(TypeEnum? type = default(TypeEnum?), string label = default(string), string id = default(string), string _default = default(string), WidgetSchemaTabTypeMeta typeMeta = default(WidgetSchemaTabTypeMeta), WidgetSchemaConditional1 conditional = default(WidgetSchemaConditional1))
         {
             this.Type = type;
             this.Label = label;
@@ -159,18 +159,16 @@ namespace Widgets.Model
         public string Default { get; set; }
 
         /// <summary>
-        /// Additional information needed based on the selected setting type.
+        /// Gets or Sets TypeMeta
         /// </summary>
-        /// <value>Additional information needed based on the selected setting type.</value>
         [DataMember(Name="typeMeta", EmitDefaultValue=false)]
-        public string TypeMeta { get; set; }
+        public WidgetSchemaTabTypeMeta TypeMeta { get; set; }
 
         /// <summary>
-        ///   Can be added on each setting to control whether it should be displayed to the user while editing in store design. This does not clear the value in the setting, just controls the display of the setting. Take a look at the regexInput for an example on using conditional. 
+        /// Gets or Sets Conditional
         /// </summary>
-        /// <value>  Can be added on each setting to control whether it should be displayed to the user while editing in store design. This does not clear the value in the setting, just controls the display of the setting. Take a look at the regexInput for an example on using conditional. </value>
         [DataMember(Name="conditional", EmitDefaultValue=false)]
-        public string Conditional { get; set; }
+        public WidgetSchemaConditional1 Conditional { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object

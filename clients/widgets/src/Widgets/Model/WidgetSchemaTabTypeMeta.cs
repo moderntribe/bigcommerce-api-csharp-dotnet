@@ -24,26 +24,25 @@ using SwaggerDateConverter = Widgets.Client.SwaggerDateConverter;
 namespace Widgets.Model
 {
     /// <summary>
-    /// WidgetTemplatePut1
+    /// Additional information needed based on the selected setting type.
     /// </summary>
     [DataContract]
-        public partial class WidgetTemplatePut1 :  IEquatable<WidgetTemplatePut1>, IValidatableObject
+        public partial class WidgetSchemaTabTypeMeta :  IEquatable<WidgetSchemaTabTypeMeta>, IValidatableObject
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="WidgetTemplatePut1" /> class.
+        /// Initializes a new instance of the <see cref="WidgetSchemaTabTypeMeta" /> class.
         /// </summary>
-        /// <param name="createNewVersion">Can be added to create a new widget template version instead of updating the current one..</param>
-        public WidgetTemplatePut1(bool? createNewVersion = default(bool?))
+        /// <param name="selectOptions">selectOptions.</param>
+        public WidgetSchemaTabTypeMeta(List<WidgetSchemaTabTypeMetaSelectOptions> selectOptions = default(List<WidgetSchemaTabTypeMetaSelectOptions>))
         {
-            this.CreateNewVersion = createNewVersion;
+            this.SelectOptions = selectOptions;
         }
         
         /// <summary>
-        /// Can be added to create a new widget template version instead of updating the current one.
+        /// Gets or Sets SelectOptions
         /// </summary>
-        /// <value>Can be added to create a new widget template version instead of updating the current one.</value>
-        [DataMember(Name="create_new_version", EmitDefaultValue=false)]
-        public bool? CreateNewVersion { get; set; }
+        [DataMember(Name="selectOptions", EmitDefaultValue=false)]
+        public List<WidgetSchemaTabTypeMetaSelectOptions> SelectOptions { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -52,8 +51,8 @@ namespace Widgets.Model
         public override string ToString()
         {
             var sb = new StringBuilder();
-            sb.Append("class WidgetTemplatePut1 {\n");
-            sb.Append("  CreateNewVersion: ").Append(CreateNewVersion).Append("\n");
+            sb.Append("class WidgetSchemaTabTypeMeta {\n");
+            sb.Append("  SelectOptions: ").Append(SelectOptions).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -74,24 +73,25 @@ namespace Widgets.Model
         /// <returns>Boolean</returns>
         public override bool Equals(object input)
         {
-            return this.Equals(input as WidgetTemplatePut1);
+            return this.Equals(input as WidgetSchemaTabTypeMeta);
         }
 
         /// <summary>
-        /// Returns true if WidgetTemplatePut1 instances are equal
+        /// Returns true if WidgetSchemaTabTypeMeta instances are equal
         /// </summary>
-        /// <param name="input">Instance of WidgetTemplatePut1 to be compared</param>
+        /// <param name="input">Instance of WidgetSchemaTabTypeMeta to be compared</param>
         /// <returns>Boolean</returns>
-        public bool Equals(WidgetTemplatePut1 input)
+        public bool Equals(WidgetSchemaTabTypeMeta input)
         {
             if (input == null)
                 return false;
 
             return 
                 (
-                    this.CreateNewVersion == input.CreateNewVersion ||
-                    (this.CreateNewVersion != null &&
-                    this.CreateNewVersion.Equals(input.CreateNewVersion))
+                    this.SelectOptions == input.SelectOptions ||
+                    this.SelectOptions != null &&
+                    input.SelectOptions != null &&
+                    this.SelectOptions.SequenceEqual(input.SelectOptions)
                 );
         }
 
@@ -104,8 +104,8 @@ namespace Widgets.Model
             unchecked // Overflow is fine, just wrap
             {
                 int hashCode = 41;
-                if (this.CreateNewVersion != null)
-                    hashCode = hashCode * 59 + this.CreateNewVersion.GetHashCode();
+                if (this.SelectOptions != null)
+                    hashCode = hashCode * 59 + this.SelectOptions.GetHashCode();
                 return hashCode;
             }
         }

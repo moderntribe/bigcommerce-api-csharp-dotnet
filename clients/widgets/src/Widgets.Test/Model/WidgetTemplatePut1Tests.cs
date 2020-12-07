@@ -66,28 +66,12 @@ namespace Widgets.Test
 
 
         /// <summary>
-        /// Test the property 'Name'
+        /// Test the property 'CreateNewVersion'
         /// </summary>
         [Test]
-        public void NameTest()
+        public void CreateNewVersionTest()
         {
-            // TODO unit test for the property 'Name'
-        }
-        /// <summary>
-        /// Test the property 'Schema'
-        /// </summary>
-        [Test]
-        public void SchemaTest()
-        {
-            // TODO unit test for the property 'Schema'
-        }
-        /// <summary>
-        /// Test the property 'Template'
-        /// </summary>
-        [Test]
-        public void TemplateTest()
-        {
-            // TODO unit test for the property 'Template'
+            // TODO unit test for the property 'CreateNewVersion'
         }
 
     }

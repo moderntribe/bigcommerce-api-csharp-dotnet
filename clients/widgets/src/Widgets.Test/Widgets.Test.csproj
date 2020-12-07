@@ -81,7 +81,7 @@ OpenAPI spec version: 1.0.0
   <Import Project="$(MsBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
       <ProjectReference Include="..\Widgets\Widgets.csproj">
-          <Project>{CB8A9C13-2239-4FA0-8E6F-9601CCDD3A2E}</Project>
+          <Project>{02D151F1-3660-4E96-B0F4-687E3A739EBF}</Project>
           <Name>Widgets</Name>
       </ProjectReference>
   </ItemGroup>
