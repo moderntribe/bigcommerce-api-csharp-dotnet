@@ -55,6 +55,7 @@ const apis = [
     name: 'priceLists',
     url: 'https://developer.bigcommerce.com/api-reference/store-management/price-lists/price_lists.v3.json',
     packageName: 'PriceLists',
+    patch: 'pricelists.patch',
   },
   // wrong content-type header
   // {

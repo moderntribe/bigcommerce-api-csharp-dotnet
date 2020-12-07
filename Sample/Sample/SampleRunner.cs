@@ -30,6 +30,9 @@ namespace Sample
 
             SubscriberSample subscriberSample = new SubscriberSample(authConfig);
             subscriberSample.getSubscribers();
+
+            PriceListsSample priceListsSample = new PriceListsSample(authConfig);
+            priceListsSample.getPriceList();
         }
     }
 }
