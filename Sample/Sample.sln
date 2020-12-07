@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carts", "..\clients\carts\s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog", "..\clients\catalog\src\Catalog\Catalog.csproj", "{7C9F3B26-9107-4463-9F30-5F5D2066A39B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersV3", "..\clients\ordersV3\src\OrdersV3\OrdersV3.csproj", "{EEE9E45E-1644-4031-B52A-6620D8CF8A92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7C9F3B26-9107-4463-9F30-5F5D2066A39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C9F3B26-9107-4463-9F30-5F5D2066A39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C9F3B26-9107-4463-9F30-5F5D2066A39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE9E45E-1644-4031-B52A-6620D8CF8A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE9E45E-1644-4031-B52A-6620D8CF8A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE9E45E-1644-4031-B52A-6620D8CF8A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE9E45E-1644-4031-B52A-6620D8CF8A92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

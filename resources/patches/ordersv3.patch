@@ -1,0 +1,197 @@
+diff -ur src.orig/OrdersV3/Api/MetafieldsApi.cs src/OrdersV3/Api/MetafieldsApi.cs
+--- src.orig/OrdersV3/Api/MetafieldsApi.cs	2020-12-06 22:14:16.542674500 -0700
++++ src/OrdersV3/Api/MetafieldsApi.cs	2020-12-06 22:23:15.719585000 -0700
+@@ -30,8 +30,7 @@
+         /// Creates an order &#x60;Metafield&#x60;.
+         /// </remarks>
+         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A &#x60;Metafield&#x60; object.
+-</param>
++        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
+         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
+         /// <returns>InlineResponse2003</returns>
+         InlineResponse2003 CreateOrderMetafield (Body body, int? orderId);
+@@ -43,8 +42,7 @@
+         /// Creates an order &#x60;Metafield&#x60;.
+         /// </remarks>
+         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A &#x60;Metafield&#x60; object.
+-</param>
++        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
+         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
+         /// <returns>ApiResponse of InlineResponse2003</returns>
+         ApiResponse<InlineResponse2003> CreateOrderMetafieldWithHttpInfo (Body body, int? orderId);
+@@ -130,8 +128,7 @@
+         /// Updates a &#x60;Metafield&#x60; object.
+         /// </remarks>
+         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A &#x60;Metafield&#x60; object.
+-</param>
++        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
+         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
+         /// <param name="metafieldId">The ID of the &#x60;Metafield&#x60;. </param>
+         /// <returns>InlineResponse2003</returns>
+@@ -144,8 +141,7 @@
+         /// Updates a &#x60;Metafield&#x60; object.
+         /// </remarks>
+         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A &#x60;Metafield&#x60; object.
+-</param>
++        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
+         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
+         /// <param name="metafieldId">The ID of the &#x60;Metafield&#x60;. </param>
+         /// <returns>ApiResponse of InlineResponse2003</returns>
+@@ -159,8 +155,7 @@
+         /// Creates an order &#x60;Metafield&#x60;.
+         /// </remarks>
+         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A &#x60;Metafield&#x60; object.
+-</param>
++        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
+         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
+         /// <returns>Task of InlineResponse2003</returns>
+         System.Threading.Tasks.Task<InlineResponse2003> CreateOrderMetafieldAsync (Body body, int? orderId);
+@@ -172,8 +167,7 @@
+         /// Creates an order &#x60;Metafield&#x60;.
+         /// </remarks>
+         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A &#x60;Metafield&#x60; object.
+-</param>
++        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
+         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
+         /// <returns>Task of ApiResponse (InlineResponse2003)</returns>
+         System.Threading.Tasks.Task<ApiResponse<InlineResponse2003>> CreateOrderMetafieldAsyncWithHttpInfo (Body body, int? orderId);
+@@ -259,8 +253,7 @@
+         /// Updates a &#x60;Metafield&#x60; object.
+         /// </remarks>
+         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A &#x60;Metafield&#x60; object.
+-</param>
++        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
+         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
+         /// <param name="metafieldId">The ID of the &#x60;Metafield&#x60;. </param>
+         /// <returns>Task of InlineResponse2003</returns>
+@@ -273,8 +266,7 @@
+         /// Updates a &#x60;Metafield&#x60; object.
+         /// </remarks>
+         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A &#x60;Metafield&#x60; object.
+-</param>
++        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
+         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
+         /// <param name="metafieldId">The ID of the &#x60;Metafield&#x60;. </param>
+         /// <returns>Task of ApiResponse (InlineResponse2003)</returns>
+@@ -394,8 +386,7 @@
+         /// Create Metafields Creates an order &#x60;Metafield&#x60;.
+         /// </summary>
+         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A &#x60;Metafield&#x60; object.
+-</param>
++        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
+         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
+         /// <returns>InlineResponse2003</returns>
+         public InlineResponse2003 CreateOrderMetafield (Body body, int? orderId)
+@@ -408,8 +399,7 @@
+         /// Create Metafields Creates an order &#x60;Metafield&#x60;.
+         /// </summary>
+         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A &#x60;Metafield&#x60; object.
+-</param>
++        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
+         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
+         /// <returns>ApiResponse of InlineResponse2003</returns>
+         public ApiResponse< InlineResponse2003 > CreateOrderMetafieldWithHttpInfo (Body body, int? orderId)
+@@ -480,8 +470,7 @@
+         /// Create Metafields Creates an order &#x60;Metafield&#x60;.
+         /// </summary>
+         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A &#x60;Metafield&#x60; object.
+-</param>
++        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
+         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
+         /// <returns>Task of InlineResponse2003</returns>
+         public async System.Threading.Tasks.Task<InlineResponse2003> CreateOrderMetafieldAsync (Body body, int? orderId)
+@@ -495,8 +484,7 @@
+         /// Create Metafields Creates an order &#x60;Metafield&#x60;.
+         /// </summary>
+         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A &#x60;Metafield&#x60; object.
+-</param>
++        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
+         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
+         /// <returns>Task of ApiResponse (InlineResponse2003)</returns>
+         public async System.Threading.Tasks.Task<ApiResponse<InlineResponse2003>> CreateOrderMetafieldAsyncWithHttpInfo (Body body, int? orderId)
+@@ -1034,8 +1022,7 @@
+         /// Update a Metafield Updates a &#x60;Metafield&#x60; object.
+         /// </summary>
+         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A &#x60;Metafield&#x60; object.
+-</param>
++        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
+         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
+         /// <param name="metafieldId">The ID of the &#x60;Metafield&#x60;. </param>
+         /// <returns>InlineResponse2003</returns>
+@@ -1049,8 +1036,7 @@
+         /// Update a Metafield Updates a &#x60;Metafield&#x60; object.
+         /// </summary>
+         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A &#x60;Metafield&#x60; object.
+-</param>
++        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
+         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
+         /// <param name="metafieldId">The ID of the &#x60;Metafield&#x60;. </param>
+         /// <returns>ApiResponse of InlineResponse2003</returns>
+@@ -1126,8 +1112,7 @@
+         /// Update a Metafield Updates a &#x60;Metafield&#x60; object.
+         /// </summary>
+         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A &#x60;Metafield&#x60; object.
+-</param>
++        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
+         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
+         /// <param name="metafieldId">The ID of the &#x60;Metafield&#x60;. </param>
+         /// <returns>Task of InlineResponse2003</returns>
+@@ -1142,8 +1127,7 @@
+         /// Update a Metafield Updates a &#x60;Metafield&#x60; object.
+         /// </summary>
+         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
+-        /// <param name="body">A &#x60;Metafield&#x60; object.
+-</param>
++        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
+         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
+         /// <param name="metafieldId">The ID of the &#x60;Metafield&#x60;. </param>
+         /// <returns>Task of ApiResponse (InlineResponse2003)</returns>
+Only in src/OrdersV3: bin
+diff -ur src.orig/OrdersV3/Model/DetailedErrors.cs src/OrdersV3/Model/DetailedErrors.cs
+--- src.orig/OrdersV3/Model/DetailedErrors.cs	2020-12-06 22:14:16.435736300 -0700
++++ src/OrdersV3/Model/DetailedErrors.cs	2020-12-06 22:26:45.559448400 -0700
+@@ -53,7 +53,7 @@
+         /// Returns the JSON string presentation of the object
+         /// </summary>
+         /// <returns>JSON string presentation of the object</returns>
+-        public override string ToJson()
++        public virtual string ToJson()
+         {
+             return JsonConvert.SerializeObject(this, Formatting.Indented);
+         }
+@@ -101,7 +101,6 @@
+         /// <returns>Validation Result</returns>
+         IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+         {
+-            foreach(var x in BaseValidate(validationContext)) yield return x;
+             yield break;
+         }
+     }
+Only in src/OrdersV3: obj
+diff -ur src.orig/OrdersV3/OrdersV3.csproj src/OrdersV3/OrdersV3.csproj
+--- src.orig/OrdersV3/OrdersV3.csproj	2020-12-06 22:14:16.560664600 -0700
++++ src/OrdersV3/OrdersV3.csproj	2020-12-06 22:14:41.935571900 -0700
+@@ -2,7 +2,7 @@
+ <!--
+ Orders V3
+ 
+-Surfaces endpoints related to payment processing. The `/orders/{id}/transactions` endpoint returns transaction details for the specified order. To programmatically create, update, and delete orders themselves, see [Orders v2](https://developer.bigcommerce.com/api-reference/store-management/orders). To process payments, see [Payment Processing](https://developer.bigcommerce.com/api-reference/payments/payments-process-payments).  - [Authentication](#authentication) - [Available Endpoints](#available-endpoints) - [Order Transactions](#order-transactions) - [Order refunds](#order-refunds) - [Resources](#resources)  ## Authentication  Authenticate requests by including an [OAuth](https://developer.bigcommerce.com/api-docs/getting-started/authentication) `access_token` in the request header.  ```http GET https://api.bigcommerce.com/stores/{{STORE_HASH}}/v3/{{ENDPOINT}} Content-Type: application/json X-Auth-Token: {{ACCESS_TOKEN}} ```  ### OAuth Scopes  | UI Name| Permission |Parameter| |- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -|- -- -- -- -- -- -|- -- -- -- -- -| | Order Transactions|modify|`store_v2_transactions`| | Order Transactions|read-only  |`store_v2_transactions_read_only`| | Orders| modify|`store_v2_orders`| | Orders| read-only|`store_v2_orders_read_only`|  ## Order Transactions The `/orders/{id}/transactions` endpoint returns details about the payment instruments used to pay for an order. Depending on the payment method used, different details will be available. Not all credit card payment gateways return full card or fraud details. Transactions endpoints are primarily used to get detailed gateway response information for credit card transactions; however they will also return any available information about digital wallet and offline payments.  **Note**: transactions are not created for the following payment methods: * Test Payment Gateway * PayPal Express * Amazon Pay  ## Order Refunds The Order API refund endpoints allow developers to process refunds against orders with settled payments. Refund endpoints are useful when building order management or payment integrations. They make embedding refund functionality directly into the application possible without requiring merchants to return to their BigCommerce Control Panel.  ## Resources * [Orders Overview](https://developer.bigcommerce.com/api-docs/orders/orders-overview) * [Orders V2](https://developer.bigcommerce.com/api-reference/store-management/orders)
++Surfaces endpoints related to payment processing. The `/orders/{id}/transactions` endpoint returns transaction details for the specified order. To programmatically create, update, and delete orders themselves, see [Orders v2](https://developer.bigcommerce.com/api-reference/store-management/orders). To process payments, see [Payment Processing](https://developer.bigcommerce.com/api-reference/payments/payments-process-payments).  - [Authentication](#authentication) - [Available Endpoints](#available-endpoints) - [Order Transactions](#order-transactions) - [Order refunds](#order-refunds) - [Resources](#resources)  ## Authentication  Authenticate requests by including an [OAuth](https://developer.bigcommerce.com/api-docs/getting-started/authentication) `access_token` in the request header.  ```http GET https://api.bigcommerce.com/stores/{{STORE_HASH}}/v3/{{ENDPOINT}} Content-Type: application/json X-Auth-Token: {{ACCESS_TOKEN}} ```  ### OAuth Scopes  | UI Name| Permission |Parameter| |- -|- -|- -| | Order Transactions|modify|`store_v2_transactions`| | Order Transactions|read-only  |`store_v2_transactions_read_only`| | Orders| modify|`store_v2_orders`| | Orders| read-only|`store_v2_orders_read_only`|  ## Order Transactions The `/orders/{id}/transactions` endpoint returns details about the payment instruments used to pay for an order. Depending on the payment method used, different details will be available. Not all credit card payment gateways return full card or fraud details. Transactions endpoints are primarily used to get detailed gateway response information for credit card transactions; however they will also return any available information about digital wallet and offline payments.  **Note**: transactions are not created for the following payment methods: * Test Payment Gateway * PayPal Express * Amazon Pay  ## Order Refunds The Order API refund endpoints allow developers to process refunds against orders with settled payments. Refund endpoints are useful when building order management or payment integrations. They make embedding refund functionality directly into the application possible without requiring merchants to return to their BigCommerce Control Panel.  ## Resources * [Orders Overview](https://developer.bigcommerce.com/api-docs/orders/orders-overview) * [Orders V2](https://developer.bigcommerce.com/api-reference/store-management/orders)
+ 
+ OpenAPI spec version: 1.0.0
+ 

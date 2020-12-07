@@ -21,6 +21,9 @@ namespace Sample
 
             CatalogSample catalogSample = new CatalogSample(authConfig);
             catalogSample.getProducts();
+
+            OrdersSample ordersSample = new OrdersSample(authConfig);
+            ordersSample.getTransactions();
         }
     }
 }

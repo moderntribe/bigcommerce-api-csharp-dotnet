@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="CartSample.cs" />
     <Compile Include="CatalogSample.cs" />
+    <Compile Include="OrdersSample.cs" />
     <Compile Include="StoreInfoSample.cs" />
     <Compile Include="ThemesSample.cs" />
     <Compile Include="SampleRunner.cs" />
@@ -65,6 +66,10 @@
     <ProjectReference Include="..\..\clients\catalog\src\Catalog\Catalog.csproj">
       <Project>{7c9f3b26-9107-4463-9f30-5f5d2066a39b}</Project>
       <Name>Catalog</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\clients\ordersV3\src\OrdersV3\OrdersV3.csproj">
+      <Project>{eee9e45e-1644-4031-b52a-6620d8cf8a92}</Project>
+      <Name>OrdersV3</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\clients\storeInfo\src\StoreInfo\StoreInfo.csproj">
       <Project>{d0fe075f-69c4-4209-b3b2-a83548e6891b}</Project>

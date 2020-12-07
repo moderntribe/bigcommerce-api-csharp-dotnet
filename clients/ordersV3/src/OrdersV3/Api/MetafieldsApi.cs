@@ -30,8 +30,7 @@ namespace OrdersV3.Api
         /// Creates an order &#x60;Metafield&#x60;.
         /// </remarks>
         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A &#x60;Metafield&#x60; object.
-</param>
+        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
         /// <returns>InlineResponse2003</returns>
         InlineResponse2003 CreateOrderMetafield (Body body, int? orderId);
@@ -43,8 +42,7 @@ namespace OrdersV3.Api
         /// Creates an order &#x60;Metafield&#x60;.
         /// </remarks>
         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A &#x60;Metafield&#x60; object.
-</param>
+        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
         /// <returns>ApiResponse of InlineResponse2003</returns>
         ApiResponse<InlineResponse2003> CreateOrderMetafieldWithHttpInfo (Body body, int? orderId);
@@ -130,8 +128,7 @@ namespace OrdersV3.Api
         /// Updates a &#x60;Metafield&#x60; object.
         /// </remarks>
         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A &#x60;Metafield&#x60; object.
-</param>
+        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
         /// <param name="metafieldId">The ID of the &#x60;Metafield&#x60;. </param>
         /// <returns>InlineResponse2003</returns>
@@ -144,8 +141,7 @@ namespace OrdersV3.Api
         /// Updates a &#x60;Metafield&#x60; object.
         /// </remarks>
         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A &#x60;Metafield&#x60; object.
-</param>
+        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
         /// <param name="metafieldId">The ID of the &#x60;Metafield&#x60;. </param>
         /// <returns>ApiResponse of InlineResponse2003</returns>
@@ -159,8 +155,7 @@ namespace OrdersV3.Api
         /// Creates an order &#x60;Metafield&#x60;.
         /// </remarks>
         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A &#x60;Metafield&#x60; object.
-</param>
+        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
         /// <returns>Task of InlineResponse2003</returns>
         System.Threading.Tasks.Task<InlineResponse2003> CreateOrderMetafieldAsync (Body body, int? orderId);
@@ -172,8 +167,7 @@ namespace OrdersV3.Api
         /// Creates an order &#x60;Metafield&#x60;.
         /// </remarks>
         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A &#x60;Metafield&#x60; object.
-</param>
+        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
         /// <returns>Task of ApiResponse (InlineResponse2003)</returns>
         System.Threading.Tasks.Task<ApiResponse<InlineResponse2003>> CreateOrderMetafieldAsyncWithHttpInfo (Body body, int? orderId);
@@ -259,8 +253,7 @@ namespace OrdersV3.Api
         /// Updates a &#x60;Metafield&#x60; object.
         /// </remarks>
         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A &#x60;Metafield&#x60; object.
-</param>
+        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
         /// <param name="metafieldId">The ID of the &#x60;Metafield&#x60;. </param>
         /// <returns>Task of InlineResponse2003</returns>
@@ -273,8 +266,7 @@ namespace OrdersV3.Api
         /// Updates a &#x60;Metafield&#x60; object.
         /// </remarks>
         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A &#x60;Metafield&#x60; object.
-</param>
+        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
         /// <param name="metafieldId">The ID of the &#x60;Metafield&#x60;. </param>
         /// <returns>Task of ApiResponse (InlineResponse2003)</returns>
@@ -394,8 +386,7 @@ namespace OrdersV3.Api
         /// Create Metafields Creates an order &#x60;Metafield&#x60;.
         /// </summary>
         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A &#x60;Metafield&#x60; object.
-</param>
+        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
         /// <returns>InlineResponse2003</returns>
         public InlineResponse2003 CreateOrderMetafield (Body body, int? orderId)
@@ -408,8 +399,7 @@ namespace OrdersV3.Api
         /// Create Metafields Creates an order &#x60;Metafield&#x60;.
         /// </summary>
         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A &#x60;Metafield&#x60; object.
-</param>
+        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
         /// <returns>ApiResponse of InlineResponse2003</returns>
         public ApiResponse< InlineResponse2003 > CreateOrderMetafieldWithHttpInfo (Body body, int? orderId)
@@ -480,8 +470,7 @@ namespace OrdersV3.Api
         /// Create Metafields Creates an order &#x60;Metafield&#x60;.
         /// </summary>
         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A &#x60;Metafield&#x60; object.
-</param>
+        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
         /// <returns>Task of InlineResponse2003</returns>
         public async System.Threading.Tasks.Task<InlineResponse2003> CreateOrderMetafieldAsync (Body body, int? orderId)
@@ -495,8 +484,7 @@ namespace OrdersV3.Api
         /// Create Metafields Creates an order &#x60;Metafield&#x60;.
         /// </summary>
         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A &#x60;Metafield&#x60; object.
-</param>
+        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
         /// <returns>Task of ApiResponse (InlineResponse2003)</returns>
         public async System.Threading.Tasks.Task<ApiResponse<InlineResponse2003>> CreateOrderMetafieldAsyncWithHttpInfo (Body body, int? orderId)
@@ -1034,8 +1022,7 @@ namespace OrdersV3.Api
         /// Update a Metafield Updates a &#x60;Metafield&#x60; object.
         /// </summary>
         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A &#x60;Metafield&#x60; object.
-</param>
+        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
         /// <param name="metafieldId">The ID of the &#x60;Metafield&#x60;. </param>
         /// <returns>InlineResponse2003</returns>
@@ -1049,8 +1036,7 @@ namespace OrdersV3.Api
         /// Update a Metafield Updates a &#x60;Metafield&#x60; object.
         /// </summary>
         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A &#x60;Metafield&#x60; object.
-</param>
+        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
         /// <param name="metafieldId">The ID of the &#x60;Metafield&#x60;. </param>
         /// <returns>ApiResponse of InlineResponse2003</returns>
@@ -1126,8 +1112,7 @@ namespace OrdersV3.Api
         /// Update a Metafield Updates a &#x60;Metafield&#x60; object.
         /// </summary>
         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A &#x60;Metafield&#x60; object.
-</param>
+        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
         /// <param name="metafieldId">The ID of the &#x60;Metafield&#x60;. </param>
         /// <returns>Task of InlineResponse2003</returns>
@@ -1142,8 +1127,7 @@ namespace OrdersV3.Api
         /// Update a Metafield Updates a &#x60;Metafield&#x60; object.
         /// </summary>
         /// <exception cref="OrdersV3.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="body">A &#x60;Metafield&#x60; object.
-</param>
+        /// <param name="body">A &#x60;Metafield&#x60; object.</param>
         /// <param name="orderId">The ID of the &#x60;Order&#x60; to which the transactions belong. </param>
         /// <param name="metafieldId">The ID of the &#x60;Metafield&#x60;. </param>
         /// <returns>Task of ApiResponse (InlineResponse2003)</returns>
